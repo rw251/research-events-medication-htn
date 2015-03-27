@@ -1,0 +1,30 @@
+USE [SIR_Full]
+GO
+
+IF Object_ID('TEMP__VIEW__DRUGS') IS NOT NULL
+    DROP VIEW [dbo].[TEMP__VIEW__DRUGS]
+GO
+
+create view [dbo].[TEMP__VIEW__DRUGS] as 
+SELECT  distinct j.patid, j.date, j.value AS numberTabs, d.tabsPerDay, a.mg as mgPerTab, family, type, j.readcodeId, j.rubricId
+FROM            dbo.journalOriginal AS j 
+						INNER JOIN dbo.refReadcode AS c ON c.id = j.readcodeId
+						left outer join refUnitDosage d on d.unitId = j.unitId
+						left outer join refDrugAmount a on a.readcodeId = c.id
+						left outer join refDrugType t on a.drugtypeId = t.id
+						left outer join refDrugFamily f on f.id = t.familyId
+{{query}}
+GO
+
+IF Object_ID('TEMP__VIEW__DRUGS__VALIDATION') IS NOT NULL
+    DROP VIEW [dbo].[TEMP__VIEW__DRUGS__VALIDATION]
+GO
+
+create view [dbo].[TEMP__VIEW__DRUGS__VALIDATION] as 
+SELECT        j.patid, j.date AS EntryDate, c.readcode, r.rubric, j.value AS numberOfTabs, d.units AS CodeUnits
+FROM            dbo.journalOriginal AS j INNER JOIN
+                         dbo.refReadcode AS c ON c.id = j.readcodeId INNER JOIN
+                         dbo.refRubric AS r ON r.id = j.rubricId
+						left outer join refUnits d on d.id = j.unitId
+{{query}}
+GO
