@@ -57,7 +57,13 @@ if( !-d "./out/"){
 	mkdir "out" or die "Failed to create the out directory.";
 }
 
-my %args = ('filename' => "codes/code-list-drugs.csv", 'suffix' => "-drugs");
+my %args = ('filename' => "codes/code-list-drugs.csv", 'suffix' => "-drugs.sql");
 readFile(%args);
-$args{'filename'} = "templates/query-drugs.tmpl";
+$args{'filename'} = "templates/query-drugs.sql.tmpl";
+writeQuery(%args);
+$args{'filename'} = "templates/query-drugs.mysql.tmpl";
+$args{'suffix'} = "-drugs.mysql";
+writeQuery(%args);
+$args{'filename'} = "templates/query-drugs-out.mysql.tmpl";
+$args{'suffix'} = "-drugs-out.mysql";
 writeQuery(%args);

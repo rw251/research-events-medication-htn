@@ -6,16 +6,22 @@ Primary care research databases derived from UK electronic health records (EHRs)
 Here is an algorithm for constructing meaningful prescription events from primary care electronic health records. These events detail the initiation, termination and alteration of antihypertensive therapy, and are useful for further analyses.
 
 ## Usage
-This setup is for Microsoft Windows and SQL Server, however it could easily be translated to Linus/Mac and MySQL or equivalent.
+This was built, tested and executed against Microsoft SQL Server on Windows, however the code for execution on Linux with MySQL is also included.  This hasn't been tested to the same degree but should be checked if executing in this setup.
 
 ### Pre-requisites
 - Perl
 - SQL Server 2008 or higher (or alternative database)
 
-### Execution
+### Execution (Windows)
 
 ```sh
 $ execute.bat
+```
+
+### Execution (Linux)
+
+```sh
+$ execute.sh
 ```
 
 ## References

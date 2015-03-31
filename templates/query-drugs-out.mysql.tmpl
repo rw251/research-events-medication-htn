@@ -1,0 +1,4 @@
+select patid, date, numberTabs, tabsPerDay, sum(mgPerTab) as mgPerDay, case when family = 'ACEI' or family = 'ARB' then 'ACEI/ARB' when family = 'DIUR_LOOP' or family = 'DIUR_POT' then 'DIUR_OTH' else family end as family, type
+from TEMP__VIEW__DRUGS
+group by patid, date, numberTabs, tabsPerDay, family, type
+order by patid, family, type, date

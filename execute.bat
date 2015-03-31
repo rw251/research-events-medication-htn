@@ -9,7 +9,7 @@ perl populate_query_with_codes.pl
 pause
 
 rem Run query to create view
-sqlcmd -E -d %DB% -i queries/create_view_for_extract-drugs.sql
+sqlcmd -E -d %DB% -i queries/create_view_for_extract-drugs.sql.sql
 
 rem Extract the data
 bcp "select patid, date, numberTabs, tabsPerDay, sum(mgPerTab) as mgPerDay, case when family = 'ACEI' or family = 'ARB' then 'ACEI/ARB' when family = 'DIUR_LOOP' or family = 'DIUR_POT' then 'DIUR_OTH' else family end as family, type from %DB%.dbo.TEMP__VIEW__DRUGS group by patid, date, numberTabs, tabsPerDay, family, type order by patid, family, type, date" queryout out/data.dat -c -T -b 10000000
