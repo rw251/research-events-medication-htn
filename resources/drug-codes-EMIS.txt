@@ -1,0 +1,200 @@
+CODE  FAMILY  TYPE  DOSE(mg)  DESCRIPTION
+ADM/19382NEMIS	CCB	Nifedipine	30	Adipine XL 30mg tablets (Chiesi Ltd)
+ADM/19383NEMIS	CCB	Nifedipine	60	Adipine Xl M/R Tablets 60 mg
+ADM/19822EMIS	CCB	Nifedipine	30	Adalat La M/R Tablets 30 mg
+ADM/19823EMIS	CCB	Nifedipine	60	Adalat La M/R Tablets 60 mg
+ADM/22255EMIS	CCB	Diltiazem	120	Adizem-Sr M/R Capsules 120 mg
+ADM/22256EMIS	CCB	Diltiazem	180	Adizem-Sr M/R Capsules 180 mg
+ADM/22257EMIS	CCB	Diltiazem	300	Adizem-Sr M/R Capsules 300 mg
+ADM/22258EMIS	CCB	Diltiazem	90	Adizem-Sr M/R capsules 90 mg
+ADM/24027EMIS	CCB	Diltiazem	120	Adizem-Xl M/R Capsules 120 mg
+ADM/24028EMIS	CCB	Diltiazem	180	Adizem-Xl M/R Capsules 180 mg
+ADM/24029EMIS	CCB	Diltiazem	240	Adizem-Xl M/R Capsules 240 mg
+ADM/24030EMIS	CCB	Diltiazem	300	Adizem-Xl M/R Capsules 300 mg
+ADM/27060EMIS	CCB	Nifedipine	20	Adipine Mr 20 M/R Tablets 20 mg
+ADM/28056EMIS	CCB	Nifedipine	10	Adipine Mr 10 M/R Tablets 10 mg
+ADM/4NEMIS	CCB	Nifedipine	20	Adalat La M/R Tablets 20 mg
+ADTA48	CCB	Nifedipine	20	Adalat Retard Tablets 20 mg
+ADTA8424EGTON	CCB	Nifedipine	10	Adalat Retard 10 Tablets 10 mg
+ADTA9102HILLI	CCB	Diltiazem	120	Adizem-SR 120mg tablets (Napp Pharmaceuticals Ltd)
+ADTA9935BRIDL	CCB	Diltiazem	120	Adizem Continus Tablets 120 mg
+AMTA10145BRIDL	CCB	Amlodipine	5	Amlodipine Besilate Tablets 5 mg
+AMTA17004NEMIS	CCB	Amlodipine	5	Amlodipine 5mg tablets
+AMTA17006NEMIS	CCB	Amlodipine	10	Amlodipine 10mg tablets
+AMTA23851NEMIS	ARB	Valsartan	80	Amlodipine 5mg / Valsartan 80mg tablets
+AMTA23851NEMIS	CCB	Amlodipine	5	Amlodipine 5mg / Valsartan 80mg tablets
+AMTA23852NEMIS	ARB	Valsartan	160	Amlodipine And Valsartan Tablets 5 mg + 160 mg
+AMTA23852NEMIS	CCB	Amlodipine	5	Amlodipine And Valsartan Tablets 5 mg + 160 mg
+AMTA23853NEMIS	ARB	Valsartan	160	Amlodipine And Valsartan Tablets 10 mg + 160 mg
+AMTA23853NEMIS	CCB	Amlodipine	10	Amlodipine And Valsartan Tablets 10 mg + 160 mg
+AMTA9080EMIS	CCB	Amlodipine	10	Amlodipine Besilate Tablets 10 mg
+ATTA10910BRIDL	BB	Atenolol	25	Atenolol Tablets 25 mg
+ATTA230	BB	Atenolol	100	Atenolol Tablets 100 mg
+ATTA231	BB	Atenolol	50	Atenolol Tablets 50 mg
+BETA17553NEMIS	DIUR_THI	Bendroflumethiazide	2.5	Bendroflumethiazide Tablets 2.5 mg
+BITA10630BRIDL	BB	Bisoprolol	5	Bisoprolol Fumarate Tablets 5 mg
+BITA2332NEMIS	BB	Bisoprolol	1.25	Bisoprolol 1.25mg tablets
+BITA2333NEMIS	BB	Bisoprolol	2.5	Bisoprolol 2.5mg tablets
+BITA2334NEMIS	BB	Bisoprolol	3.75	Bisoprolol Fumarate Tablets 3.75 mg
+BITA2335NEMIS	BB	Bisoprolol	7.5	Bisoprolol Fumarate Tablets 7.5 mg
+CAM/6442NEMIS	ALPHA	Doxazosin	4	Cardura Xl M/R Tablets 4 mg
+CAM/6443NEMIS	ALPHA	Doxazosin	8	Cardura Xl M/R Tablets 8 mg
+CATA19406NEMIS	ARB	Candesartan	32	Candesartan Cilexetil Tablets 32 mg
+CATA31824EMIS	ARB	Candesartan	16	Candesartan Cilexetil Tablets 16 mg
+CATA31825EMIS	ARB	Candesartan	2	Candesartan Cilexetil Tablets 2 mg
+CATA31826EMIS	ARB	Candesartan	4	Candesartan Cilexetil Tablets 4 mg
+CATA31827EMIS	ARB	Candesartan	8	Candesartan Cilexetil Tablets 8 mg
+CATA4675	ACEI	Captopril	12.5	Captopril Tablets 12.5 mg
+CATA483	ACEI	Captopril	25	Captopril Tablets 25 mg
+CATA484	ACEI	Captopril	50	Captopril Tablets 50 mg
+CATA8901EGTON	ALPHA	Doxazosin	1	Cardura Tablets 1 mg
+CATA8902EGTON	ALPHA	Doxazosin	2	Cardura Tablets 2 mg
+CATA8903EGTON	ALPHA	Doxazosin	4	Cardura Tablets 4 mg
+CETA23877EMIS	BB	Celiprolol	400	Celiprolol Hydrochloride Tablets 400 mg
+CETA9534EMIS	BB	Celiprolol	200	Celiprolol Hydrochloride Tablets 200 mg
+COTA9149BRIDL	DIUR_POT	Amiloride	5	Co-Amilofruse 5/40 Tablets
+COTA9149BRIDL	DIUR_LOOP	Furosemide	40	Co-Amilofruse 5/40 Tablets
+COTA9298EMIS	DIUR_POT	Amiloride	10	Co-Amilofruse 10/80 Tablets
+COTA9298EMIS	DIUR_LOOP	Furosemide	80	Co-Amilofruse 10/80 Tablets
+COTA9301EMIS	DIUR_POT	Amiloride	2.5	Co-Amilofruse 2.5/20 Tablets
+COTA9301EMIS	DIUR_LOOP	Furosemide	20	Co-Amilofruse 2.5/20 Tablets
+DIM/22263EMIS	CCB	Diltiazem	120	Diltiazem Hydrochloride M/R Capsules 120 mg
+DIM/22264EMIS	CCB	Diltiazem	180	Diltiazem Hydrochloride M/R Capsules 180 mg
+DIM/22265EMIS	CCB	Diltiazem	300	Diltiazem Hydrochloride M/R capsules 300 mg
+DIM/22266EMIS	CCB	Diltiazem	90	Diltiazem Hydrochloride M/R capsules 90 mg
+DIM/23454EMIS	CCB	Diltiazem	60	Diltiazem Hydrochloride M/R Capsules 60 mg
+DIM/27367EMIS	CCB	Diltiazem	240	Diltiazem Hydrochloride M/R Capsules 240 mg
+DIM/28229EMIS	CCB	Diltiazem	200	Diltiazem Hydrochloride M/R Capsules 200 mg
+DIM/30235EMIS	CCB	Diltiazem	60	Diltiazem Hydrochloride M/R Tablets 60 mg
+DIM/423NEMIS	CCB	Diltiazem	360	Diltiazem Hydrochloride M/R Capsules 360 mg
+DIS/9119EMIS	CCB	Diltiazem	90	Diltiazem Hydrochloride M/R Tablets 90 mg
+DISR10514BRIDL	CCB	Diltiazem	120	Diltiazem Hydrochloride M/R Tablets 120 mg
+DITA913	CCB	Diltiazem	60	Diltiazem Hydrochloride Tablets 60 mg
+EMTA10350BRIDL	BB	Bisoprolol	5	Emcor LS 5mg tablets (Merck Serono Ltd)
+EMTA10711BRIDL	BB	Bisoprolol	10	Emcor 10mg tablets (Merck Serono Ltd)
+EMTA8949BRIDL	BB	Bisoprolol	10	Bisoprolol 10mg tablets
+ENTA1060	ACEI	Enalapril	10	Enalapril Maleate Tablets 10 mg
+ENTA1062	ACEI	Enalapril	20	Enalapril Maleate Tablets 20 mg
+ENTA1063	ACEI	Enalapril	5	Enalapril Maleate Tablets 5 mg
+EPTA19048NEMIS	DIUR_POT	Eplerenone	25	Eplerenone Tablets 25 mg
+EPTA19050NEMIS	DIUR_POT	Eplerenone	50	Eplerenone Tablets 50 mg
+EPTA3293NEMIS	ARB	Eprosartan	300	Eprosartan Tablets 300 mg
+EPTA3295NEMIS	ARB	Eprosartan	400	Eprosartan Tablets 400 mg
+EPTA3296NEMIS	ARB	Eprosartan	600	Eprosartan Tablets 600 mg
+FEM/29632EMIS	CCB	Felodipine	2.5	Felodipine M/R Tablets 2.5 mg
+FES/9144EMIS	CCB	Felodipine	10	Felodipine M/R tablets 10 mg
+FES/9145EMIS	CCB	Felodipine	5	Felodipine M/R Tablets 5 mg
+FLM/20543NEMIS	ALPHA	Tamsulosin	0.4	Flomaxtra Xl M/R tablets 400 micrograms
+FLM/28657EMIS	ALPHA	Tamsulosin	0.4	Flomax Mr M/R Capsules 400 micrograms
+FOTA9320EMIS	ACEI	Fosinopril	10	Fosinopril Sodium Tablets 10 mg
+FOTA9321EMIS	ACEI	Fosinopril	20	Fosinopril Sodium Tablets 20 mg
+FUTA17675NEMIS	DIUR_LOOP	Furosemide	20	Furosemide Tablets 20 mg
+FUTA17676NEMIS	DIUR_LOOP	Furosemide	40	Furosemide Tablets 40 mg
+FUTA17677NEMIS	DIUR_LOOP	Furosemide	500	Furosemide Tablets 500 mg
+FUTA18552NEMIS	DIUR_LOOP	Furosemide	40	Furosemide And M/r Potassium Tablets 40 mg + 8 mmol
+FUTA18552NEMIS	SUPP	Potassium	8	Furosemide And M/r Potassium Tablets 40 mg + 8 mmol
+FUTA18562NEMIS	DIUR_LOOP	Furosemide	20	Furosemide And M/r Potassium Tablets 20 mg + 10 mmol
+FUTA18562NEMIS	SUPP	Potassium	10	Furosemide And M/r Potassium Tablets 20 mg + 10 mmol
+IRTA18540NEMIS	ARB	Irbesartan	150	Irbesartan And Hydrochlorothiazide Tablets 150 mg + 12.5 mg
+IRTA18540NEMIS	DIUR_THI	Hydrochlorothiazide	12.5	Irbesartan And Hydrochlorothiazide Tablets 150 mg + 12.5 mg
+IRTA18541NEMIS	ARB	Irbesartan	300	Irbesartan And Hydrochlorothiazide Tablets 300 mg + 12.5 mg
+IRTA18541NEMIS	DIUR_THI	Hydrochlorothiazide	12.5	Irbesartan And Hydrochlorothiazide Tablets 300 mg + 12.5 mg
+IRTA23521NEMIS	ARB	Irbesartan	300	Irbesartan And Hydrochlorothiazide Tablets 300 mg + 25 mg
+IRTA23521NEMIS	DIUR_THI	Hydrochlorothiazide	25	Irbesartan And Hydrochlorothiazide Tablets 300 mg + 25 mg
+IRTA31576EMIS	ARB	Irbesartan	150	Irbesartan Tablets 150 mg
+IRTA31577EMIS	ARB	Irbesartan	300	Irbesartan Tablets 300 mg
+IRTA31578EMIS	ARB	Irbesartan	75	Irbesartan Tablets 75 mg
+LATA23421EMIS	CCB	Lacidipine	2	Lacidipine 2mg tablets
+LATA23422EMIS	CCB	Lacidipine	4	Lacidipine Tablets 4 mg
+LETA22327NEMIS	CCB	Lercanidipine	20	Lercanidipine Hydrochloride Tablets 20 mg
+LETA32002EMIS	CCB	Lercanidipine	10	Lercanidipine Hydrochloride Tablets 10 mg
+LITA18535NEMIS	ACEI	Lisinopril	10	Lisinopril And Hydrochlorothiazide Tablets 10 mg + 12.5 mg
+LITA18535NEMIS	DIUR_THI	Hydrochlorothiazide	12.5	Lisinopril And Hydrochlorothiazide Tablets 10 mg + 12.5 mg
+LITA18536NEMIS	ACEI	Lisinopril	20	Lisinopril And Hydrochlorothiazide Tablets 20 mg + 12.5 mg
+LITA18536NEMIS	DIUR_THI	Hydrochlorothiazide	12.5	Lisinopril And Hydrochlorothiazide Tablets 20 mg + 12.5 mg
+LITA8608EGTON	ACEI	Lisinopril	10	Lisinopril Tablets 10 mg
+LITA8609EGTON	ACEI	Lisinopril	2.5	Lisinopril Tablets 2.5 mg
+LITA8610EGTON	ACEI	Lisinopril	20	Lisinopril Tablets 20 mg
+LITA8611EGTON	ACEI	Lisinopril	5	Lisinopril Tablets 5 mg
+LOOR37464NEMIS	ARB	Losartan	2.5	Losartan Potassium Oral Suspension Sugar Free 2.5 mg/ml
+LOTA12633NEMIS	ARB	Losartan	100	Losartan Potassium Tablets 100 mg
+LOTA18550NEMIS	ARB	Losartan	50	Losartan And Hydrochlorothiazide Tablets 50 mg + 12.5 mg
+LOTA18550NEMIS	DIUR_THI	Hydrochlorothiazide	12.5	Losartan And Hydrochlorothiazide Tablets 50 mg + 12.5 mg
+LOTA21150NEMIS	ARB	Losartan	100	Losartan And Hydrochlorothiazide Tablets 100 mg + 25 mg
+LOTA21150NEMIS	DIUR_THI	Hydrochlorothiazide	25	Losartan And Hydrochlorothiazide Tablets 100 mg + 25 mg
+LOTA26214EMIS	ARB	Losartan	25	Losartan Potassium Tablets 25 mg
+LOTA26215EMIS	ARB	Losartan	50	Losartan Potassium Tablets 50 mg
+LOTA28962NEMIS	ARB	Losartan	100	Losartan And Hydrochlorothiazide Tablets 100 mg + 12.5 mg
+LOTA28962NEMIS	DIUR_THI	Hydrochlorothiazide	12.5	Losartan And Hydrochlorothiazide Tablets 100 mg + 12.5 mg
+LOTA35193NEMIS	ARB	Losartan	12.5	Losartan 12.5mg tablets
+META1806	BB	Metoprolol	100	Metoprolol Tartrate Tablets 100 mg
+META1807	BB	Metoprolol	50	Metoprolol Tartrate Tablets 50 mg
+NETA42086NEMIS	BB	Nebivolol	2.5	Nebivolol Tablets 2.5 mg
+NETA50003EMIS	BB	Nebivolol	5	Nebivolol Hydrochloride Tablets 5 mg
+NICA10469BRIDL	CCB	Nifedipine	30	Nicardipine Hydrochloride Capsules 30 mg
+NICA1986	CCB	Nifedipine	10	Nifedipine 10mg capsules
+NICA1987	CCB	Nifedipine	5	Nifedipine 5mg capsules
+NICA5200	CCB	Nifedipine	20	Nicardipine Hydrochloride Capsules 20 mg
+NIM/19537EMIS	CCB	Nifedipine	20	Nifedipine M/R Tablets 20 mg
+NIM/19539EMIS	CCB	Nifedipine	20	Nifensar Xl M/R Tablets 20 mg
+NIM/19777EMIS	CCB	Nifedipine	10	Nifedipine M/R Capsules 10 mg
+NIM/19826EMIS	CCB	Nifedipine	30	Nifedipine M/R Tablets 30 mg
+NIM/19827EMIS	CCB	Nifedipine	60	Nifedipine M/R Tablets 60 mg
+NIM/21926EMIS	CCB	Nicardipine	30	Nicardipine 30mg modified-release capsules
+NIM/21927EMIS	CCB	Nifedipine	45	Nicardipine Hydrochloride M/R capsules 45 mg
+NIM/28058EMIS	CCB	Nifedipine	10	Nifedipine M/R Tablets 10 mg
+NIM/29918EMIS	CCB	Nifedipine	10	Nisoldipine M/R Tablets 10 mg
+NIM/29919EMIS	CCB	Nisoldipine	20	Nisoldipine M/R Tablets 20 mg
+NISR9016EMIS	CCB	Nifedipine	20	Nifedipine M/R Capsules 20 mg
+NITA1988	CCB	Nifedipine	20	Nifedipine Tablets 20 mg
+NITA9043BRIDL	CCB	Nifedipine	10	Nifedipine Tablets 10 mg
+OLOR27110NEMIS	ARB	Olmesartan	10	Olmesartan Oral Suspension 10 mg/5 ml
+OLTA15758NEMIS	ARB	Olmesartan	10	Olmesartan Medoxomil Tablets 10 mg
+OLTA15760NEMIS	ARB	Olmesartan	20	Olmesartan Medoxomil Tablets 20 mg
+OLTA15761NEMIS	ARB	Olmesartan	40	Olmesartan Medoxomil Tablets 40 mg
+OLTA22330NEMIS	ARB	Olmesartan	20	Olmesartan medoxomil 20mg / Hydrochlorothiazide 12.5mg tablets
+OLTA22330NEMIS	DIUR_THI	Hydrochlorothiazide	12.5	Olmesartan medoxomil 20mg / Hydrochlorothiazide 12.5mg tablets
+OLTA22331NEMIS	ARB	Olmesartan	20	Olmesartan Medoxomil And Hydrochlorothiazide Tablets 20 mg + 25 mg
+OLTA22331NEMIS	DIUR_THI	Hydrochlorothiazide	25	Olmesartan Medoxomil And Hydrochlorothiazide Tablets 20 mg + 25 mg
+OLTA35715NEMIS	ARB	Olmesartan	20	Olmesartan Medoxomil And Amlodipine Tablets 20 mg + 5 mg
+OLTA35715NEMIS	CCB	Amlodipine	5	Olmesartan Medoxomil And Amlodipine Tablets 20 mg + 5 mg
+PETA14419NEMIS	ACEI	Perindopril	8	Perindopril Erbumine Tablets 8 mg
+PETA18548NEMIS	ACEI	Perindopril	4	Perindopril And Indapamide Tablets 4 mg + 1.25 mg
+PETA18548NEMIS	DIUR_THI	Indapamide	1.25	Perindopril And Indapamide Tablets 4 mg + 1.25 mg
+PETA29336NEMIS	ACEI	Perindopril	2.5	Perindopril arginine 2.5mg tablets
+PETA29338NEMIS	ACEI	Perindopril	5	Perindopril arginine 5mg tablets
+PETA29345NEMIS	ACEI	Perindopril	5	Perindopril Arginine And Indapamide Tablets 5 mg + 1.25 mg
+PETA29345NEMIS	DIUR_THI	Indapamide	1.25	Perindopril Arginine And Indapamide Tablets 5 mg + 1.25 mg
+PETA9809HILLI	ACEI	Perindopril	2	Perindopril Erbumine Tablets 2 mg
+PETA9810HILLI	ACEI	Perindopril	4	Perindopril Erbumine Tablets 4 mg
+PRM/20660EMIS	BB	Propranolol	160	Propranolol Hydrochloride M/R capsules 160 mg
+PRTA10180BRIDL	BB	Propranolol	80	Propranolol Hydrochloride M/R Capsules 80 mg
+PRTA2393	BB	Propranolol	10	Propranolol Hydrochloride Tablets 10 mg
+PRTA2394	BB	Propranolol	160	Propranolol Hydrochloride Tablets 160 mg
+PRTA2395	BB	Propranolol	40	Propranolol Hydrochloride Tablets 40 mg
+PRTA2396	BB	Propranolol	80	Propranolol Hydrochloride Tablets 80 mg
+RACA57NEMIS	ACEI	Ramipril	10	Ramipril 10mg capsules
+RACA8950EMIS	ACEI	Ramipril	1.25	Ramipril Capsules 1.25 mg
+RACA8951EMIS	ACEI	Ramipril	2.5	Ramipril Capsules 2.5 mg
+RACA8952EMIS	ACEI	Ramipril	5	Ramipril Capsules 5 mg
+TETA1042NEMIS	ARB	Telmisartan	40	Telmisartan Tablets 40 mg
+TETA1044NEMIS	ARB	Telmisartan	80	Telmisartan Tablets 80 mg
+TETA18566NEMIS	ARB	Telmisartan	40	Telmisartan And Hydrochlorothiazide Tablets 40 mg + 12.5 mg
+TETA18566NEMIS	DIUR_THI	Hydrochlorothiazide	12.5	Telmisartan And Hydrochlorothiazide Tablets 40 mg + 12.5 mg
+TETA18567NEMIS	ARB	Telmisartan	80	Telmisartan And Hydrochlorothiazide Tablets 80 mg + 12.5 mg
+TETA18567NEMIS	DIUR_THI	Hydrochlorothiazide	12.5	Telmisartan And Hydrochlorothiazide Tablets 80 mg + 12.5 mg
+TETA30443NEMIS	ARB	Telmisartan	80	Telmisartan And Hydrochlorothiazide Tablets 80 mg + 25 mg
+TETA30443NEMIS	DIUR_THI	Hydrochlorothiazide	25	Telmisartan And Hydrochlorothiazide Tablets 80 mg + 25 mg
+TETA6416NEMIS	ARB	Telmisartan	20	Telmisartan Tablets 20 mg
+VACA29705EMIS	ARB	Valsartan	160	Valsartan Capsules 160 mg
+VACA29706EMIS	ARB	Valsartan	40	Valsartan Capsules 40 mg
+VACA29707EMIS	ARB	Valsartan	80	Valsartan Capsules 80 mg
+VATA18545NEMIS	ARB	Valsartan	160	Valsartan And Hydrochlorothiazide Tablets 160 mg + 12.5 mg
+VATA18545NEMIS	DIUR_THI	Hydrochlorothiazide	12.5	Valsartan And Hydrochlorothiazide Tablets 160 mg + 12.5 mg
+VATA18546NEMIS	ARB	Valsartan	160	Valsartan And Hydrochlorothiazide Tablets 160 mg + 25 mg
+VATA18546NEMIS	DIUR_THI	Hydrochlorothiazide	25	Valsartan And Hydrochlorothiazide Tablets 160 mg + 25 mg
+VATA18921NEMIS	ARB	Valsartan	80	Valsartan And Hydrochlorothiazide Tablets 80 mg + 12.5 mg
+VATA18921NEMIS	DIUR_THI	Hydrochlorothiazide	12.5	Valsartan And Hydrochlorothiazide Tablets 80 mg + 12.5 mg
+VATA19082NEMIS	ARB	Valsartan	40	Valsartan Tablets 40 mg
+VATA28964NEMIS	ARB	Valsartan	320	Valsartan Tablets 320 mg
+VATA52642NEMIS	ARB	Valsartan	160	Valsartan Tablets 160 mg

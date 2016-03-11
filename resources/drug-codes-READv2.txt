@@ -1,0 +1,841 @@
+CODE  FAMILY  TYPE  DOSE(mg)  DESCRIPTION
+b21..	DIUR_THI	Bendroflumethiazide	2.5	BENDROFLUMETHIAZIDE oral susp 2.5mg/5ml
+b211.	DIUR_THI	Bendroflumethiazide	2.5	BENDROFLUMETHIAZIDE tabs 2.5mg
+b212.	DIUR_THI	Bendroflumethiazide	5	BENDROFLUAZIDE TABLETS 5 MG
+b213.	DIUR_THI	Bendroflumethiazide	2.5	APRINOX 2.5mg tabs
+b214.	DIUR_THI	Bendroflumethiazide	5	APRINOX tablets 5mg
+b221.	DIUR_THI	Chlorothiazide	500	SALURIC TAB 500mg
+b22y.	DIUR_THI	Chlorothiazide	250	CHLOROTHIAZIDE oral susp 250mg/5ml
+b22z.	DIUR_THI	Chlorothiazide	500	CHLOROTHIAZIDE TAB 500mg
+b231.	DIUR_THI	Chlortalidone	50	HYGROTON tabs 50mg
+b232.	DIUR_THI	Chlortalidone	100	HYGROTON TAB 100
+b23y.	DIUR_THI	Chlorothiazide	50	CHLORTALIDONE tabs 50mg
+b251.	DIUR_THI	Cyclopenthiazide	0.5	NAVIDREX tablets 0.5mg
+b25z.	DIUR_THI	Cyclopenthiazide	0.5	CYCLOPENTHIAZIDE TABLETS 0.5 MG
+b262.	DIUR_THI	Hydrochlorothiazide	50	ESIDREX 50mg tabs
+b263.	DIUR_THI	Hydrochlorothiazide	25	HYDROSALURIC tablets 25mg
+b26z.	DIUR_THI	Hydrochlorothiazide	25	Hydrochlorothiazide Tablets 25mg
+b281.	DIUR_THI	Indapamide	2.5	NATRILIX TABLETS 2.5 MG
+b285.	DIUR_THI	Indapamide	1.5	INDAPAMIDE mr tab 1.5mg
+b286.	DIUR_THI	Indapamide	1.5	NATRILIX SR TAB 1.5mg
+b28z.	DIUR_THI	Indapamide	2.5	INDAPAMIDE TAB 2.5mg
+b2b..	DIUR_THI	Metolazone	2.5	Metolazone 2.5mg tablets
+b2bz.	DIUR_THI	Metolazone	5	Metolazone 5mg
+b2c1.	DIUR_THI	Polythiazide	1	NEPHRIL TAB 1mg
+b2d1.	DIUR_THI	Xipamide	20	diurexan 20mg tablets
+b2dz.	DIUR_THI	Xipamide	20	Xipamide Tablets 20 mg
+b311.	DIUR_LOOP	Furosemide	20	FRUSEMIDE tabs 20mg
+b312.	DIUR_LOOP	Furosemide	40	Furosemide 40mg tablets
+b313.	DIUR_LOOP	Furosemide	500	FUROSEMIDE tabs 500mg
+b31F.	DIUR_LOOP	Furosemide	20	FRUSOL sf oral soln 20mg/5ml
+b31g.	DIUR_LOOP	Furosemide	40	FRUSID tabs 40mg
+b31G.	DIUR_LOOP	Furosemide	40	Frusol 40mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+b31h.	DIUR_LOOP	Furosemide	20	LASIX TAB 20
+b31H.	DIUR_LOOP	Furosemide	50	FRUSOL sf oral soln 50mg/5ml
+b31i.	DIUR_LOOP	Furosemide	40	LASIX tabs 40mg
+b31k.	DIUR_LOOP	Furosemide	1	LASIX paed sf liq 1mg/ml
+b31l.	DIUR_LOOP	Furosemide	20	LASIX inj 20mg/2ml
+b31r.	DIUR_LOOP	Furosemide	20	FUROSEMIDE sf oral soln 20mg/5ml
+b31s.	DIUR_LOOP	Furosemide	40	FUROSEMIDE sf oral soln 40mg/5ml
+b31t.	DIUR_LOOP	Furosemide	50	FUROSEMIDE sf oral soln 50mg/5ml
+b31x.	DIUR_LOOP	Furosemide	1	FRUSEMIDE paed liq 1mg/ml
+b31y.	DIUR_LOOP	Furosemide	20	Furosemide 20mg/2ml solution for injection ampoules
+b31z.	DIUR_LOOP	Furosemide	10	FUROSEMIDE inj 10mg/ml
+b321.	DIUR_LOOP	Bumetanide	1	BURINEX TABLETS 1 MG
+b322.	DIUR_LOOP	Bumetanide	5	BURINEX 5mg tabs
+b32u.	DIUR_LOOP	Bumetanide	1	BUMETANIDE TABLETS 1 MG
+b32v.	DIUR_LOOP	Bumetanide	5	Bumetanide 5mg tablets
+b32w.	DIUR_LOOP	Bumetanide	1	BUMETANIDE sf liq 1mg/5ml
+b32z.	DIUR_LOOP	Bumetanide	0.5	BUMETANIDE inj 0.5mg/ml
+b341.	DIUR_LOOP	Piretanide	6	ARELIX CAP 6mg
+b34z.	DIUR_LOOP	Piretanide	6	PIRETANIDE CAPS 6MG
+b351.	DIUR_LOOP	Torasemide	2.5	TOREM 2.5 TAB 2.5
+b352.	DIUR_LOOP	Torasemide	5	TOREM 5 TAB 5
+b353.	DIUR_LOOP	Torasemide	10	TOREM 10 TAB 10
+b356.	DIUR_LOOP	Torasemide	2.5	Torasemide 2.5mg tablets
+b357.	DIUR_LOOP	Torasemide	5	TORASEMIDE tabs 5mg
+b358.	DIUR_LOOP	Torasemide	10	TORASEMIDE tabs 10mg
+b413.	DIUR_POT	Amiloride	5	AMILORIDE HCl sf soln 5mg/5ml
+b41z.	DIUR_POT	Amiloride	5	Amiloride 5mg tablets
+b431.	DIUR_POT	Spironolactone	25	Spironolactone Tablets 25 mg
+b432.	DIUR_POT	Spironolactone	50	Spironolactone 50mg tablets
+b433.	DIUR_POT	Spironolactone	100	Spironolactone 100mg tablets
+b434.	DIUR_POT	Spironolactone	25	ALDACTONE FC tab 25mg
+b435.	DIUR_POT	Spironolactone	50	aldactone 50mg tablets
+b436.	DIUR_POT	Spironolactone	100	ALDACTONE 100mg
+b43j.	DIUR_POT	Spironolactone	100	SPIROSPARE tabs 100mg
+b43k.	DIUR_POT	Spironolactone	5	SPIRONOLACTONE sf susp 5mg/5ml
+b43l.	DIUR_POT	Spironolactone	10	SPIRONOLACTONE sf susp 10mg/5ml
+b43m.	DIUR_POT	Spironolactone	25	SPIRONOLACTONE sf susp 25mg/5ml
+b43n.	DIUR_POT	Spironolactone	50	SPIRONOLACTONE sf susp 50mg/5ml
+b43z.	DIUR_POT	Spironolactone	100	SPIRONOLACTONE caps 100mg
+b441.	DIUR_POT	Triamterene		*DYTAC, CA *
+b44z.	DIUR_POT	Triamterene	50	TRIAMTERENE 50mg caps
+b451.	DIUR_POT	Eplerenone	25	INSPRA FC tab 25mg
+b452.	DIUR_POT	Eplerenone	50	INSPRA FC tab 50mg
+b45y.	DIUR_POT	Eplerenone	50	Eplerenone 50mg tablets
+b45z.	DIUR_POT	Eplerenone	25	Eplerenone 25mg tablets
+b511.	DIUR_POT	Spironolactone	25	ALDACTIDE FC tab 25mg + 25mg
+b511.	DIUR_THI	Hydroflumethiazide	25	ALDACTIDE FC tab 25mg + 25mg
+b512.	DIUR_POT	Spironolactone	50	ALDACTIDE FC tab 50mg + 50mg
+b512.	DIUR_THI	Hydroflumethiazide	50	ALDACTIDE FC tab 50mg + 50mg
+b513.	DIUR_POT	Amiloride	5	AMIL-CO tabs 5mg + 50mg
+b513.	DIUR_THI	Hydrochlorothiazide	50	AMIL-CO tabs 5mg + 50mg
+b514.	DIUR_POT	Triamterene	50	DYAZIDE TAB
+b514.	DIUR_THI	Hydrochlorothiazide	25	DYAZIDE TAB
+b516.	DIUR_POT	Amiloride	5	FRUMIL tabs 40mg + 5mg
+b516.	DIUR_LOOP	Furosemide	40	FRUMIL tabs 40mg + 5mg
+b518.	DIUR_POT	Triamterene	50	Kalspare tablets (DHP Healthcare Ltd)
+b518.	DIUR_THI	Chlortalidone	50	Kalspare tablets (DHP Healthcare Ltd)
+b519.	DIUR_POT	Spironolactone	50	Lasilactone 20mg/50mg capsules (Sanofi)
+b519.	DIUR_LOOP	Furosemide	20	Lasilactone 20mg/50mg capsules (Sanofi)
+b51a.	DIUR_POT	Amiloride	2.5	MODURET 25 tabs
+b51a.	DIUR_THI	Hydrochlorothiazide	25	MODURET 25 tabs
+b51A.	DIUR_POT	Triamterene	50	CO-TRIAMTERZID (triamtere & hydrochlorothiazid tab 50mg+25mg
+b51A.	DIUR_THI	Hydrochlorothiazide	25	CO-TRIAMTERZID (triamtere & hydrochlorothiazid tab 50mg+25mg
+b51b.	DIUR_POT	Amiloride	5	Moduretic 5mg/50mg tablets (Merck Sharp & Dohme Ltd)
+b51b.	DIUR_THI	Hydrochlorothiazide	50	Moduretic 5mg/50mg tablets (Merck Sharp & Dohme Ltd)
+b51B.	DIUR_POT	Amiloride	5	FRU-CO tabs 5mg + 40mg
+b51B.	DIUR_LOOP	Furosemide	40	FRU-CO tabs 5mg + 40mg
+b51c.	DIUR_POT	Amiloride	5	moduretic solution
+b51c.	DIUR_THI	Hydrochlorothiazide	50	moduretic solution
+b51C.	DIUR_POT	Amiloride	2.5	CYCLOPENTHIAZIDE + AMILORIDE tabs 250micrograms + 2.5mg
+b51C.	DIUR_THI	Cyclopenthiazide	0.25	CYCLOPENTHIAZIDE + AMILORIDE tabs 250micrograms + 2.5mg
+b51D.	DIUR_POT	Amiloride	5	AMILORIDE HCl + BUMETANIDE tabs 5mg + 1mg
+b51D.	DIUR_LOOP	Bumetanide	1	AMILORIDE HCl + BUMETANIDE tabs 5mg + 1mg
+b51f.	DIUR_POT	Triamterene	50	TRIAM-CO tabs 50mg+25mg
+b51f.	DIUR_THI	Hydrochlorothiazide	25	TRIAM-CO tabs 50mg+25mg
+b51G.	DIUR_POT	Triamterene	50	Triamterene 50mg / Chlortalidone 50mg tablets
+b51G.	DIUR_THI	Chlortalidone	50	Triamterene 50mg / Chlortalidone 50mg tablets
+b51h.	DIUR_POT	Amiloride	5	LASORIDE CALENDAR PACK TAB
+b51h.	DIUR_LOOP	Furosemide	40	LASORIDE CALENDAR PACK TAB
+b51H.	DIUR_LOOP	Furosemide	40	FRUSEMIDE + TRIAMTERENE tabs 40mg + 50mg
+b51H.	DIUR_POT	Triamterene	50	FRUSEMIDE + TRIAMTERENE tabs 40mg + 50mg
+b51j.	DIUR_POT	Amiloride	2.5	CO-AMILOZIDE tabs 2.5mg+25mg
+b51j.	DIUR_THI	Hydrochlorothiazide	25	CO-AMILOZIDE tabs 2.5mg+25mg
+b51J.	DIUR_POT	Spironolactone	50	SPIRONOLACTONE + FUROSEMIDE caps 50mg + 20mg
+b51J.	DIUR_LOOP	Furosemide	20	SPIRONOLACTONE + FUROSEMIDE caps 50mg + 20mg
+b51k.	DIUR_POT	Amiloride	5	CO-AMILOZIDE tabs 5mg+50mg
+b51k.	DIUR_THI	Hydrochlorothiazide	50	CO-AMILOZIDE tabs 5mg+50mg
+b51l.	DIUR_POT	Amiloride	5	AMILORIDE 5MG/HYDROC MIX
+b51l.	DIUR_THI	Hydrochlorothiazide	50	AMILORIDE 5MG/HYDROC MIX
+b51n.	DIUR_POT	Triamterene	50	FRUSENE TAB
+b51n.	DIUR_LOOP	Furosemide	40	FRUSENE TAB
+b51o.	DIUR_POT	Amiloride	2.5	FRUMIL LS tablets 20mg + 2.5mg
+b51o.	DIUR_LOOP	Furosemide	20	FRUMIL LS tablets 20mg + 2.5mg
+b51p.	DIUR_POT	Spironolactone	25	CO-FLUMACTONE tabs 25mg+25mg
+b51p.	DIUR_THI	Hydroflumethiazide	25	CO-FLUMACTONE tabs 25mg+25mg
+b51q.	DIUR_POT	Spironolactone	50	CO-FLUMACTONE tabs 50mg+50mg
+b51q.	DIUR_THI	Hydroflumethiazide	50	CO-FLUMACTONE tabs 50mg+50mg
+b51r.	DIUR_POT	Amiloride	2.5	NAVISPARE 2.5/0.25mg tablets
+b51r.	DIUR_THI	Cyclopenthiazide	0.25	NAVISPARE 2.5/0.25mg tablets
+b51t.	DIUR_POT	Amiloride	5	BURINEX A 1mg\5mg tab
+b51t.	DIUR_LOOP	Bumetanide	1	BURINEX A 1mg\5mg tab
+b51x.	DIUR_POT	Amiloride	2.5	CO-AMILOFRUSE (amiloride & furosemide) tabs 2.5mg+20mg
+b51x.	DIUR_LOOP	Furosemide	20	CO-AMILOFRUSE (amiloride & furosemide) tabs 2.5mg+20mg
+b51y.	DIUR_POT	Amiloride	5	CO-AMILOFRUSE (amiloride & furosemide) tabs 5mg+40mg
+b51y.	DIUR_LOOP	Furosemide	40	CO-AMILOFRUSE (amiloride & furosemide) tabs 5mg+40mg
+b51z.	DIUR_POT	Amiloride	10	CO-AMILOFRUSE tabs 10mg+80mg
+b51z.	DIUR_LOOP	Furosemide	80	CO-AMILOFRUSE tabs 10mg+80mg
+bA11.	ACEI	Ramipril	2.5	TRIAPIN MITE mr tab 2.5mg + 2.5mg
+bA11.	CCB	Felodipine	2.5	TRIAPIN MITE mr tab 2.5mg + 2.5mg
+bA1y.	ACEI	Ramipril	2.5	RAMIPRIL + FELODIPINE mr tab 2.5mg + 2.5mg
+bA1y.	CCB	Felodipine	2.5	RAMIPRIL + FELODIPINE mr tab 2.5mg + 2.5mg
+bA1z.	ACEI	Ramipril	5	FELODIPINE + RAMIPRIL mr tab 5mg + 5mg
+bA1z.	CCB	Felodipine	5	FELODIPINE + RAMIPRIL mr tab 5mg + 5mg
+bb31.	CCB	Verapamil	40	VERAPAMIL HCl tabs 40mg
+bb32.	CCB	Verapamil	80	VERAPAMIL HCl tabs 80mg
+bb33.	CCB	Verapamil	120	VERAPAMIL HCl tabs 120mg
+bb38.	CCB	Verapamil	40	cordilox 40mg tablets
+bb3a.	CCB	Verapamil	120	CORDILOX TAB 120mg
+bb3A.	CCB	Verapamil	240	VERAPAMIL HCl mr tab 240mg
+bb3b.	CCB	Verapamil	160	CORDILOX 160 TAB 160mg
+bb3B.	CCB	Verapamil	120	HALF SECURON SR tablets 120mg
+bb3C.	CCB	Verapamil	120	VERAPAMIL HCl mr tab 120mg
+bb3d.	CCB	Verapamil	40	SECURON TAB 40
+bb3D.	CCB	Verapamil	40	VERAPAMIL HCl sf soln 40mg/5ml
+bb3e.	CCB	Verapamil	80	SECURON TAB 80
+bb3f.	CCB	Verapamil	120	SECURON TAB 120
+bb3F.	CCB	Verapamil	120	HALF SECURON SR tabs 120mg
+bb3g.	CCB	Verapamil	120	SECURON tabs 120mg
+bb3i.	CCB	Verapamil	160	SECURON TAB 160
+bb3j.	CCB	Verapamil	240	Securon SR 240mg tablets (Abbott Laboratories Ltd)
+bb3k.	CCB	Verapamil	240	SECURON SR tablets 240mg
+bb3K.	CCB	Verapamil	240	VERAPRESS MR tabs 240mg
+bb3l.	CCB	Verapamil	120	UNIVER sr cap 120mg
+bb3m.	CCB	Verapamil	180	UNIVER sr cap 180mg
+bb3M.	CCB	Verapamil	240	CORDILOX MR tabs 240mg
+bb3n.	CCB	Verapamil	240	UNIVER sr cap 240mg
+bb3P.	CCB	Verapamil	240	VERA-TIL SR tablets 240mg
+bb3Q.	CCB	Verapamil	120	VERA-TIL SR tablets 120mg
+bb3s.	CCB	Verapamil	240	VERTAB SR tablets 240mg
+bb3v.	CCB	Verapamil	120	VERAPAMIL HCl mr cap 120mg
+bb3w.	CCB	Verapamil	160	VERAPAMIL HCl tabs 160mg
+bb3y.	CCB	Verapamil	240	VERAPAMIL HCl mr cap 240mg
+bb3z.	CCB	Verapamil	180	VERAPAMIL HCl mr cap 180mg
+bd11.	BB	Propranolol	10	PROPRANOLOL tabs 10mg
+bd12.	BB	Propranolol	40	PROPRANOLOL tabs 40mg
+bd13.	BB	Propranolol	80	PROPRANOLOL tabs 80mg
+bd14.	BB	Propranolol	160	PROPRANOLOL tabs 160mg
+bd1g.	BB	Propranolol	160	BEDRANOL mr cap 160mg
+bd1J.	BB	Propranolol	50	PROPRANOLOL oral soln 50mg/5ml
+bd1K.	BB	Propranolol	80	HALF-BETADUR CR CAP 80
+bd1l.	BB	Propranolol	80	HALF-INDERAL LA caps 80mg
+bd1L.	BB	Propranolol	80	HALF BETA-PROGRANE sr cap 80mg
+bd1m.	BB	Propranolol	10	INDERAL TAB 10
+bd1n.	BB	Propranolol	40	INDERAL TAB 40
+bd1o.	BB	Propranolol	80	INDERAL 80mg
+bd1p.	BB	Propranolol	160	inderal 160mg tablets
+bd1Q.	BB	Propranolol	40	PROPRANOLOL oral soln 40mg/5ml
+bd1r.	BB	Propranolol	160	INDERAL LA CAPS 160MG
+bd1W.	BB	Propranolol	5	PROPRANOLOL oral soln 5mg/5ml
+bd1x.	BB	Propranolol	160	PROPRANOLOL mr cap 160mg
+bd1X.	BB	Propranolol	10	PROPRANOLOL oral soln 10mg/5ml
+bd1y.	BB	Propranolol	80	PROPRANOLOL mr cap 80mg
+bd1Y.	BB	Propranolol	50	Propranolol 50mg/5ml oral solution sugar free
+bd1z.	BB	Propranolol	10	Syprol 10mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+bd1Z.	BB	Propranolol	5	Syprol 5mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+bd21.	BB	Acebutolol	100	SECTRAL 100mg caps
+bd22.	BB	Acebutolol	200	SECTRAL 200 CAP 200
+bd23.	BB	Acebutolol	400	SECTRAL 400 TAB 400mg
+bd2w.	BB	Acebutolol	100	ACEBUTOLOL HCl caps 100mg
+bd2x.	BB	Acebutolol	200	ACEBUTOLOL HCl caps 200mg
+bd2y.	BB	Acebutolol	400	ACEBUTOLOL HCl tabs 400mg
+bd31.	BB	Atenolol	100	TENORMIN tabs 100mg
+bd32.	BB	Atenolol	25	TENORMIN sf syrp 25mg/5ml
+bd34.	BB	Atenolol	50	TENORMIN LS tablets 50mg
+bd35.	BB	Atenolol	50	Atenolol 50mg tablets
+bd36.	BB	Atenolol	100	ATENOLOL tabs 100mg
+bd38.	BB	Atenolol	50	Beta-Adalat modified-release capsules (Bayer Plc)
+bd38.	CCB	Nifedipine	20	Beta-Adalat modified-release capsules (Bayer Plc)
+bd3c.	BB	Atenolol	25	TENORMIN 25 tabs
+bd3f.	BB	Atenolol	50	ATENIX tabs 50mg
+bd3g.	BB	Atenolol	100	ATENIX tabs 100mg
+bd3h.	BB	Atenolol	50	Totamol Tablets 50mg
+bd3j.	BB	Atenolol	25	ATENOLOL tabs 25mg
+bd3k.	BB	Atenolol	25	TOTAMOL tabs 25mg
+bd3x.	BB	Atenolol	25	ATENOLOL sugar free syrup 25mg/5ml
+bd3y.	BB	Atenolol	0.5	ATENOLOL INJ 500mcg
+bd3z.	BB	Atenolol	25	ATENIX tabs 25mg
+bd41.	BB	Betaxolol	20	KERLONE TAB 20
+bd4z.	BB	Betaxolol	20	BETAXOLOL HYDROCHLOR TAB 20
+bd51.	BB	Labetalol	100	LABETALOL HCl tabs 100mg
+bd52.	BB	Labetalol	200	LABETALOL HCl tabs 200mg
+bd53.	BB	Labetalol	400	LABETALOL HCl tabs 400mg
+bd57.	BB	Labetalol	50	TRANDATE tabs 50mg
+bd58.	BB	Labetalol	100	TRANDATE TAB 100mg
+bd59.	BB	Labetalol	200	TRANDATE tabs 200mg
+bd5a.	BB	Labetalol	400	Trandate 400mg tablets (Focus Pharmaceuticals Ltd)
+bd5b.	BB	Labetalol	100	TRANDATE INJ 100mg
+bd5v.	BB	Labetalol	50	LABETALOL HCl tabs 50mg
+bd61.	BB	Metoprolol	50	BETALOC TAB 50
+bd62.	BB	Metoprolol	100	BETALOC tabs 100mg
+bd64.	BB	Metoprolol	200	BETALOC SA DURULE 200mg
+bd66.	BB	Metoprolol	100	LOPRESOR TAB 100
+bd6w.	BB	Metoprolol	100	METOPROLOL TARTRATE tabs 100mg
+bd6x.	BB	Metoprolol	50	METOPROLOL TARTRATE tabs 50mg
+bd6z.	BB	Metoprolol	200	METOPROLOL TARTRATE mr tab 200mg
+bd71.	BB	Nadolol	40	CORGARD TAB 40
+bd72.	BB	Nadolol	80	CORGARD tabs 80mg
+bd7y.	BB	Nadolol	40	NADOLOL tabs 40mg
+bd7z.	BB	Nadolol	80	NADOLOL tabs 80mg
+bd81.	BB	Oxprenolol	20	OXPRENOLOL tabs 20mg
+bd82.	BB	Oxprenolol	40	OXPRENOLOL tabs 40mg
+bd83.	BB	Oxprenolol	80	OXPRENOLOL tabs 80mg
+bd84.	BB	Oxprenolol	160	OXPRENOLOL tabs 160mg
+bd8e.	BB	Oxprenolol	160	SLOW-TRASICOR TAB 160
+bd8f.	BB	Oxprenolol	20	TRASICOR 20mg tabs
+bd8g.	BB	Oxprenolol	40	TRASICOR TABLETS 40 MG
+bd8h.	BB	Oxprenolol	80	trasicor 80mg tablets
+bd8i.	BB	Oxprenolol	160	TRASICOR 160mg tabs
+bd8u.	BB	Oxprenolol	160	OXPRENOLOL mr tab 160mg
+bda1.	BB	Pindolol	5	visken 5mg tablets
+bda2.	BB	Pindolol	15	VISKEN 15mg tabs
+bday.	BB	Pindolol	15	PINDOLOL tabs 5mg
+bdaz.	BB	Pindolol	15	PINDOLOL tabs 15mg
+bdc1.	BB	Sotalol	40	BETA-CARDONE tabs 40mg
+bdc2.	BB	Sotalol	80	BETA-CARDONE tabs 80mg
+bdc4.	BB	Sotalol	80	SOTACOR TABS 80MG
+bdc5.	BB	Sotalol	160	SOTACOR CALENDAR PAC TAB 160
+bdcu.	BB	Sotalol	40	SOTALOL tabs 40mg
+bdcv.	BB	Sotalol	80	SOTALOL tabs 80mg
+bdcw.	BB	Sotalol	200	SOTALOL TABLETS 200 MG
+bdcx.	BB	Sotalol	160	SOTALOL tabs 160mg
+bdd1.	BB	Timolol	10	BETIM tabs 10mg
+bdd2.	BB	Timolol	10	BLOCADREN TAB 10
+bddz.	BB	Timolol	10	TIMOLOL MALEATE tabs 10mg
+bde7.	BB	Atenolol	50	KALTEN caps
+bde7.	DIUR_THI	Hydrochlorothiazide	25	KALTEN caps
+bde7.	DIUR_POT	Amiloride	2.5	KALTEN caps
+bdea.	BB	Timolol	10	MODUCREN TAB
+bdea.	DIUR_THI	Hydrochlorothiazide	25	MODUCREN TAB
+bdea.	DIUR_POT	Amiloride	2.5	MODUCREN TAB
+bdeb.	BB	Timolol	10	PRESTIM tabs
+bdeb.	DIUR_THI	Bendroflumethiazide	2.5	PRESTIM tabs
+bded.	BB	Acebutolol	200	SECADREX TABLETS
+bded.	DIUR_THI	Hydrochlorothiazide	12.5	SECADREX TABLETS
+bdeg.	BB	Atenolol	50	TENORET-50
+bdeg.	DIUR_THI	Chlortalidone	12.5	TENORET-50
+bdeh.	BB	Atenolol	100	Tenoretic Tablets 100 mg + 25 mg
+bdeh.	DIUR_THI	Chlortalidone	25	Tenoretic Tablets 100 mg + 25 mg
+bdej.	BB	Oxprenolol	160	TRASIDREX tabs 160mg + 0.25mg
+bdej.	DIUR_THI	Cyclopenthiazide	0.25	TRASIDREX tabs 160mg + 0.25mg
+bdek.	BB	Pindolol	10	VISKALDIX tabs 10mg + 5mg
+bdek.	DIUR_THI	Clopamide	5	VISKALDIX tabs 10mg + 5mg
+bdem.	BB	Atenolol	50	ATENOLOL 50MG/CHLORTHALIDONE 12.5MG TAB
+bdem.	DIUR_THI	Chlortalidone	12.5	ATENOLOL 50MG/CHLORTHALIDONE 12.5MG TAB
+bden.	BB	Atenolol	100	ATENOLOL + CHLORTALIDONE tabs 100mg+25mg
+bden.	DIUR_THI	Chlortalidone	25	ATENOLOL + CHLORTALIDONE tabs 100mg+25mg
+bdes.	BB	Atenolol	50	BETA-ADALAT caps 50mg + 20mg
+bdes.	CCB	Nifedipine	20	BETA-ADALAT caps 50mg + 20mg
+bdet.	BB	Atenolol	50	TENIF caps 50mg + 20mg
+bdet.	CCB	Nifedipine	20	TENIF caps 50mg + 20mg
+bdeu.	BB	Oxprenolol	160	OXPRENOLOL 160MG/CYCLOPENTHIAZ.250MCG SR TAB
+bdeu.	DIUR_THI	Cyclopenthiazide	0.25	OXPRENOLOL 160MG/CYCLOPENTHIAZ.250MCG SR TAB
+bdey.	BB	Atenolol	50	ATENOLOL+CO-AMILOZIDE 50mg/2.5mg/25mg capsules
+bdey.	DIUR_THI	Hydrochlorothiazide	25	ATENOLOL+CO-AMILOZIDE 50mg/2.5mg/25mg capsules
+bdey.	DIUR_POT	Amiloride	2.5	ATENOLOL+CO-AMILOZIDE 50mg/2.5mg/25mg capsules
+bdez.	BB	Atenolol	50	ATENOLOL + NIFEDIPINE caps 50mg + 20mg
+bdez.	CCB	Nifedipine	20	ATENOLOL + NIFEDIPINE caps 50mg + 20mg
+bdf..	BB	Bisoprolol	5	BISOPROLOL oral susp 5mg/5ml
+bdf1.	BB	Bisoprolol	5	BISOPROLOL tabs 5mg
+bdf2.	BB	Bisoprolol	10	BISOPROLOL tabs 10mg
+bdf3.	BB	Bisoprolol	5	MONOCOR TAB 5
+bdf4.	BB	Bisoprolol	10	MONOCOR TAB 10
+bdf5.	BB	Bisoprolol	5	EMCOR LS tabs 5mg
+bdf6.	BB	Bisoprolol	10	EMCOR TAB 10mg
+bdf7.	BB	Bisoprolol	10	MONOZIDE 10 TAB 10mg
+bdf7.	DIUR_THI	Hydrochlorothiazide	10	MONOZIDE 10 TAB 10mg
+bdf8.	BB	Bisoprolol	10	BISOPROLOL & HYDROCHLOROTHIAZIDE tabs 10mg + 6.25mg
+bdf8.	DIUR_THI	Hydrochlorothiazide	6.25	BISOPROLOL & HYDROCHLOROTHIAZIDE tabs 10mg + 6.25mg
+bdf9.	BB	Bisoprolol	1.25	CARDICOR tabs 1.25mg
+bdfA.	BB	Bisoprolol	2.5	CARDICOR tabs 2.5mg
+bdfB.	BB	Bisoprolol	3.75	Cardicor 3.75mg tablets (Merck Serono Ltd)
+bdfC.	BB	Bisoprolol	5	CARDICOR tabs 5mg
+bdfD.	BB	Bisoprolol	7.5	Cardicor 7.5mg tablets (Merck Serono Ltd)
+bdfE.	BB	Bisoprolol	10	CARDICOR tabs 10mg
+bdfL.	BB	Bisoprolol	1.25	CONGESCOR tabs 1.25mg
+bdfM.	BB	Bisoprolol	2.5	Congescor 2.5mg tablets (Tillomed Laboratories Ltd)
+bdfw.	BB	Bisoprolol	1.25	BISOPROLOL tabs 1.25mg
+bdfx.	BB	Bisoprolol	2.5	BISOPROLOL tabs 2.5mg
+bdfy.	BB	Bisoprolol	3.75	BISOPROLOL tabs 3.75mg
+bdfz.	BB	Bisoprolol	7.5	BISOPROLOL tabs 7.5mg
+bdh3.	BB	Metoprolol	190	METOROS TAB 190
+bdj1.	BB	Celiprolol	200	CELIPROLOL tabs 200mg
+bdj3.	BB	Celiprolol	200	CELECTOL TAB 200
+bdj4.	BB	Celiprolol	400	CELIPROLOL tabs 400mg
+bdj5.	BB	Celiprolol	400	CELECTOL tabs 400mg
+bdl..	BB	Carvedilol	5	Carvedilol 5mg/5ml oral suspension
+bdl1.	BB	Carvedilol	12.5	EUCARDIC 12.5 MG TAB 12.5
+bdl2.	BB	Carvedilol	25	EUCARDIC 25MG TAB 25
+bdl3.	BB	Carvedilol	12.5	CARVEDILOL tabs 12.5mg
+bdl4.	BB	Carvedilol	25	CARVEDILOL tabs 25mg
+bdl5.	BB	Carvedilol	3.125	CARVEDILOL tabs 3.125mg
+bdl6.	BB	Carvedilol	6.25	CARVEDILOL tabs 6.25mg
+bdl7.	BB	Carvedilol	3.125	EUCARDIC tabs 3.125mg
+bdl8.	BB	Carvedilol	6.25	EUCARDIC tabs 6.25mg
+bdm..	BB	Nebivolol	10	Nebivolol 10mg tablets
+bdm1.	BB	Nebivolol	5	NEBILET tabs 5mg
+bdmy.	BB	Nebivolol	2.5	Nebivolol 2.5mg tablets
+bdmz.	BB	Nebivolol	5	NEBIVOLOL tabs 5mg
+bdn1.	BB	Propranolol	50	SYPROL oral soln 50mg/5ml
+bdn2.	BB	Propranolol	80	BEDRANOL mr cap 80mg
+bdn6.	BB	Propranolol	40	Propranolol 40mg/5ml oral solution sugar free
+bh13.	ALPHA	Indoramin	20	DORALESE TILTAB tabs 20mg
+bh14.	ALPHA	Indoramin	20	INDORAMIN tabs 20mg
+bh1y.	ALPHA	Indoramin	25	INDORAMIN tabs 25mg
+bh1z.	ALPHA	Indoramin	50	INDORAMIN tabs 50mg
+bh2..	ALPHA	Phenoxybenzamine	10	PHENOXYBENZAMINE oral susp 10mg/5ml
+bh2y.	ALPHA	Phenoxybenzamine	10	Phenoxybenzamine Hydrochloride Capsules 10 mg
+bh31.	ALPHA	Phentolamin	10	ROGITINE INJ 10mg
+bh3z.	ALPHA	Phentolamin	10	PHENTOLAMINE MESYLAT INJ 10
+bh41.	ALPHA	Prazosin	0.5	HYPOVASE TAB 500
+bh42.	ALPHA	Prazosin	1	HYPOVASE TAB 1
+bh43.	ALPHA	Prazosin	2	HYPOVASE TAB 2
+bh44.	ALPHA	Prazosin	5	HYPOVASE TAB 5
+bh45.	ALPHA	Prazosin		HYPOVASE BD starter pack
+bh4v.	ALPHA	Prazosin		PRAZOSIN titration pack 8x500micrograms + 32x1mg
+bh4w.	ALPHA	Prazosin	0.5	PRAZOSIN tabs 500 micrograms
+bh4x.	ALPHA	Prazosin	1	PRAZOSIN tabs 1mg
+bh4y.	ALPHA	Prazosin	2	PRAZOSIN tabs 2mg
+bh4z.	ALPHA	Prazosin	5	PRAZOSIN HYDROCHLORI TAB 5
+bh51.	ALPHA	Terazosin	2	HYTRIN tabs 2mg
+bh52.	ALPHA	Terazosin	5	HYTRIN tabs 5mg
+bh53.	ALPHA	Terazosin	10	HYTRIN TAB 10mg
+bh54.	ALPHA	Terazosin		HYTRIN STARTER PACK
+bh55.	ALPHA	Terazosin	5	TERAZOSIN tabs 5mg
+bh56.	ALPHA	Terazosin	10	TERAZOSIN tabs 10mg
+bh5y.	ALPHA	Terazosin		TERAZOSIN starter pack 7 x 1mg + 21 x 2mg
+bh5z.	ALPHA	Terazosin	2	TERAZOSIN tabs 2mg
+bh6..	ALPHA	Doxazosin	4	DOXAZOSIN oral susp 4mg/5ml
+bh61.	ALPHA	Doxazosin	1	DOXAZOSIN tabs 1mg
+bh62.	ALPHA	Doxazosin	2	DOXAZOSIN tabs 2mg
+bh63.	ALPHA	Doxazosin	4	DOXAZOSIN tabs 4mg
+bh64.	ALPHA	Doxazosin	1	CARDURA tabs 1mg
+bh65.	ALPHA	Doxazosin	2	CARDURA TABS 2MG
+bh66.	ALPHA	Doxazosin	4	CARDURA tabs 4mg
+bh67.	ALPHA	Doxazosin	4	CARDURA XL mr tab 4mg
+bh68.	ALPHA	Doxazosin	8	CARDURA XL mr tab 8mg
+bh6B.	ALPHA	Doxazosin	1	DOXAZOSIN tabs 1mg
+bh6C.	ALPHA	Doxazosin	2	DOXADURA tabs 2mg
+bh6D.	ALPHA	Doxazosin	4	DOXADURA tabs 4mg
+bh6E.	ALPHA	Doxazosin	4	SLOCINX XL tabs 4mg
+bh6F.	ALPHA	Doxazosin	4	DOXADURA XL tabs 4mg
+bh6y.	ALPHA	Doxazosin	8	DOXAZOSIN mr tab 8mg
+bh6z.	ALPHA	Doxazosin	4	DOXAZOSIN mr tab 4mg
+bi1..	ACEI	Captopril	5	CAPTOPRIL oral liq 5mg/5ml
+bi11.	ACEI	Captopril	12.5	ACEPRIL TAB 12.5
+bi13.	ACEI	Captopril	25	ACEPRIL 25mg tabs
+bi15.	ACEI	Captopril	50	ACEPRIL TAB 50
+bi16.	ACEI	Captopril	12.5	CAPOTEN TAB 12.5
+bi17.	ACEI	Captopril	25	Capoten 25mg tablets (Bristol-Myers Squibb Pharmaceutical...
+bi18.	ACEI	Captopril	25	CAPOTEN TAB 25
+bi19.	ACEI	Captopril	50	CAPOTEN TAB 50
+bi1a.	ACEI	Captopril	50	CAPOTEN TAB 50mg
+bi1b.	ACEI	Captopril	25	ACEZIDE TAB
+bi1b.	DIUR_THI	Hydrochlorothiazide	15	ACEZIDE TAB
+bi1c.	ACEI	Captopril	50	CAPOZIDE tabs 50mg + 25mg
+bi1c.	DIUR_THI	Hydrochlorothiazide	25	CAPOZIDE tabs 50mg + 25mg
+bi1d.	ACEI	Captopril	25	CAPOZIDE LS tablets 25mg + 12.5mg
+bi1d.	DIUR_THI	Hydrochlorothiazide	12.5	CAPOZIDE LS tablets 25mg + 12.5mg
+bi1f.	ACEI	Captopril	50	CAPTOPRIL + HYDROCHLOROTHIAZIDE tabs 50mg + 25mg
+bi1f.	DIUR_THI	Hydrochlorothiazide	25	CAPTOPRIL + HYDROCHLOROTHIAZIDE tabs 50mg + 25mg
+bi1F.	ACEI	Captopril	25	CAPTOPRIL + HYDROCHLOROTHIAZIDE tabs 25mg + 12.5mg
+bi1F.	DIUR_THI	Hydrochlorothiazide	12.5	CAPTOPRIL + HYDROCHLOROTHIAZIDE tabs 25mg + 12.5mg
+bi1G.	ACEI	Captopril	50	CAPTOPRIL + HYDROCHLOROTHIAZIDE tabs 50mg + 25mg
+bi1G.	DIUR_THI	Hydrochlorothiazide	25	CAPTOPRIL + HYDROCHLOROTHIAZIDE tabs 50mg + 25mg
+bi1J.	ACEI	Captopril	25	Noyada 25mg/5ml oral solution (Martindale Pharmaceuticals...
+bi1s.	ACEI	Captopril	50	CAPOZIDE tabs 50mg + 25mg
+bi1s.	DIUR_THI	Hydrochlorothiazide	25	CAPOZIDE tabs 50mg + 25mg
+bi1v.	ACEI	Captopril	12.5	CAPTOPRIL tabs 12.5mg
+bi1w.	ACEI	Captopril	25	CAPTOPRIL TAB 25
+bi1x.	ACEI	Captopril	25	CAPTOPRIL tabs 25mg
+bi1z.	ACEI	Captopril	50	CAPTOPRIL tabs 50mg
+bi2..	ACEI	Enalapril	5	ENALAPRIL oral soln 5mg/5ml
+bi21.	ACEI	Enalapril	2.5	INNOVACE TAB 2.5
+bi22.	ACEI	Enalapril	5	INNOVACE TAB 5
+bi23.	ACEI	Enalapril	5	INNOVACE tabs 5mg
+bi24.	ACEI	Enalapril	10	INNOVACE TAB 10
+bi25.	ACEI	Enalapril	10	INNOVACE tabs 10mg
+bi26.	ACEI	Enalapril	20	INNOVACE TAB 20
+bi27.	ACEI	Enalapril	20	INNOVACE tabs 20mg
+bi28.	ACEI	Enalapril	20	INNOZIDE
+bi28.	DIUR_THI	Hydrochlorothiazide	12.5	INNOZIDE
+bi2b.	ACEI	Enalapril	20	ENALAPRIL + HYDROCHLOROTHIAZIDE tabs 20mg + 12.5mg
+bi2b.	DIUR_THI	Hydrochlorothiazide	12.5	ENALAPRIL + HYDROCHLOROTHIAZIDE tabs 20mg + 12.5mg
+bi2D.	ACEI	Enalapril	20	ENALAPRIL WAFER 20MG
+bi2t.	ACEI	Enalapril	2.5	ENALAPRIL tabs 2.5mg
+bi2u.	ACEI	Enalapril	5	Enalapril 5mg tablets
+bi2v.	ACEI	Enalapril	5	ENALAPRIL tabs 5mg
+bi2w.	ACEI	Enalapril	10	ENALAPRIL tabs 10mg
+bi2x.	ACEI	Enalapril	10	ENALAPRIL tabs 10mg
+bi2y.	ACEI	Enalapril	20	Enalapril 20mg tablets
+bi2z.	ACEI	Enalapril	20	ENALAPRIL tabs 20mg
+bi31.	ACEI	Lisinopril	2.5	LISINOPRIL tabs 2.5mg
+bi32.	ACEI	Lisinopril	5	LISINOPRIL tabs 5mg
+bi33.	ACEI	Lisinopril	10	LISINOPRIL tabs 10mg
+bi34.	ACEI	Lisinopril	20	LISINOPRIL tabs 20mg
+bi35.	ACEI	Lisinopril	2.5	CARACE tabs 2.5mg
+bi37.	ACEI	Lisinopril	5	CARACE tabs 5mg
+bi39.	ACEI	Lisinopril	10	CARACE tabs 10mg
+bi3b.	ACEI	Lisinopril	20	CARACE tabs 20mg
+bi3d.	ACEI	Lisinopril	2.5	ZESTRIL tabs 2.5mg
+bi3f.	ACEI	Lisinopril	5	ZESTRIL tabs 5mg
+bi3h.	ACEI	Lisinopril	10	ZESTRIL tabs 10mg
+bi3j.	ACEI	Lisinopril	20	ZESTRIL tabs 20mg
+bi3k.	ACEI	Lisinopril	20	CARACE 20 plus tab
+bi3k.	DIUR_THI	Hydrochlorothiazide	12.5	CARACE 20 plus tab
+bi3l.	ACEI	Lisinopril	10	CARACE 10 plus tab
+bi3l.	DIUR_THI	Hydrochlorothiazide	12.5	CARACE 10 plus tab
+bi3n.	ACEI	Lisinopril	20	ZESTORETIC 20-tab 20mg + 12.5mg
+bi3n.	DIUR_THI	Hydrochlorothiazide	12.5	ZESTORETIC 20-tab 20mg + 12.5mg
+bi3p.	ACEI	Lisinopril	20	LISINOPRIL + HYDROCHLOROTHIAZIDE tabs 20mg/12.5mg
+bi3p.	DIUR_THI	Hydrochlorothiazide	12.5	LISINOPRIL + HYDROCHLOROTHIAZIDE tabs 20mg/12.5mg
+bi3s.	ACEI	Lisinopril	10	ZESTORETIC 10-tab 10mg + 12.5mg
+bi3s.	DIUR_THI	Hydrochlorothiazide	12.5	ZESTORETIC 10-tab 10mg + 12.5mg
+bi3t.	ACEI	Lisinopril	10	LISINOPRIL + HYDROCHLOROTHIAZIDE tabs 10mg + 12.5mg
+bi3t.	DIUR_THI	Hydrochlorothiazide	12.5	LISINOPRIL + HYDROCHLOROTHIAZIDE tabs 10mg + 12.5mg
+bi41.	ACEI	Quinapril	5	QUINAPRIL tabs 5mg
+bi42.	ACEI	Quinapril	10	QUINAPRIL tabs 10mg
+bi43.	ACEI	Quinapril	20	QUINAPRIL tabs 20mg
+bi44.	ACEI	Quinapril	5	ACCUPRO TAB 5
+bi45.	ACEI	Quinapril	10	ACCUPRO 10mgX28 tabs
+bi46.	ACEI	Quinapril	20	ACCUPRO TAB 20
+bi47.	ACEI	Quinapril	10	ACCURETIC tabs 10mg + 12.5mg
+bi47.	DIUR_THI	Hydrochlorothiazide	12.5	ACCURETIC tabs 10mg + 12.5mg
+bi48.	ACEI	Quinapril	10	QUINAPRIL & HYDROCHLOROTHIAZIDE tabs 10mg + 12.5mg
+bi48.	DIUR_THI	Hydrochlorothiazide	12.5	QUINAPRIL & HYDROCHLOROTHIAZIDE tabs 10mg + 12.5mg
+bi49.	ACEI	Quinapril	40	ACCUPRO tabs 40mg
+bi4A.	ACEI	Quinapril	40	QUINAPRIL tabs 40mg
+bi4D.	ACEI	Quinapril	20	QUINIL tabs 20mg
+bi5..	ACEI	Perindopril	4	PERINDOPRIL ERBUMINE oral susp 4mg/5ml
+bi51.	ACEI	Perindopril	2	PERINDOPRIL ERBUMINE tabs 2mg
+bi52.	ACEI	Perindopril	4	PERINDOPRIL ERBUMINE tabs 4mg
+bi53.	ACEI	Perindopril	2	COVERSYL tabs 2mg
+bi54.	ACEI	Perindopril	4	COVERSYL tabs 4mg
+bi55.	ACEI	Perindopril	4	PERINDOPRIL + INDAPAMIDE tabs 4mg + 1.25mg
+bi55.	DIUR_THI	Indapamide	1.25	PERINDOPRIL + INDAPAMIDE tabs 4mg + 1.25mg
+bi56.	ACEI	Perindopril	5	COVERSYL PLUS tabs
+bi56.	DIUR_THI	Indapamide	1.25	COVERSYL PLUS tabs
+bi57.	ACEI	Perindopril	8	PERINDOPRIL ERBUMINE tabs 8mg
+bi58.	ACEI	Perindopril	8	COVERSYL tabs 8mg
+bi61.	ACEI	Ramipril	1.25	RAMIPRIL caps 1.25mg
+bi62.	ACEI	Ramipril	2.5	RAMIPRIL caps 2.5mg
+bi63.	ACEI	Ramipril	5	RAMIPRIL caps 5mg
+bi64.	ACEI	Ramipril	1.25	TRITACE CAP 1.25
+bi65.	ACEI	Ramipril	2.5	TRITACE CAP 2.5
+bi66.	ACEI	Ramipril	5	TRITACE CAP 5
+bi67.	ACEI	Ramipril	10	RAMIPRIL caps 10mg
+bi68.	ACEI	Ramipril	10	Tritace Capsules 10mg
+bi69.	ACEI	Ramipril		RAMIPRIL caps 2.5mg + 5mg + 10mg
+bi6A.	ACEI	Ramipril		TRITACE TITRATION PACK caps 2.5mg + 5mg + 10mg
+bi6B.	ACEI	Ramipril	1.25	RAMIPRIL tabs 1.25mg
+bi6C.	ACEI	Ramipril	2.5	RAMIPRIL tabs 2.5mg
+bi6D.	ACEI	Ramipril	5	RAMIPRIL tabs 5mg
+bi6E.	ACEI	Ramipril	10	RAMIPRIL tabs 10mg
+bi6F.	ACEI	Ramipril		RAMIPRIL tabs 2.5mg + 5mg + 10mg
+bi6o.	ACEI	Ramipril		TRITACE TITRATION PACK tabs 2.5mg + 5mg + 10mg
+bi6t.	ACEI	Ramipril	2.5	LOPACE caps 2.5mg
+bi6u.	ACEI	Ramipril	5	LOPACE caps 5mg
+bi6v.	ACEI	Ramipril	10	LOPACE caps 10mg
+bi6w.	ACEI	Ramipril	10	TRITACE tabs 10mg
+bi6x.	ACEI	Ramipril	5	TRITACE tabs 5mg
+bi6y.	ACEI	Ramipril	2.5	TRITACE tabs 2.5mg
+bi71.	ACEI	Fosinopril	10	FOSINOPRIL tabs 10mg
+bi72.	ACEI	Fosinopril	20	FOSINOPRIL tabs 20mg
+bi73.	ACEI	Fosinopril	10	STARIL TAB 10
+bi74.	ACEI	Fosinopril	20	STARIL TAB 20mg
+bi83.	ACEI	Cilazapril		CILAZAPRIL
+bi84.	ACEI	Cilazapril	2.5	Cilazapril Tablets 2.5 mg
+bi86.	ACEI	Cilazapril	0.5	VASCACE TAB 0.5
+bi87.	ACEI	Cilazapril	1	VASCACE TAB 1
+bi88.	ACEI	Cilazapril	2.5	VASCACE TAB 2.5
+bi89.	ACEI	Cilazapril	5	VASCACE tabs 5mg
+bi8a.	ACEI	Cilazapril	5	CILAZAPRIL tabs 5mg
+bi91.	ACEI	Trandolapril	0.5	TRANDOLAPRIL caps 500 micrograms
+bi92.	ACEI	Trandolapril	1	TRANDOLAPRIL caps 1mg
+bi93.	ACEI	Trandolapril	2	TRANDOLAPRIL caps 2mg
+bi94.	ACEI	Trandolapril	0.5	GOPTEN CAP 0.5
+bi95.	ACEI	Trandolapril	1	GOPTEN CAP 1
+bi96.	ACEI	Trandolapril	2	GOPTEN caps 2mg
+bi9z.	ACEI	Trandolapril	4	TRANDOLAPRIL caps 4mg
+biB1.	ACEI	Imidapril	5	TANATRIL tabs 5mg
+biB2.	ACEI	Imidapril	10	TANATRIL tabs 10mg
+biB3.	ACEI	Imidapril	20	TANATRIL tabs 20mg
+biBx.	ACEI	Imidapril	20	IMIDAPRIL HCl tabs 20mg
+biBy.	ACEI	Imidapril	5	IMIDAPRIL HCl tabs 5mg
+biBz.	ACEI	Imidapril	10	IMIDAPRIL HCl tabs 10mg
+biC1.	ACEI	Perindopril	2.5	COVERSYL ARGININE tabs 2.5mg
+biC2.	ACEI	Perindopril	2.5	PERINDOPRIL ARGININE tabs 2.5mg
+biC3.	ACEI	Perindopril	5	COVERSYL ARGININE tabs 5mg
+biC4.	ACEI	Perindopril	5	Perindopril arginine 5mg tablets
+biC5.	ACEI	Perindopril	10	Coversyl Arginine 10mg tablets (Servier Laboratories Ltd)
+biC6.	ACEI	Perindopril	10	PERINDOPRIL ARGININE tabs 10mg
+biC7.	ACEI	Perindopril	5	COVERSYL ARGININE PLUS tabs 5mg + 1.25mg
+biC7.	DIUR_THI	Indapamide	1.25	COVERSYL ARGININE PLUS tabs 5mg + 1.25mg
+biC8.	ACEI	Perindopril	5	PERINDOPRIL ARGININE + INDAPAMIDE tabs 5mg + 1.25mg
+biC8.	DIUR_THI	Indapamide	1.25	PERINDOPRIL ARGININE + INDAPAMIDE tabs 5mg + 1.25mg
+bk3..	ARB	Losartan	50	Losartan 50mg/5ml oral suspension
+bk31.	ARB	Losartan	25	LOSARTAN tabs 25mg
+bk32.	ARB	Losartan	50	LOSARTAN tabs 50mg
+bk33.	ARB	Losartan	25	COZAAR tabs 25mg
+bk34.	ARB	Losartan	50	COZAAR TAB 50
+bk35.	ARB	Losartan	50	LOSARTAN + HYDROCHLOROTHIAZIDE tabs 50mg + 12.5mg
+bk35.	DIUR_THI	Hydrochlorothiazide	12.5	LOSARTAN + HYDROCHLOROTHIAZIDE tabs 50mg + 12.5mg
+bk36.	ARB	Losartan	50	Cozaar-Comp Tablets 50mg + 12.5mg
+bk36.	DIUR_THI	Hydrochlorothiazide	12.5	Cozaar-Comp Tablets 50mg + 12.5mg
+bk37.	ARB	Losartan	100	LOSARTAN tabs 100mg
+bk38.	ARB	Losartan	100	COZAAR tabs 100mg
+bk39.	ARB	Losartan	100	COZAAR-COMP tabs 100mg + 25mg
+bk39.	DIUR_THI	Hydrochlorothiazide	25	COZAAR-COMP tabs 100mg + 25mg
+bk3A.	ARB	Losartan	100	COZAAR-COMP tabs 100mg + 12.5mg
+bk3A.	DIUR_THI	Hydrochlorothiazide	12.5	COZAAR-COMP tabs 100mg + 12.5mg
+bk3B.	ARB	Losartan	12.5	COZAAR tabs 12.5mg
+bk3C.	ARB	Losartan	12.5	Losartan 12.5mg tablets
+bk3E.	ARB	Losartan	2.5	Losartan 2.5mg/ml oral suspension sugar free
+bk3y.	ARB	Losartan	100	LOSARTAN + HYDROCHLOROTHIAZIDE tabs 100mg + 12.5mg
+bk3y.	DIUR_THI	Hydrochlorothiazide	12.5	LOSARTAN + HYDROCHLOROTHIAZIDE tabs 100mg + 12.5mg
+bk3z.	ARB	Losartan	100	LOSARTAN + HYDROCHLOROTHIAZIDE tabs 100mg + 25mg
+bk3z.	DIUR_THI	Hydrochlorothiazide	25	LOSARTAN + HYDROCHLOROTHIAZIDE tabs 100mg + 25mg
+bk4..	ARB	Valsartan	80	Valsartan 80mg tablets
+bk41.	ARB	Valsartan	40	VALSARTAN caps 40mg
+bk42.	ARB	Valsartan	80	VALSARTAN caps 80mg
+bk43.	ARB	Valsartan	160	VALSARTAN caps 160mg
+bk44.	ARB	Valsartan	40	DIOVAN caps 40mg
+bk45.	ARB	Valsartan	80	DIOVAN caps 80mg
+bk46.	ARB	Valsartan	160	DIOVAN caps 160mg
+bk47.	ARB	Valsartan	160	CO-DIOVAN tabs 160mg + 12.5mg
+bk47.	DIUR_THI	Hydrochlorothiazide	12.5	CO-DIOVAN tabs 160mg + 12.5mg
+bk48.	ARB	Valsartan	160	CO-DIOVAN tabs 160mg + 25mg
+bk48.	DIUR_THI	Hydrochlorothiazide	25	CO-DIOVAN tabs 160mg + 25mg
+bk49.	ARB	Valsartan	80	CO-DIOVAN tabs 80mg + 12.5mg
+bk49.	DIUR_THI	Hydrochlorothiazide	12.5	CO-DIOVAN tabs 80mg + 12.5mg
+bk4v.	ARB	Valsartan	320	Valsartan 320mg tablets
+bk4w.	ARB	Valsartan	40	VALSARTAN tabs 40mg
+bk4x.	ARB	Valsartan	80	VALSARTAN + HYDROCHLOROTHIAZIDE tabs 80mg + 12.5mg
+bk4x.	DIUR_THI	Hydrochlorothiazide	12.5	VALSARTAN + HYDROCHLOROTHIAZIDE tabs 80mg + 12.5mg
+bk4y.	ARB	Valsartan	160	VALSARTAN + HYDROCHLOROTHIAZIDE tabs 160mg + 25mg
+bk4y.	DIUR_THI	Hydrochlorothiazide	25	VALSARTAN + HYDROCHLOROTHIAZIDE tabs 160mg + 25mg
+bk4z.	ARB	Valsartan	160	VALSARTAN + HYDROCHLOROTHIAZIDE tabs 160mg + 12.5mg
+bk4z.	DIUR_THI	Hydrochlorothiazide	12.5	VALSARTAN + HYDROCHLOROTHIAZIDE tabs 160mg + 12.5mg
+bk51.	ARB	Irbesartan	75	IRBESARTAN tabs 75mg
+bk52.	ARB	Irbesartan	150	IRBESARTAN tabs 150mg
+bk53.	ARB	Irbesartan	300	IRBESARTAN tabs 300mg
+bk54.	ARB	Irbesartan	75	APROVEL tabs 75mg
+bk55.	ARB	Irbesartan	150	APROVEL tabs 150mg
+bk56.	ARB	Irbesartan	300	APROVEL tabs 300mg
+bk57.	ARB	Irbesartan	150	Coaprovel Tablets 150mg + 12.5mg
+bk57.	DIUR_THI	Hydrochlorothiazide	12.5	Coaprovel Tablets 150mg + 12.5mg
+bk58.	ARB	Irbesartan	300	Coaprovel Tablets 300 mg + 12.5 mg
+bk58.	DIUR_THI	Hydrochlorothiazide	12.5	Coaprovel Tablets 300 mg + 12.5 mg
+bk59.	ARB	Irbesartan	300	COAPROVEL tabs 300mg + 25mg
+bk59.	DIUR_THI	Hydrochlorothiazide	25	COAPROVEL tabs 300mg + 25mg
+bk5x.	ARB	Irbesartan	300	IRBESARTAN + HYDROCHLOROTHIAZIDE tabs 300mg + 25mg
+bk5x.	DIUR_THI	Hydrochlorothiazide	25	IRBESARTAN + HYDROCHLOROTHIAZIDE tabs 300mg + 25mg
+bk5y.	ARB	Irbesartan	300	IRBESARTAN + HYDROCHLOROTHIAZIDE tabs 300mg + 12.5mg
+bk5y.	DIUR_THI	Hydrochlorothiazide	12.5	IRBESARTAN + HYDROCHLOROTHIAZIDE tabs 300mg + 12.5mg
+bk5z.	ARB	Irbesartan	150	IRBESARTAN + HYDROCHLOROTHIAZIDE tabs 150mg + 12.5mg
+bk5z.	DIUR_THI	Hydrochlorothiazide	12.5	IRBESARTAN + HYDROCHLOROTHIAZIDE tabs 150mg + 12.5mg
+bk61.	ACEI	Trandolapril	2	VERAPAMIL HCl + TRANDOLAPRIL mr cap 180mg + 2mg
+bk61.	CCB	Verapamil	180	VERAPAMIL HCl + TRANDOLAPRIL mr cap 180mg + 2mg
+bk62.	ACEI	Trandolapril	2	TARKA caps 180mg + 2mg
+bk62.	CCB	Verapamil	180	TARKA caps 180mg + 2mg
+bk7..	ARB	Candesartan	8	Candesartan 8mg/5ml oral solution
+bk71.	ARB	Candesartan	2	CANDESARTAN tabs 2mg
+bk72.	ARB	Candesartan	4	CANDESARTAN tabs 4mg
+bk73.	ARB	Candesartan	8	CANDESARTAN tabs 8mg
+bk74.	ARB	Candesartan	16	CANDESARTAN tabs 16mg
+bk75.	ARB	Candesartan	2	Amias 2mg tablets (Takeda UK Ltd)
+bk76.	ARB	Candesartan	4	AMIAS tabs 4mg
+bk77.	ARB	Candesartan	8	AMIAS tabs 8mg
+bk78.	ARB	Candesartan	16	AMIAS tabs 16mg
+bk79.	ARB	Candesartan	32	Amias 32mg tablets (Takeda UK Ltd)
+bk7z.	ARB	Candesartan	32	CANDESARTAN tabs 32mg
+bk81.	ARB	Telmisartan	40	TELMISARTAN tabs 40mg
+bk82.	ARB	Telmisartan	80	TELMISARTAN tabs 80mg
+bk83.	ARB	Telmisartan	40	MICARDIS tabs 40mg
+bk84.	ARB	Telmisartan	80	MICARDIS tabs 80mg
+bk85.	ARB	Telmisartan	20	MICARDIS tabs 20mg
+bk86.	ARB	Telmisartan	40	MICARDIS PLUS tabs 40mg + 12.5mg
+bk86.	DIUR_THI	Hydrochlorothiazide	12.5	MICARDIS PLUS tabs 40mg + 12.5mg
+bk87.	ARB	Telmisartan	80	MICARDIS PLUS tabs 80mg + 12.5mg
+bk87.	DIUR_THI	Hydrochlorothiazide	12.5	MICARDIS PLUS tabs 80mg + 12.5mg
+bk8w.	ARB	Telmisartan	80	TELMISARTAN + HYDROCHLOROTHIAZIDE tabs 80mg + 25mg
+bk8w.	DIUR_THI	Hydrochlorothiazide	25	TELMISARTAN + HYDROCHLOROTHIAZIDE tabs 80mg + 25mg
+bk8x.	ARB	Telmisartan	40	TELMISARTAN + HYDROCHLOROTHIAZIDE tabs 40mg + 12.5mg
+bk8x.	DIUR_THI	Hydrochlorothiazide	12.5	TELMISARTAN + HYDROCHLOROTHIAZIDE tabs 40mg + 12.5mg
+bk8y.	ARB	Telmisartan	80	TELMISARTAN + HYDROCHLOROTHIAZIDE tabs 80mg + 12.5mg
+bk8y.	DIUR_THI	Hydrochlorothiazide	12.5	TELMISARTAN + HYDROCHLOROTHIAZIDE tabs 80mg + 12.5mg
+bk8z.	ARB	Telmisartan	20	TELMISARTAN tabs 20mg
+bk91.	ARB	Eprosartan	300	TEVETEN tabs 300mg
+bk92.	ARB	Eprosartan	400	TEVETEN tabs 400mg
+bk93.	ARB	Eprosartan	600	TEVETEN tabs 600mg
+bk9x.	ARB	Eprosartan	300	EPROSARTAN tabs 300mg
+bk9y.	ARB	Eprosartan	400	EPROSARTAN tabs 400mg
+bk9z.	ARB	Eprosartan	600	EPROSARTAN tabs 600mg
+bkB1.	ARB	Olmesartan	10	OLMESARTAN MEDOXOMIL tabs 10mg
+bkB2.	ARB	Olmesartan	20	OLMESARTAN MEDOXOMIL tabs 20mg
+bkB3.	ARB	Olmesartan	40	OLMESARTAN MEDOXOMIL tabs 40mg
+bkB4.	ARB	Olmesartan	10	OLMETEC tabs 10mg
+bkB5.	ARB	Olmesartan	20	OLMETEC tabs 20mg
+bkB6.	ARB	Olmesartan	40	Olmetec 40mg tablets (Daiichi Sankyo UK Ltd)
+bkC1.	ARB	Olmesartan	20	OLMETEC PLUS tabs 20mg + 12.5mg
+bkC1.	DIUR_THI	Hydrochlorothiazide	12.5	OLMETEC PLUS tabs 20mg + 12.5mg
+bkC2.	ARB	Olmesartan	20	OLMETEC PLUS tabs 20mg + 25mg
+bkC2.	DIUR_THI	Hydrochlorothiazide	25	OLMETEC PLUS tabs 20mg + 25mg
+bkCy.	ARB	Olmesartan	20	OLMESARTAN MEDOXOMIL + HYDROCHLOROTHIAZIDE tabs 20mg + 25mg
+bkCy.	DIUR_THI	Hydrochlorothiazide	25	OLMESARTAN MEDOXOMIL + HYDROCHLOROTHIAZIDE tabs 20mg + 25mg
+bkCz.	ARB	Olmesartan	20	OLMESARTAN MEDOXOMIL + HYDROCHLOROTHIAZIDE tabs 20mg+12.5mg
+bkCz.	DIUR_THI	Hydrochlorothiazide	12.5	OLMESARTAN MEDOXOMIL + HYDROCHLOROTHIAZIDE tabs 20mg+12.5mg
+bkD1.	CCB	Amlodipine	5	AMLODIPINE + VALSARTAN tabs 5mg + 80mg
+bkD1.	ARB	Valsartan	80	AMLODIPINE + VALSARTAN tabs 5mg + 80mg
+bkD2.	CCB	Amlodipine	5	AMLODIPINE + VALSARTAN tabs 5mg + 160mg
+bkD2.	ARB	Valsartan	160	AMLODIPINE + VALSARTAN tabs 5mg + 160mg
+bkD3.	CCB	Amlodipine	10	AMLODIPINE + VALSARTAN tabs 10mg + 160mg
+bkD3.	ARB	Valsartan	160	AMLODIPINE + VALSARTAN tabs 10mg + 160mg
+bkDx.	CCB	Amlodipine	10	EXFORGE tabs 10mg + 160mg
+bkDx.	ARB	Valsartan	160	EXFORGE tabs 10mg + 160mg
+bkDy.	CCB	Amlodipine	5	EXFORGE tabs 5mg + 160mg
+bkDy.	ARB	Valsartan	160	EXFORGE tabs 5mg + 160mg
+bkDz.	CCB	Amlodipine	5	EXFORGE tabs 5mg + 80mg
+bkDz.	ARB	Valsartan	80	EXFORGE tabs 5mg + 80mg
+bkH1.	ARB	Olmesartan	20	Sevikar 20mg/5mg tablets (Daiichi Sankyo UK Ltd)
+bkH1.	CCB	Amlodipine	5	Sevikar 20mg/5mg tablets (Daiichi Sankyo UK Ltd)
+bkHx.	ARB	Olmesartan	40	OLMESARTAN MEDOXOMIL + AMLODIPINE tabs 40mg + 10mg
+bkHx.	CCB	Amlodipine	10	OLMESARTAN MEDOXOMIL + AMLODIPINE tabs 40mg + 10mg
+bkHy.	ARB	Olmesartan	40	OLMESARTAN MEDOXOMIL + AMLODIPINE tabs 40mg + 5mg
+bkHy.	CCB	Amlodipine	5	OLMESARTAN MEDOXOMIL + AMLODIPINE tabs 40mg + 5mg
+bkHz.	ARB	Olmesartan	20	Olmesartan medoxomil 20mg / Amlodipine 5mg tablets
+bkHz.	CCB	Amlodipine	5	Olmesartan medoxomil 20mg / Amlodipine 5mg tablets
+bl51.	CCB	Diltiazem	60	TILDIEM mr tab 60mg
+bl53.	CCB	Diltiazem	60	BRITIAZIM TAB 60
+bl54.	CCB	Diltiazem	120	ADIZEM SR tablets 120mg
+bl55.	CCB	Diltiazem	120	DILTIAZEM mr tab 120mg
+bl58.	CCB	Diltiazem	90	TILDIEM RETARD TABS 90mg
+bl59.	CCB	Diltiazem	120	TILDIEM RETARD tabs 120mg
+bl5a.	CCB	Diltiazem	90	DILTIAZEM MR TAB 90MG
+bl5A.	CCB	Diltiazem	300	TILDIEM LA caps 300mg
+bl5b.	CCB	Diltiazem	300	DILTIAZEM 24hr mr caps 300mg
+bl5B.	CCB	Diltiazem	90	ADIZEM SR caps 90mg
+bl5c.	CCB	Diltiazem	90	DILTIAZEM mr cap 90mg
+bl5C.	CCB	Diltiazem	120	ADIZEM SR caps 120mg
+bl5d.	CCB	Diltiazem	120	DILTIAZEM mr cap 120mg
+bl5D.	CCB	Diltiazem	180	ADIZEM SR cap 180mg
+bl5e.	CCB	Diltiazem	180	DILTIAZEM mr cap 180mg
+bl5E.	CCB	Diltiazem	300	ADIZEM XL caps 300mg
+bl5f.	CCB	Diltiazem	60	DILTIAZEM 12hr mr caps 60mg
+bl5F.	CCB	Diltiazem	60	DILZEM SR caps 60mg
+bl5g.	CCB	Diltiazem	240	DILTIAZEM 24hr mr caps 240mg
+bl5G.	CCB	Diltiazem	90	Dilzem SR 90 capsules (Teva UK Ltd)
+bl5h.	CCB	Diltiazem	200	DILTIAZEM 24hr mr caps 200mg
+bl5H.	CCB	Diltiazem	120	Dilzem SR 120 capsules (Teva UK Ltd)
+bl5I.	CCB	Diltiazem	240	ADIZEM XL caps 240mg
+bl5j.	CCB	Diltiazem		ADIZEM-XL PLUS CAP
+bl5J.	CCB	Diltiazem	180	ADIZEM XL caps 180mg
+bl5K.	CCB	Diltiazem	120	ADIZEM XL caps 120mg
+bl5l.	CCB	Diltiazem	60	Dilcardia SR 60mg capsules (Generics (UK) Ltd)
+bl5L.	CCB	Diltiazem	120	DILZEM XL caps 120mg
+bl5M.	CCB	Diltiazem	180	DILZEM XL caps 180mg
+bl5n.	CCB	Diltiazem	300	ZEMTARD XL caps 300mg
+bl5N.	CCB	Diltiazem	240	DILZEM XL MR caps 240mg
+bl5o.	CCB	Diltiazem	120	VIAZEM XL caps 120mg
+bl5O.	CCB	Diltiazem	120	SLOZEM caps 120mg
+bl5p.	CCB	Diltiazem	180	VIAZEM XL caps 180mg
+bl5P.	CCB	Diltiazem	180	SLOZEM caps 180mg
+bl5q.	CCB	Diltiazem	240	VIAZEM XL caps 240mg
+bl5Q.	CCB	Diltiazem	240	SLOZEM caps 240mg
+bl5r.	CCB	Diltiazem	300	VIAZEM XL caps 300mg
+bl5R.	CCB	Diltiazem	90	ANGITIL sr cap 90mg
+bl5s.	CCB	Diltiazem	360	DILTIAZEM 24hr mr caps 360mg
+bl5S.	CCB	Diltiazem	120	ANGITIL sr cap 120mg
+bl5t.	CCB	Diltiazem	360	VIAZEM XL caps 360mg
+bl5U.	CCB	Diltiazem	180	Angitil SR 180 capsules (Chiesi Ltd)
+bl5v.	CCB	Diltiazem	90	Dilcardia SR 90mg capsules (Generics (UK) Ltd)
+bl5V.	CCB	Diltiazem	90	CALCICARD CR cr tab 90mg
+bl5W.	CCB	Diltiazem	120	CALCICARD CR cr tab 120mg
+bl5x.	CCB	Diltiazem	240	ANGITIL XL caps 240mg
+bl5y.	CCB	Diltiazem	300	ANGITIL XL extra mr caps 300mg
+bl5z.	CCB	Diltiazem	60	DILTIAZEM tabs 60mg
+bl5Z.	CCB	Diltiazem	200	TILDIEM LA caps 200mg
+bl71.	CCB	Nicardipine	20	CARDENE CAP 20
+bl72.	CCB	Nicardipine	30	CARDENE CAP 30
+bl73.	CCB	Nicardipine	30	CARDENE SR caps 30mg
+bl74.	CCB	Nicardipine	45	CARDENE SR caps 45mg
+bl7w.	CCB	Nicardipine	45	Nicardipine 45mg modified-release capsules
+bl7x.	CCB	Nicardipine	30	NICARDIPINE HCl mr cap 30mg
+bl7y.	CCB	Nicardipine	20	NICARDIPINE HCl caps 20mg
+bl7z.	CCB	Nicardipine	30	NICARDIPINE HCl caps 30mg
+bl8..	CCB	Nifedipine	20	Nifedipine 20mg/ml oral drops
+bl81.	CCB	Nifedipine	5	ADALAT caps 5mg
+bl82.	CCB	Nifedipine	10	ADALAT CAP 10
+bl83.	CCB	Nifedipine	20	ADALAT RETARD tabs 20mg
+bl84.	CCB	Nifedipine	10	ADALAT RETARD tabs 10mg
+bl85.	CCB	Nifedipine	50	NIFEDIPINE caps 5mg
+bl86.	CCB	Nifedipine	10	NIFEDIPINE caps 10mg
+bl8A.	CCB	Nifedipine	20	ADIPINE MR 20 mr tab 20mg
+bl8B.	CCB	Nifedipine	10	ADIPINE MR 10 mr tab 10mg
+bl8C.	CCB	Nifedipine	30	Unipine Xl M/R Tablets 30mg
+bl8e.	CCB	Nifedipine	20	CORACTEN SR mr cap 20mg
+bl8F.	CCB	Nifedipine	40	NIFEDIPINE 24 hr mr tabs 40mg
+bl8h.	CCB	Nifedipine	20	NIFENSAR XL TAB 20
+bl8i.	CCB	Nifedipine	30	ADALAT LA tabs 30mg
+bl8j.	CCB	Nifedipine	60	ADALAT LA tabs 60mg
+bl8J.	CCB	Nifedipine	10	TENSIPINE MR tabs 10mg
+bl8k.	CCB	Nifedipine	10	CORACTEN SR mr cap 10mg
+bl8K.	CCB	Nifedipine	20	TENSIPINE MR tabs 20mg
+bl8l.	CCB	Nifedipine	20	Cardilate Mr M/R Tablets 20mg
+bl8L.	CCB	Nifedipine	40	FORTIPINE LA40 tabs 40mg
+bl8M.	CCB	Nifedipine	20	ADALAT LA tabs 20mg
+bl8q.	CCB	Nifedipine	20	HYPOLAR RETARD-20 mr tab 20mg
+bl8S.	CCB	Nifedipine	10	NIFEDIPRESS MR mr tab 10mg
+bl8t.	CCB	Nifedipine	20	NIFOPRESS RETARD mr tab 20mg
+bl8u.	CCB	Nifedipine	10	NIFEDIPINE 12hr mr caps 10mg
+bl8U.	CCB	Nifedipine	20	NIFEDIPRESS MR mr tab 20mg
+bl8v.	CCB	Nifedipine	20	NIFEDIPINE 12hr mr caps 20mg
+bl8V.	CCB	Nifedipine	30	NIFEDIPINE 24hr mr caps 30mg
+bl8w.	CCB	Nifedipine	10	NIFEDIPINE 12hr mr tabs 10mg
+bl8W.	CCB	Nifedipine	60	NIFEDIPINE 24hr mr caps 60mg
+bl8x.	CCB	Nifedipine	30	NIFEDIPINE 24 hr mr tabs 30mg
+bl8X.	CCB	Nifedipine	30	CORACTEN XL mr cap 30mg
+bl8y.	CCB	Nifedipine	60	NIFEDIPINE 24 hr mr tabs 60mg
+bl8Y.	CCB	Nifedipine	60	CORACTEN XL mr cap 60mg
+bl8z.	CCB	Nifedipine	20	NIFEDIPINE 12hr mr tabs 20mg
+bl8Z.	CCB	Nifedipine	20	Nivaten Retard M/R Tablets 20mg
+bla1.	CCB	Isradipine	2.5	ISRADIPINE tabs 2.5mg
+bla2.	CCB	Isradipine	2.5	PRESCAL tabs 2.5mg
+blb..	CCB	Amlodipine	5	AMLODIPINE oral susp 5mg/5ml
+blb1.	CCB	Amlodipine	5	AMLODIPINE tabs 5mg
+blb2.	CCB	Amlodipine	10	AMLODIPINE tabs 10mg
+blb3.	CCB	Amlodipine	5	ISTIN tabs 5mg
+blb4.	CCB	Amlodipine	10	ISTIN tabs 10mg
+blb5.	CCB	Amlodipine	5	AMLOSTIN tabs 5mg
+blb6.	CCB	Amlodipine	10	AMLOSTIN tabs 10mg
+blc1.	CCB	Felodipine	5	FELODIPINE mr tab 5mg
+blc2.	CCB	Felodipine	10	FELODIPINE mr tab 10mg
+blc3.	CCB	Felodipine	5	PLENDIL SR TAB 5
+blc4.	CCB	Felodipine	10	PLENDIL extended release tab 10mg
+blc5.	CCB	Felodipine	2.5	FELODIPINE mr tab 2.5mg
+blc6.	CCB	Felodipine	2.5	PLENDIL extended release tab 2.5mg
+blca.	CCB	Felodipine	5	FELOTENS mr tab 5mg
+blcb.	CCB	Felodipine	10	FELOTENS mr tab 10mg
+blcd.	CCB	Felodipine	5	FELENDIL XL mr tab 5mg
+blcj.	CCB	Felodipine	10	VASCALPHA PR tab 10mg
+blck.	CCB	Felodipine	5	CARDIOPLEN XL tabs 5mg
+blcl.	CCB	Felodipine	10	CARDIOPLEN XL tabs 10mg
+blcm.	CCB	Felodipine	5	NEOFEL XL tabs 5mg
+blcn.	CCB	Felodipine	10	Neofel XL 10mg tablets (Fannin UK Ltd)
+blcs.	CCB	Felodipine	2.5	NEOFEL XL tabs 2.5mg
+ble1.	CCB	Lacidipine	2	LACIDIPINE tabs 2mg
+ble2.	CCB	Lacidipine	4	LACIDIPINE tabs 4mg
+ble3.	CCB	Lacidipine	2	MOTENS 2MG TAB 2
+ble4.	CCB	Lacidipine	4	MOTENS 4MG TAB 4
+blg1.	CCB	Nisoldipine	10	NISOLDIPINE mr tab 10mg
+blg2.	CCB	Nisoldipine	20	NISOLDIPINE mr tab 20mg
+blg5.	CCB	Nisoldipine	20	SYSCOR MR mr tab 20mg
+blg6.	CCB	Nisoldipine	30	SYSCOR MR mr tab 30mg
+blh1.	CCB	Lercanidipine	10	LERCANIDIPINE HCl tabs 10mg
+blh2.	CCB	Lercanidipine	10	Zanidip Tablets 10mg
+blh3.	CCB	Lercanidipine	20	LERCANIDIPINE HCl tabs 20mg
+blh4.	CCB	Lercanidipine	20	ZANIDIP tabs 20mg
+bli1.	CCB	Mibefradil	50	MIBEFRADIL TAB 50
+bli2.	CCB	Mibefradil	100	MIBEFRADIL TAB 100
+bli4.	CCB	Mibefradil	100	POSICOR tabs 100mg
+blj1.	CCB	Diltiazem	120	ZEMTARD XL caps 120mg
+blj2.	CCB	Diltiazem	180	ZEMTARD XL caps 180mg
+blj3.	CCB	Diltiazem	240	ZEMTARD XL caps 240mg
+blja.	CCB	Diltiazem	300	DILTIAZEM 24hr mr caps 300mg
+bljJ.	CCB	Diltiazem	300	SLOZEM caps 300mg
+bljP.	CCB	Diltiazem	200	ADIZEM XL caps 200mg
+bljY.	CCB	Diltiazem	180	DILTIAZEM 24hr mr caps 180mg
+bll1.	CCB	Nifedipine	30	SLOFEDIPINE XL mr tab 30mg
+bll2.	CCB	Nifedipine	60	SLOFEDIPINE XL mr tab 60mg
+bllc.	CCB	Nifedipine	30	ADIPINE XL tabs 30mg
+blld.	CCB	Nifedipine	60	ADIPINE XL tabs 60mg
+bllf.	CCB	Nifedipine	30	NIMODREL XL tabs 30mg
+bllg.	CCB	Nifedipine	30	Valni XL 30mg tablets (Zentiva)
+gc51.	ALPHA	Terazosin		HYTRIN BPH starter pack
+gc52.	ALPHA	Terazosin	2	HYTRIN BPH tabs 2mg
+gc53.	ALPHA	Terazosin	5	HYTRIN BPH tabs 5mg
+gc5z.	ALPHA	Terazosin		TERAZOSIN BPH starter pack 7 x 1mg + 14 x 2mg + 7 x 5mg
+gc61.	ALPHA	Alfuzosin	2.5	ALFUZOSIN tabs 2.5mg
+gc62.	ALPHA	Alfuzosin	2.5	XATRAL tabs 2.5mg
+gc63.	ALPHA	Alfuzosin	5	ALFUZOSIN mr tab 5mg
+gc64.	ALPHA	Alfuzosin	5	XATRAL SR TABS 5MG
+gc65.	ALPHA	Alfuzosin	10	XATRAL XL tabs 10mg
+gc67.	ALPHA	Alfuzosin	10	Besavar XL 10mg tablets (Actavis UK Ltd)
+gc68.	ALPHA	Alfuzosin	10	VASRAN XL mr tab 10mg
+gc6z.	ALPHA	Alfuzosin	10	ALFUZOSIN mr tab 10mg
+gc71.	ALPHA	Tamsulosin	0.4	TAMSULOSIN HCl mr cap 400micrograms
+gc72.	ALPHA	Tamsulosin	0.4	FLOMAX MR mr cap 400micrograms
+gc73.	ALPHA	Tamsulosin	0.4	TAMSULOSIN HCl mr tab 400micrograms
+gc74.	ALPHA	Tamsulosin	0.4	FLOMAXTRA XL mr tab 400micrograms
+gc75.	ALPHA	Tamsulosin	0.4	BAZETHAM MR caps 400micrograms
+gc76.	ALPHA	Tamsulosin	0.4	TABPHYN MR caps 400micrograms
+gc77.	ALPHA	Tamsulosin	0.4	Stronazon 400microgram MR capsules (Actavis UK Ltd)
+gc78.	ALPHA	Tamsulosin	0.4	OMNIC MR caps 400micrograms
+gc79.	ALPHA	Tamsulosin	0.4	Contiflo XL 400microgram capsules (Ranbaxy (UK) Ltd)
+gc7B.	ALPHA	Tamsulosin	0.4	FLOMAX RELIEF MR mr cap 400micrograms
+gc7C.	ALPHA	Tamsulosin	0.4	PINEXEL PR caps 400micrograms
+gc7E.	ALPHA	Tamsulosin	0.4	PAMSVAX XL caps 400micrograms
+gc81.	ALPHA	Tamsulosin	0.4	Tamsulosin 400microgram / Dutasteride 500microgram capsules
+gc82.	ALPHA	Tamsulosin	0.4	Combodart 0.5mg/0.4mg capsules (GlaxoSmithKline UK Ltd)
