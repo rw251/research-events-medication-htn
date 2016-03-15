@@ -1,21 +1,31 @@
 /* jshint node: true */
 "use strict";
 
-var path = require('path'),
+var parse = require('csv-parse'),
+  path = require('path'),
   fs = require('fs'),
-  stream = require('stream'),
-  es = require("event-stream");
+  //stream = require('stream'),
+  es = require("event-stream"),
+  transform = require('stream-transform');
 
 var dictionary = {};
 
+var find = function(code) {
+  if (dictionary[code]) return dictionary[code];
+  return [];
+};
+
 module.exports = {
 
-  find: function(code) {
-    if(dictionary[code]) return dictionary[code];
-    return [];
-  },
+  /*
+   * Lookup codes in the dictionary
+   */
+  find: find,
 
-  loadCodes: function(callback) {
+  /*
+   * Populate the dictionary from code lists in files
+   */
+  loadCodes: function(log, callback) {
     var start, s, els, files = fs.readdirSync('resources');
 
     var itemsProcessed = 0;
@@ -45,27 +55,76 @@ module.exports = {
                 if (dictionary[els[0]]) {
                   dictionary[els[0]].push(item);
                 } else {
-                  dictionary[els[0]]=[item];
+                  dictionary[els[0]] = [item];
                 }
-              } else {
-                console.log("Line doesn't have 5 elements: " + line);
+              } else if (els.length > 1) {
+                if (log) console.log("Line doesn't have 5 elements: " + line);
               }
               // resume the readstream
               s.resume();
             })();
           })
           .on('error', function(err) {
-            console.log('Error while reading file.');
+            if (log) console.log('Error while reading file.');
             callback(err);
           })
           .on('end', function() {
-            console.log('Read entirefile.');
+            if (log) console.log('Read entirefile.');
             itemsProcessed++;
-            if(itemsProcessed === files.length) {
+            if (itemsProcessed === files.length) {
               callback(null);
             }
           })
         );
     });
+  },
+
+  /*
+   * Convert a file containing a list of codes, into one with
+   * the associated family, type and dose
+   */
+  processCodeList: function(file, callback) {
+    if (!file) {
+      return callback(new Error("No file name specifiec"));
+    }
+
+    var parser = parse({
+      delimiter: '||||',
+      trim: true,
+      quote: ""
+    });
+
+    var transformer = transform(function(data, callback) {
+      setImmediate(function() {
+        var rtn = find(data[0]).map(function(v) {
+          return [data[0], v.family, v.type, v.dose].join("\t")+"\n";
+        });
+        rtn.unshift(null);
+        callback.apply(this, rtn);
+      });
+    }, {
+      parallel: 20
+    });
+
+    transformer.on('readable', function(row) {
+      while ((row = transformer.read()) !== null) {
+        return row;
+      }
+    });
+
+    transformer.on('error', function(err) {
+      console.log(err.message);
+    });
+
+    console.time('Elapsed');
+
+    var input = fs.createReadStream(file);
+    var output = fs.createWriteStream(file + '.done');
+    output.on('finish', function() {
+      console.timeEnd('Elapsed');
+      callback(null);
+    });
+
+    input.pipe(parser).pipe(transformer).pipe(output);
   }
 };
