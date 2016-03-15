@@ -23,7 +23,6 @@
     "csv-parse": "1.x.x",
     "event-stream": "3.x.x",
     "fs": "0.x.x",
-    "sqlite3": "3.1.x",
     "stream-transform": "0.1.x"
   },
   "devDependencies": {
