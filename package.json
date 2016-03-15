@@ -4,16 +4,31 @@
   "description": "Mining meaningful hypertension medication events from routinely collected EHR data.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec",
+    "test-0.10": "node --harmony node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec",
+    "start": "node index.js",
+    "debug": "node-debug index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rw251/research-events-medication-htn.git"
+    "url": "https://github.com/rw251/research-events-medication-htn.git"
   },
   "author": "Richard Williams <richard.williams2@manchester.ac.uk>",
+  "contributors": [],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/rw251/research-events-medication-htn/issues"
+  "homepage": "https://github.com/rw251/research-events-medication-htn",
+  "dependencies": {
+    "csv": "0.4.x",
+    "csv-parse": "1.x.x",
+    "event-stream": "3.x.x",
+    "fs": "0.x.x",
+    "sqlite3": "3.1.x",
+    "stream-transform": "0.1.x"
   },
-  "homepage": "https://github.com/rw251/research-events-medication-htn#readme"
+  "devDependencies": {
+    "chai": "3.x.x",
+    "istanbul": "0.4.x",
+    "mocha": "2.x.x",
+    "node-inspector": "0.12.x"
+  }
 }
