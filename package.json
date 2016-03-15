@@ -19,6 +19,7 @@
   "license": "MIT",
   "homepage": "https://github.com/rw251/research-events-medication-htn",
   "dependencies": {
+    "commander": "2.9.x",
     "csv": "0.4.x",
     "csv-parse": "1.x.x",
     "event-stream": "3.x.x",
