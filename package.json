@@ -1,0 +1,19 @@
+{
+  "name": "research-events-medication-htn",
+  "version": "0.0.1",
+  "description": "Mining meaningful hypertension medication events from routinely collected EHR data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rw251/research-events-medication-htn.git"
+  },
+  "author": "Richard Williams <richard.williams2@manchester.ac.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rw251/research-events-medication-htn/issues"
+  },
+  "homepage": "https://github.com/rw251/research-events-medication-htn#readme"
+}

@@ -1,4 +1,4 @@
-CODE  FAMILY  TYPE  DOSE(mg)  DESCRIPTION
+CODE	FAMILY	TYPE	DOSE(mg)	DESCRIPTION
 ADM/19382NEMIS	CCB	Nifedipine	30	Adipine XL 30mg tablets (Chiesi Ltd)
 ADM/19383NEMIS	CCB	Nifedipine	60	Adipine Xl M/R Tablets 60 mg
 ADM/19822EMIS	CCB	Nifedipine	30	Adalat La M/R Tablets 30 mg
