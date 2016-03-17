@@ -31,29 +31,31 @@ var find = function(instruction) {
 };
 
 var load = function(log, callback) {
-  var start, s, els;
+  var start, s, els, firstRow = true;
 
-  s = fs.createReadStream(path.join('resources', 'regex.txt'), {
-      start: 20
-    }) //skips header assuming it is "TABS_PER_DAY  REGEX"
+  s = fs.createReadStream(path.join('resources', 'regex.txt'))
     .pipe(es.split())
     .pipe(es.mapSync(function(line) {
         // pause the readstream
-        s.pause();
-        (function() {
-          // process line here and call s.resume() when rdy
-          els = line.split('\t');
-          if (els.length === 2) {
-            regex.push({
-              regex: new RegExp(els[1],"i"),
-              tabs: +els[0]
-            });
-          } else if (line.length > 1) {
-            if (log) console.log("Line doesn't have 2 elements: " + line);
-          }
-          // resume the readstream
-          s.resume();
-        })();
+        if (firstRow) {
+          firstRow = false;
+        } else {
+          s.pause();
+          (function() {
+            // process line here and call s.resume() when rdy
+            els = line.split('\t');
+            if (els.length === 2) {
+              regex.push({
+                regex: new RegExp(els[1], "i"),
+                tabs: +els[0]
+              });
+            } else if (line.length > 1) {
+              if (log) console.log("Line doesn't have 2 elements: " + line);
+            }
+            // resume the readstream
+            s.resume();
+          })();
+        }
       })
       .on('error', function(err) {
         if (log) console.log('Error while reading file.');
@@ -131,7 +133,7 @@ module.exports = {
    */
   process: function(file, callback) {
     if (regex.length === 0) {
-      load(false, function(){
+      load(false, function() {
         processFile(file, callback);
       });
     } else {

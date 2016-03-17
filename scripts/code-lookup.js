@@ -61,7 +61,8 @@ var processFile = function(file, callback) {
 };
 
 var load = function(log, callback) {
-  var start, s, els, files = fs.readdirSync('resources');
+  var start, s, els, files = fs.readdirSync('resources'),
+    firstRow = true;
 
   var itemsProcessed = 0;
   files.forEach(function(file) {
@@ -70,34 +71,36 @@ var load = function(log, callback) {
       return;
     }
 
-    s = fs.createReadStream(path.join('resources', file), {
-        start: 39
-      }) //skips header assuming it is "CODE	FAMILY	TYPE	DOSE(mg)	DESCRIPTION"
+    s = fs.createReadStream(path.join('resources', file))
       .pipe(es.split())
       .pipe(es.mapSync(function(line) {
-          // pause the readstream
-          s.pause();
-          (function() {
-            // process line here and call s.resume() when rdy
-            els = line.split('\t');
-            if (els.length === 5) {
-              var item = {
-                family: els[1],
-                type: els[2],
-                dose: +els[3],
-                description: els[4]
-              };
-              if (dictionary[els[0]]) {
-                dictionary[els[0]].push(item);
-              } else {
-                dictionary[els[0]] = [item];
+          if (firstRow) {
+            firstRow = false;
+          } else {
+            // pause the readstream
+            s.pause();
+            (function() {
+              // process line here and call s.resume() when rdy
+              els = line.split('\t');
+              if (els.length === 5) {
+                var item = {
+                  family: els[1],
+                  type: els[2],
+                  dose: +els[3],
+                  description: els[4]
+                };
+                if (dictionary[els[0]]) {
+                  dictionary[els[0]].push(item);
+                } else {
+                  dictionary[els[0]] = [item];
+                }
+              } else if (els.length > 1) {
+                if (log) console.log("Line doesn't have 5 elements: " + line);
               }
-            } else if (els.length > 1) {
-              if (log) console.log("Line doesn't have 5 elements: " + line);
-            }
-            // resume the readstream
-            s.resume();
-          })();
+              // resume the readstream
+              s.resume();
+            })();
+          }
         })
         .on('error', function(err) {
           if (log) console.log('Error while reading file.');
@@ -137,7 +140,7 @@ module.exports = {
    */
   process: function(file, callback) {
     if (Object.keys(dictionary).length === 0) {
-      load(false, function(){
+      load(false, function() {
         processFile(file, callback);
       });
     } else {
