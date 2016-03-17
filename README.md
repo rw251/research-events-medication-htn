@@ -1,7 +1,9 @@
 # Hypertension medication to meaningful events
 
-
-[![Dependency Status](https://david-dm.org/rw251/research-events-medication-htn.svg)](https://david-dm.org/rw251/research-events-medication-htn)
+[![travis][travis-image]][travis-url]
+[![david-dm][david-dm-image]][david-dm-url]
+[![codecov][codecov-image]][codecov-url]
+[![bitHound][bithound-image]][bithound-url]
 
   Mining meaningful hypertension medication events from routinely collected EHR data.
 
@@ -30,3 +32,12 @@ $ execute.sh
 ```
 
 ## References
+
+[travis-url]: https://travis-ci.org/rw251/research-events-medication-htn
+[travis-image]: https://travis-ci.org/rw251/research-events-medication-htn.svg?branch=master
+[david-dm-image]: https://david-dm.org/rw251/research-events-medication-htn.svg
+[david-dm-url]: https://david-dm.org/rw251/research-events-medication-htn
+[codecov-image]: https://codecov.io/github/rw251/research-events-medication-htn/coverage.svg?branch=master
+[codecov-url]: https://codecov.io/github/rw251/research-events-medication-htn?branch=master
+[bithound-image]: https://www.bithound.io/github/rw251/research-events-medication-htn/badges/score.svg
+[bithound-url]: https://www.bithound.io/github/rw251/research-events-medication-htn
