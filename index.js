@@ -118,8 +118,8 @@ if (program.processCodes) {
             });
 
             //check for type
-            if (!hasCode && choices.filter(function(v) {
-                return [constants.DRUG_TYPE, constants.DOSE].indexOf(v.value) > -1;
+            if (!hasCode && columnTypes.filter(function(v) {
+                return [constants.DRUG_TYPE, constants.DOSE].indexOf(v) > -1;
               }).length !== 2) {
               isOk = false;
               console.log("Your must contain either a clinical code - or a drug active ingredient and dose for the algorithm to work correctly.");
