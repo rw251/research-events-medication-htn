@@ -1,0 +1,17 @@
+patid	date	number of tablets prescribed	code	description	instruction
+1	21/03/2008	30	b211.	BENDROFLUMETHIAZIDE tabs 2.5mg	one a day
+1	20/04/2008	60	b211.	BENDROFLUMETHIAZIDE tabs 2.5mg	twice daily
+1	20/05/2008	30	b211.	BENDROFLUMETHIAZIDE tabs 2.5mg	one daily
+1	19/06/2008	120	b211.	BENDROFLUMETHIAZIDE tabs 2.5mg	2 twice daily
+2	19/07/2008	60	bd12.	PROPRANOLOL tabs 40mg	twice daily
+2	18/08/2008	30	bd13.	PROPRANOLOL tabs 80mg	take one in the morning
+2	17/09/2008	120	bd12.	PROPRANOLOL tabs 40mg	four a day
+2	17/10/2008	60	bd13.	PROPRANOLOL tabs 80mg	two a day
+3	16/11/2008	30	bi18.	CAPOTEN TAB 25	one daily
+3	16/12/2008	90	bi11.	ACEPRIL TAB 12.5	three a day
+3	15/01/2009	60	bi18.	CAPOTEN TAB 25	two a day
+4	14/02/2009	30	bl53.	BRITIAZIM TAB 60	one each day
+5	16/03/2009	60	bkHz.	Olmesartan medoxomil 20mg / Amlodipine 5mg tablets	twice a day
+5	16/03/2009	60	bkHz.	Olmesartan medoxomil 20mg / Amlodipine 5mg tablets	2 a day
+6	15/04/2009	15	gc52.	HYTRIN BPH tabs 2mg	take half a tablet daily
+7	15/05/2009	30	b311.	FRUSEMIDE tabs 20mg	one daily

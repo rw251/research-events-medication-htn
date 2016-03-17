@@ -137,7 +137,7 @@ module.exports = {
    */
   process: function(file, callback) {
     if (Object.keys(dictionary).length === 0) {
-      loadFile(false, function(){
+      load(false, function(){
         processFile(file, callback);
       });
     } else {
