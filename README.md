@@ -16,8 +16,50 @@ Here is an algorithm for constructing meaningful prescription events from primar
 This was built, tested and executed against Microsoft SQL Server on Windows, however the code for execution on Linux with MySQL is also included.  This hasn't been tested to the same degree and should be checked if executing in this setup.
 
 ### Pre-requisites
-- Perl
-- SQL Server 2008 or higher (or alternative database)
+1. Perl
+2. SQL Server 2008 or higher (or alternative database)
+3. nodejs ≥ 0.10.0 (https://nodejs.org)
+4. git (https://git-scm.com/)
+
+### Quick start
+
+The following shows how to get up and running quickly using example data.
+
+1. Open a command line prompt and clone this repository
+
+        git clone https://github.com/rw251/research-events-medication-htn
+
+2. Navigate into the newly created directory
+
+        cd research-events-medication-htn
+
+3. Install the dependencies
+
+        npm install
+
+4. Convert the example data into data accepted by the main algorithm
+
+        node index.js -a resources/example-data.txt
+
+5. Follow on screen instructions. Once complete there will be a processed file
+   named `resources/example-data.txt.done` which is ready to be processed by the algorithm
+
+6. Perl script
+
+# Command line options
+```
+$ node index.js --help
+
+  Usage: index [options]
+
+  Options:
+
+    -h, --help                         output usage information
+    -V, --version                      output the version number
+    -c, --process-codes <file>         Takes <file> with a list of codes, and outputs a file with code, drug family, drug type and dose(mg)
+    -i, --process-instructions <file>  Takes <file> with a list of drug instructions (e.g. "take one a day"), and outputs a file with instruction and tablets per day
+    -a, --process-all <file>           Takes <file> with a list of drug information and outputs the data necessary for the algorithm
+```
 
 ### Execution (Windows)
 
