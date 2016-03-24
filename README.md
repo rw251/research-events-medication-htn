@@ -12,16 +12,14 @@ Primary care research databases derived from UK electronic health records (EHRs)
 
 Here is an algorithm for constructing meaningful prescription events from primary care electronic health records. These events detail the initiation, termination and alteration of antihypertensive therapy, and are useful for further analyses.
 
-## Usage
-This was built, tested and executed against Microsoft SQL Server on Windows, however the code for execution on Linux with MySQL is also included.  This hasn't been tested to the same degree and should be checked if executing in this setup.
+## Pre-requisites
+1. Perl ≥ 5.22.0
+2. nodejs ≥ 0.10.0 (https://nodejs.org)
+3. git (https://git-scm.com/)
 
-### Pre-requisites
-1. Perl
-2. SQL Server 2008 or higher (or alternative database)
-3. nodejs ≥ 0.10.0 (https://nodejs.org)
-4. git (https://git-scm.com/)
+Earlier versions may work but are untested.
 
-### Quick start
+## Quick start
 
 The following shows how to get up and running quickly using example data.
 
@@ -58,23 +56,50 @@ $ node index.js --help
     -a, --process-all <file>           Takes <file> with a list of drug information and outputs the data necessary for the algorithm
 ```
 
-# Notes
+# Usage
+## Main algorithm
+The main algorithm requires a tab separated input file containing the following fields:
+- Patient id - any value will do provided it is consistent throughout the file
+- Drug type - the active ingredient in the medication e.g. propranolol, captopril
+- Date - the date of the prescription in the form YYYY-MM-DD
+- Tablets - the number of tablets prescribed
+- Tablets per day - the number of tablets to be taken each day
+- Dose (mg) - the dose in milligrams in each tablet
+- Drug family - not currently used but still a required field
 
+The file should not contain a header row and should be sorted first by patient id, then by drug type and finally by date.
 
-
-### Execution (Windows)
-
-```sh
-$ execute.bat
+For medications that contain multiple active ingredients these should be entered on multiple lines - one for each active ingredient e.g. for 28 tablets of "Olmesartan medoxomil 20mg / Amlodipine 5mg" prescribed one a day on 10th January 2016 the file should contain:
 ```
-
-### Execution (Linux)
-
-```sh
-$ execute.sh
+[PATIENT_ID]   Amlodipine   2016-01-10   28   1   5    CCB
+[PATIENT_ID]   Olmesartan   2016-01-10   28   1   20   ARB
 ```
+The algorithm can be executed with:
 
-## References
+        perl parse_drug_file.pl [path to input file]
+
+The output is a tab separated file in the same location as the input, but suffixed with `.processed`. The file contains the following fields:
+- Patient id
+- Date
+- Drug type
+- Clinical decision event - either STARTED, STOPPED, DOSE INCREASED or DOSE DECREASED
+
+## Supplementary programs
+It may be necessary to pre process the data into a format acceptable to the algorithm. We provide tools for this.
+
+In our case we obtained the drug type, family and dose from the clinical code. The lookup data for this is kept in `./resources` in files prefixed with `drug-codes-`. We also needed to convert the prescription instruction ('take one a day') into the number of tablets per day. This uses natural language processing via regular expressions which are kept in `./resources/regex.txt`.
+
+Given a tab separated file containing some or all of the required fields, there is a command line tool to:
+1. Determine if you have sufficient data for the algorithm
+2. Process the data into a format acceptable to the algorithm
+
+Execution is as follows:
+
+        npm start -- -a [path to file]
+
+A series of questions asks the user to indicate what is stored in each column and the output can be fed into the algorithm script detailed above. Sometimes it is necessary to sort the output of this preliminary step so it is recommended that this is always performed. This can be achieved with standard unix/windows commands but also easily with the following:
+
+        npm run -s sort [path to input file] > [path to output file]
 
 [travis-url]: https://travis-ci.org/rw251/research-events-medication-htn
 [travis-image]: https://travis-ci.org/rw251/research-events-medication-htn.svg?branch=master
