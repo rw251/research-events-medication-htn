@@ -8,7 +8,9 @@
     "test-0.10": "node --harmony node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec",
     "start": "node index.js",
     "debug": "node-debug index.js",
-    "debug-test": "node-debug node_modules/mocha/bin/_mocha"
+    "debug-test": "node-debug node_modules/mocha/bin/_mocha",
+    "sort": "sort",
+    "example": "node index.js -a resources/example-data.txt && sort resources/example-data.txt.done > resources/example-data.txt.done.sorted && perl parse_drug_file.pl resources/example-data.txt.done.sorted"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
   "license": "MIT",
   "homepage": "https://github.com/rw251/research-events-medication-htn",
   "dependencies": {
+    "cash-sort": "0.2.x",
     "commander": "2.9.x",
     "csv": "0.4.x",
     "csv-parse": "1.x.x",

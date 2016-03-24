@@ -60,7 +60,7 @@ module.exports = {
             if (cols[constants.DRUG_FAMILY] && cols[constants.DRUG_TYPE] && cols[constants.DOSE]) {
               row.push(data[cols[constants.DOSE]]);
               row.push(data[cols[constants.DRUG_FAMILY]]);
-              row.push(data[cols[constants.DRUG_TYPE]]);
+              row.splice(1, 0, data[cols[constants.DRUG_TYPE]]);
               rtn.push(row.join("\t")+"\n");
             } else {
               var o = dictionary.find(data[cols[constants.CLINICAL_CODE]]);
@@ -68,7 +68,7 @@ module.exports = {
                 var newrow = row.slice();
                 newrow.push(el.dose);
                 newrow.push(el.family);
-                newrow.push(el.type);
+                newrow.splice(1, 0, el.type);
                 rtn.push(newrow.join("\t")+"\n");
               });
             }

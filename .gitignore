@@ -4,3 +4,4 @@ queries/
 out/
 resources/*.done
 resources/*.processed
+resources/*.sorted

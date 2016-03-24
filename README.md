@@ -37,14 +37,11 @@ The following shows how to get up and running quickly using example data.
 
         npm install
 
-4. Convert the example data into data accepted by the main algorithm
+4. Process some example data by following on screen instructions using
 
-        node index.js -a resources/example-data.txt
+        npm run example
 
-5. Follow on screen instructions. Once complete there will be a processed file
-   named `resources/example-data.txt.done` which is ready to be processed by the algorithm
-
-6. Perl script
+5. Output in `resources\example-data.txt.done.sorted.processed`
 
 # Command line options
 ```
@@ -60,6 +57,10 @@ $ node index.js --help
     -i, --process-instructions <file>  Takes <file> with a list of drug instructions (e.g. "take one a day"), and outputs a file with instruction and tablets per day
     -a, --process-all <file>           Takes <file> with a list of drug information and outputs the data necessary for the algorithm
 ```
+
+# Notes
+
+
 
 ### Execution (Windows)
 

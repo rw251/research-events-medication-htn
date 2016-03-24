@@ -137,6 +137,16 @@ if (program.processCodes) {
                 }
 
                 console.log("All completed successfully");
+                console.log();
+                console.log();
+
+                console.log("You should now execute: ");
+                console.log();
+                console.log("npm run -s sort " +program.processAll+".done > "+program.processAll+".done.sorted");
+                console.log();
+                console.log("Followed by:");
+                console.log();
+                console.log("perl parse_drug_file.pl "+program.processAll+".done.sorted");
                 process.exit(0);
               });
             } else {
