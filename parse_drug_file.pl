@@ -53,16 +53,16 @@ my $debug = 0;
 # Adds an event to the list   #
 ###############################
 sub addToList {
-	my ($pid, $dt, $item) = @_;
+	my ($pid, $dt, $item, $family, $dose, $evt) = @_;
 
 	if(ref($dt) eq "Time::Piece") {
 		$dt = $dt->strftime($format);
 	}
 
-	my %hash = (id => $pid,dt => "$dt 04:00:00",item => $item);
+	my %hash = (id => $pid,dt => "$dt 04:00:00",item => $item,family => $family, dose => $dose, evt => $evt);
 
 	if($debug){
-		print "OUT: $pid\t$dt 04:00:00\t$item\n";
+		print "OUT: $pid\t$dt 04:00:00\t$item\t$family\t$dose\t$evt\n";
 	}
 	push(@patientEvents, \%hash);
 }
@@ -74,7 +74,7 @@ sub addToList {
 ###############################
 sub writeOutput {
 	my @sorted = sort { $a->{id} <=> $b->{id} or $a->{dt} cmp $b->{dt}} @patientEvents;
-	$output .= "$_->{id}\t$_->{dt}\t$_->{item}\n" foreach (@sorted);
+	$output .= "$_->{id}\t$_->{dt}\t$_->{item}\t$_->{family}\t$_->{dose}\t$_->{evt}\n" foreach (@sorted);
 }
 
 ###############################
@@ -91,17 +91,17 @@ sub noTypes{
 # drug termination event      #
 ###############################
 sub isDrugStopped {
-	my ($pid, $type, $testDate) = @_;
+	my ($pid, $type, $family, $testDate) = @_;
 
 	if($debug) {
-		print "isDrugStopped\t$pid\t$type\t$testDate\n";
+		print "isDrugStopped\t$pid\t$type\t$family\t$testDate\n";
 	}
 
 	if($types{"expChk"} < $testDate) {
 		if($debug) {
 			print "STOPPED:\tEXPCHK:" .$types{"expChk"} . "\tEXP:" .$types{"exp"} . "\tTEST:$testDate\n";
 		}
-		addToList($pid,$types{"exp"},"$type STOPPED");
+		addToList($pid,$types{"exp"},"$type","$family","0","STOPPED");
 		%types = ();
 	}
 }
@@ -118,15 +118,15 @@ sub newType{
 	if($perDay eq ""){
 		$perDay = 1;
 	}
+	my $dose = $mg*$perDay;
 	#New type
-	addToList($pid,$dt,"$type STARTED");
+	addToList($pid,$dt,"$type","$family","$dose","STARTED");
 
 	#Add type as well
 	%types=();
 	my $dtExpires = $dt + (ONE_DAY*$tabs/$perDay);
 	my $dtExpLong = $dt + ($rxLengthProportion*ONE_DAY*$tabs/$perDay);
 	my $dtExpChck = $dt + ($terminationProportion*ONE_DAY*$tabs/$perDay);
-	my $dose = $mg*$perDay;
 
 	if($debug){
 		print $dtExpLong->strftime($format) . "\t" . $dtExpires->strftime($format) . "\t" . $dtExpChck->strftime($format) . "\n";
@@ -233,24 +233,24 @@ sub evaluate{
 		if($i==0) {
 			newType($family, $type, $dt, $perDay, $mg, $tabs, $pid);
 		}
-		isDrugStopped($pid, $type, $dt);
+		isDrugStopped($pid, $type, $family, $dt);
 		my $dtExpires = $dt + (ONE_DAY*$tabs/$perDay);
 		my $dtExpLong = $dt + ($rxLengthProportion*ONE_DAY*$tabs/$perDay);
 		my $dtExpChck = $dt + ($terminationProportion*ONE_DAY*$tabs/$perDay);
 		my $dose = $mg*$perDay;
 		if(!$types{"exp"}) {
 			#Must have been a big gap
-			addToList($pid,$dt,"$type RESTARTED");
+			addToList($pid,$dt,"$type","$family","$dose","RESTARTED");
 		} else {
 			if($dose > $types{"dose"}){
 				#If an increase then we assume an actual increase
-				addToList($pid,$dt,"$type DOSE INCREASED");
+				addToList($pid,$dt,"$type","$family","$dose","DOSE INCREASED");
 
 				###$types{$type} = $mg*$perDay;
 			} elsif ($dose < $types{"dose"}){
 				if($dt >= $types{"expLong"}){
 					#if a decrease and near to or after the last one expires then consider a decrease
-					addToList($pid,$dt,"$type DOSE DECREASED");
+					addToList($pid,$dt,"$type","$family","$dose","DOSE DECREASED");
 					$dose = $mg*$perDay;
 				} else {
 
@@ -302,49 +302,49 @@ sub evaluate{
 
 					if($mgs{$first+$second}){
 						#looks like the two meds are taken together so an increase on first prescription
-						addToList($pidChg,$dtChg,"$type DOSE INCREASED");
 						$dose = $first+$second;
+						addToList($pidChg,$dtChg,"$type","$family","$dose","DOSE INCREASED");
 					} elsif ($mgs{$first} > 1 && $mgs{$second} == 1) {
 						#a change then a change back
 						if($first > $second) {
-							addToList($pidChg,$dtChg,"$typeChg DOSE DECREASED");
-							addToList($pidChg,$lastDate,"$typeChg DOSE INCREASED");
+							addToList($pidChg,$dtChg,"$typeChg","$family","$second","DOSE DECREASED");
+							addToList($pidChg,$lastDate,"$typeChg","$family","$first","DOSE INCREASED");
 						} else {
-							addToList($pidChg,$dtChg,"$typeChg DOSE INCREASED");
-							addToList($pidChg,$lastDate,"$typeChg DOSE DECREASED");
+							addToList($pidChg,$dtChg,"$typeChg","$family","$second","DOSE INCREASED");
+							addToList($pidChg,$lastDate,"$typeChg","$family","$first","DOSE DECREASED");
 						}
 						$dose = $first;
 					} elsif ($mgs{$first} == 1 && $mgs{$second} >= 1) {
 						#a change
 						if($first > $second) {
-							addToList($pidChg,$dtChg,"$typeChg DOSE DECREASED");
+							addToList($pidChg,$dtChg,"$typeChg","$family","$second","DOSE DECREASED");
 							if($last > $second){
-								addToList($pid,$lastDate,"$typeChg DOSE INCREASED");
+								addToList($pid,$lastDate,"$typeChg","$family","$last","DOSE INCREASED");
 							} elsif($last < $second) {
-								addToList($pid,$lastDate,"$typeChg DOSE DECREASED");
+								addToList($pid,$lastDate,"$typeChg","$family","$last","DOSE DECREASED");
 							}
 						} else {
-							addToList($pidChg,$dtChg,"$typeChg DOSE INCREASED");
+							addToList($pidChg,$dtChg,"$typeChg","$family","$last","DOSE INCREASED");
 						}
 						$dose = $last;
 					} elsif($last == $second){
 						#a change
 						if($first > $second) {
-							addToList($pidChg,$dtChg,"$typeChg DOSE DECREASED");
+							addToList($pidChg,$dtChg,"$typeChg","$family","$last","DOSE DECREASED");
 						} else {
-							addToList($pidChg,$dtChg,"$typeChg DOSE INCREASED");
+							addToList($pidChg,$dtChg,"$typeChg","$family","$last","DOSE INCREASED");
 						}
 						$dose = $last;
 					} elsif($last == $first){
 						#a change
 						if($first > $second) {
-							addToList($pidChg,$dtChg,"$typeChg DOSE INCREASED");
+							addToList($pidChg,$dtChg,"$typeChg","$family","$last","DOSE INCREASED");
 						} else {
-							addToList($pidChg,$dtChg,"$typeChg DOSE DECREASED");
+							addToList($pidChg,$dtChg,"$typeChg","$family","$last","DOSE DECREASED");
 						}
 						$dose = $last;
 					} else {
-						addToList($pidChg,$dt,"DRUG-ERROR-2000");
+						addToList($pidChg,$dt,"$typeChg","$family","$dose","DRUG-ERROR-2000");
 						print Dumper(%mgs) . "\n";
 					}
 
@@ -360,7 +360,7 @@ sub evaluate{
 		%types = (exp => $dtExpires, expLong => $dtExpLong, expChk => $dtExpChck, dose => $dose);
 	}
 	if($pid>=0 && $type ne ""){
-		isDrugStopped($pid, $type, $extractDate);
+		isDrugStopped($pid, $type, $family, $extractDate);
 	}
 	@patientTypeCache=();
 	$pid = $pidTmp;

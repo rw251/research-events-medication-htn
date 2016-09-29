@@ -5,3 +5,5 @@ out/
 resources/*.done
 resources/*.processed
 resources/*.sorted
+resources/*.dat
+resources/OT*
