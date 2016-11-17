@@ -14,6 +14,7 @@ program
   .option('-c, --process-codes <file>', 'Takes <file> with a list of codes, and outputs a file with code, drug family, drug type and dose(mg)')
   .option('-i, --process-instructions <file>', 'Takes <file> with a list of drug instructions (e.g. "take one a day"), and outputs a file with instruction and tablets per day')
   .option('-a, --process-all <file>', 'Takes <file> with a list of drug information and outputs the data necessary for the algorithm')
+  .option('-x, --process-x <file>', 'Takes <file> and assumes a specific column ordering and a header')
   .parse(process.argv);
 
 var doneFn = function(err) {
@@ -28,6 +29,26 @@ if (program.processCodes) {
   dictionary.process(program.processCodes, doneFn);
 } else if (program.processInstructions) {
   instructions.process(program.processInstructions, doneFn);
+} else if (program.processX) {
+	main.process(program.processX, [constants.PATIENT_ID, constants.DATE, constants.TABLETS_PRESCRIBED, constants.CLINICAL_CODE, constants.INSTRUCTION], false, function(err) {
+		if (err) {
+		  console.log(err);
+		  process.exit(1);
+		}
+
+		console.log("All completed successfully");
+		console.log();
+		console.log();
+
+		console.log("You should now execute: ");
+		console.log();
+		console.log("npm run -s sort " +program.processX+".done > "+program.processX+".done.sorted");
+		console.log();
+		console.log("Followed by:");
+		console.log();
+		console.log("perl parse_drug_file.pl "+program.processX+".done.sorted");
+		process.exit(0);
+	});
 } else if (program.processAll) {
   main.columns(program.processAll, 5, function(err, columns) {
     if (err) {

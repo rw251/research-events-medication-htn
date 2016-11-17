@@ -96,6 +96,8 @@ module.exports = {
         var output = fs.createWriteStream(file + '.done');
         output.on('finish', function() {
           console.timeEnd('Elapsed');
+		  var failedRegex = instructions.failed();
+		  fs.writeFileSync('undefinedRegexes.txt', JSON.stringify(Object.keys(failedRegex).map(function(v){return [v,failedRegex[v][0],failedRegex[v][1]];}), null, 2));
           return callback(null);
         });
 

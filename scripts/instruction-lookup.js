@@ -7,7 +7,7 @@ var parse = require('csv-parse'),
   es = require("event-stream"),
   transform = require('stream-transform');
 
-var regex = [];
+var regex = [], failedRegex={};
 
 var find = function(instruction) {
   var matches = regex.reduce(function(prev, cur) {
@@ -18,12 +18,18 @@ var find = function(instruction) {
   }, []);
 
   if (matches.length > 1) {
-    console.warn("WARNING: The instruction - '" + instruction + "' - matches " + matches.length + " of the regular expressions.");
-    console.warn("Defaulting to the first match... " + matches[0]);
+	if(!failedRegex[instruction]) failedRegex[instruction]=[matches.length, 1];
+	else failedRegex[instruction][1]++;
+	//console.log(Object.keys(failedRegex).length);
+    //console.warn("WARNING: The instruction - '" + instruction + "' - matches " + matches.length + " of the regular expressions.");
+    //console.warn("Defaulting to the first match... " + matches[0]);
     return matches[0];
   } else if (matches.length === 0) {
-    console.warn("WARNING: The instruction - '" + instruction + "' - matches none of the regular expressions.");
-    console.warn("Defaulting to 1 a day...");
+	if(!failedRegex[instruction]) failedRegex[instruction]=[matches.length, 1];
+	else failedRegex[instruction][1]++;
+	//console.log(Object.keys(failedRegex).length);
+    //console.warn("WARNING: The instruction - '" + instruction + "' - matches none of the regular expressions.");
+    //console.warn("Defaulting to 1 a day...");
     return 1;
   } else {
     return matches[0];
@@ -116,6 +122,13 @@ module.exports = {
    * Return number of tablets for an instruction
    */
   find: find,
+
+  /*
+   * Get failedRegexes
+   */
+  failed: function(){
+	return failedRegex;
+  },
 
   /*
    * Populate the regex map from code lists in files

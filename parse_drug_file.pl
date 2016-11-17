@@ -385,12 +385,14 @@ my $ix = 0;
 while (<$fh> ) {
 	chomp;
 
+	## Reads a line from the file
 	($pid, $type, $dt, $tabs, $perDay, $mg, $family) = split /\t/, $_;
 
 	if($debug){
 		print "$pid:$dt:$tabs:$perDay:$mg:$family:$type\n"
 	}
 
+	## If more than 11M rows then start debugging - eh?
 	if($ix>11165000) {
 		$debug=1;
 		print "DEBUG\n";
@@ -405,19 +407,30 @@ while (<$fh> ) {
 	#	next;
 	#}
 
-	if($dt =~ /^18/) {
-		#ignore record if date is <1900
+	#ignore record if date is <1900
+	if($dt =~ /^18/) {		
 		print "$dt\n";
 		next;
 	}
+	
+	#Convert string date to perl date
 	$dt = Time::Piece->strptime($dt, $format);
 
+	#If no mg or family or type then not much we can do so we skip
 	if($mg eq "" || $family eq "" || $type eq "") {
 		next;
 	}
 
+	## File is sorted first by patient id then by drug type, so if either of these
+	## has changed from the last row then either it's a new drug, or a new patient
+	## and it's time to evaluate the cached records
 	if($pid != $pidLast || $type ne $typeLast){
 		evaluate();
+	}
+	
+	## If no number of tablets, then let's just assume 28
+	if($tabs eq "") {
+		$tabs = 28;
 	}
 
 	my %event = (pid=>$pid, dt=>$dt, tabs=>$tabs, perDay=>$perDay, mg=>$mg, family=>$family, type=>$type);
