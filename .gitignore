@@ -7,3 +7,5 @@ resources/*.processed
 resources/*.sorted
 resources/*.dat
 resources/OT*
+undefinedRegexes.txt
+error.txt

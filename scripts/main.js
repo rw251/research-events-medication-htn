@@ -97,6 +97,9 @@ module.exports = {
         output.on('finish', function() {
           console.timeEnd('Elapsed');
 		  var failedRegex = instructions.failed();
+		  failedRegex.sort(function(a,b) {
+		    return b[2]-a[2];
+		  });
 		  fs.writeFileSync('undefinedRegexes.txt', JSON.stringify(Object.keys(failedRegex).map(function(v){return [v,failedRegex[v][0],failedRegex[v][1]];}), null, 2));
           return callback(null);
         });
