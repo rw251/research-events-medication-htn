@@ -96,11 +96,12 @@ module.exports = {
         var output = fs.createWriteStream(file + '.done');
         output.on('finish', function() {
           console.timeEnd('Elapsed');
-		  var failedRegex = instructions.failed();
+		  var failedRegex1 = instructions.failed();
+		  var failedRegex = Object.keys(failedRegex1).map(function(v){return [v,failedRegex1[v][0],failedRegex1[v][1]];});
 		  failedRegex.sort(function(a,b) {
 		    return b[2]-a[2];
 		  });
-		  fs.writeFileSync('undefinedRegexes.txt', JSON.stringify(Object.keys(failedRegex).map(function(v){return [v,failedRegex[v][0],failedRegex[v][1]];}), null, 2));
+		  fs.writeFileSync('undefinedRegexes.txt', JSON.stringify(failedRegex, null, 2));
           return callback(null);
         });
 
