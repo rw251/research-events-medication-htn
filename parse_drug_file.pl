@@ -11,7 +11,7 @@ my $format = '%Y-%m-%d';
 my $rxLengthProportion = 0.75;
 my $adherenceProportion = 10000;
 my $terminationProportion = 5;
-my $extractDate = Time::Piece->strptime("2014-12-15", $format);
+my $extractDate = localtime;
 my $limit = 100000000;
 
 my @statements;
