@@ -9,8 +9,8 @@ my $format = '%Y-%m-%d';
 
 #Variable parameters
 my $rxLengthProportion = 0.75;
-my $adherenceProportion = 10000;  # need to reduce this beneath termination (i can pick multiple) and then test
-my $terminationProportion = 5;  # perhaps reduce this to 3? or just leave for now
+my $adherenceProportion = 10000;
+my $terminationProportion = 5;
 my $extractDate = localtime;
 my $limit = 100000000;
 
