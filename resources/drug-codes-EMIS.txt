@@ -1,200 +1,718 @@
 CODE	FAMILY	TYPE	DOSE(mg)	DESCRIPTION
 ADM/19382NEMIS	CCB	Nifedipine	30	Adipine XL 30mg tablets (Chiesi Ltd)
-ADM/19383NEMIS	CCB	Nifedipine	60	Adipine Xl M/R Tablets 60 mg
-ADM/19822EMIS	CCB	Nifedipine	30	Adalat La M/R Tablets 30 mg
-ADM/19823EMIS	CCB	Nifedipine	60	Adalat La M/R Tablets 60 mg
-ADM/22255EMIS	CCB	Diltiazem	120	Adizem-Sr M/R Capsules 120 mg
-ADM/22256EMIS	CCB	Diltiazem	180	Adizem-Sr M/R Capsules 180 mg
-ADM/22257EMIS	CCB	Diltiazem	300	Adizem-Sr M/R Capsules 300 mg
-ADM/22258EMIS	CCB	Diltiazem	90	Adizem-Sr M/R capsules 90 mg
-ADM/24027EMIS	CCB	Diltiazem	120	Adizem-Xl M/R Capsules 120 mg
-ADM/24028EMIS	CCB	Diltiazem	180	Adizem-Xl M/R Capsules 180 mg
-ADM/24029EMIS	CCB	Diltiazem	240	Adizem-Xl M/R Capsules 240 mg
-ADM/24030EMIS	CCB	Diltiazem	300	Adizem-Xl M/R Capsules 300 mg
-ADM/27060EMIS	CCB	Nifedipine	20	Adipine Mr 20 M/R Tablets 20 mg
-ADM/28056EMIS	CCB	Nifedipine	10	Adipine Mr 10 M/R Tablets 10 mg
-ADM/4NEMIS	CCB	Nifedipine	20	Adalat La M/R Tablets 20 mg
-ADTA48	CCB	Nifedipine	20	Adalat Retard Tablets 20 mg
-ADTA8424EGTON	CCB	Nifedipine	10	Adalat Retard 10 Tablets 10 mg
+ADM/19383NEMIS	CCB	Nifedipine	60	Adipine Xl  M/R Tablets  60 mg
+ADM/19822EMIS	CCB	Nifedipine	30	Adalat La  M/R Tablets  30 mg
+ADM/19823EMIS	CCB	Nifedipine	60	Adalat La  M/R Tablets  60 mg
+ADM/22255EMIS	CCB	Diltiazem	120	Adizem-Sr  M/R Capsules  120 mg
+ADM/22256EMIS	CCB	Diltiazem	180	Adizem-Sr  M/R Capsules  180 mg
+ADM/22257EMIS	CCB	Diltiazem	300	Adizem-Sr  M/R Capsules  300 mg
+ADM/22258EMIS	CCB	Diltiazem	90	Adizem-Sr  M/R capsules  90 mg
+ADM/24027EMIS	CCB	Diltiazem	120	Adizem-Xl  M/R Capsules  120 mg
+ADM/24028EMIS	CCB	Diltiazem	180	Adizem-Xl  M/R Capsules  180 mg
+ADM/24029EMIS	CCB	Diltiazem	240	Adizem-Xl  M/R Capsules  240 mg
+ADM/24030EMIS	CCB	Diltiazem	300	Adizem-Xl  M/R Capsules  300 mg
+ADM/27060EMIS	CCB	Nifedipine	20	Adipine Mr 20  M/R Tablets  20 mg
+ADM/28056EMIS	CCB	Nifedipine	10	Adipine Mr 10  M/R Tablets  10 mg
+ADM/4NEMIS	CCB	Nifedipine	20	Adalat La  M/R Tablets  20 mg
+ADTA48	CCB	Nifedipine	20	Adalat Retard  Tablets  20 mg
+ADTA8424EGTON	CCB	Nifedipine	10	Adalat Retard 10  Tablets  10 mg
 ADTA9102HILLI	CCB	Diltiazem	120	Adizem-SR 120mg tablets (Napp Pharmaceuticals Ltd)
 ADTA9935BRIDL	CCB	Diltiazem	120	Adizem Continus Tablets 120 mg
-AMTA10145BRIDL	CCB	Amlodipine	5	Amlodipine Besilate Tablets 5 mg
+AMTA10145BRIDL	CCB	Amlodipine	5	Amlodipine Besilate  Tablets  5 mg
 AMTA17004NEMIS	CCB	Amlodipine	5	Amlodipine 5mg tablets
 AMTA17006NEMIS	CCB	Amlodipine	10	Amlodipine 10mg tablets
 AMTA23851NEMIS	ARB	Valsartan	80	Amlodipine 5mg / Valsartan 80mg tablets
 AMTA23851NEMIS	CCB	Amlodipine	5	Amlodipine 5mg / Valsartan 80mg tablets
-AMTA23852NEMIS	ARB	Valsartan	160	Amlodipine And Valsartan Tablets 5 mg + 160 mg
-AMTA23852NEMIS	CCB	Amlodipine	5	Amlodipine And Valsartan Tablets 5 mg + 160 mg
-AMTA23853NEMIS	ARB	Valsartan	160	Amlodipine And Valsartan Tablets 10 mg + 160 mg
-AMTA23853NEMIS	CCB	Amlodipine	10	Amlodipine And Valsartan Tablets 10 mg + 160 mg
-AMTA9080EMIS	CCB	Amlodipine	10	Amlodipine Besilate Tablets 10 mg
-ATTA10910BRIDL	BB	Atenolol	25	Atenolol Tablets 25 mg
-ATTA230	BB	Atenolol	100	Atenolol Tablets 100 mg
-ATTA231	BB	Atenolol	50	Atenolol Tablets 50 mg
-BETA17553NEMIS	DIUR_THI	Bendroflumethiazide	2.5	Bendroflumethiazide Tablets 2.5 mg
-BITA10630BRIDL	BB	Bisoprolol	5	Bisoprolol Fumarate Tablets 5 mg
+AMTA23852NEMIS	ARB	Valsartan	160	Amlodipine And Valsartan  Tablets  5 mg + 160 mg
+AMTA23852NEMIS	CCB	Amlodipine	5	Amlodipine And Valsartan  Tablets  5 mg + 160 mg
+AMTA23853NEMIS	ARB	Valsartan	160	Amlodipine And Valsartan  Tablets  10 mg + 160 mg
+AMTA23853NEMIS	CCB	Amlodipine	10	Amlodipine And Valsartan  Tablets  10 mg + 160 mg
+AMTA9080EMIS	CCB	Amlodipine	10	Amlodipine Besilate  Tablets  10 mg
+ATTA10910BRIDL	BB	Atenolol	25	Atenolol  Tablets  25 mg
+ATTA230	BB	Atenolol	100	Atenolol  Tablets  100 mg
+ATTA231	BB	Atenolol	50	Atenolol  Tablets  50 mg
+BETA17553NEMIS	DIUR_THI	Bendroflumethiazide	2.5	Bendroflumethiazide  Tablets  2.5 mg
+BITA10630BRIDL	BB	Bisoprolol	5	Bisoprolol Fumarate  Tablets  5 mg
 BITA2332NEMIS	BB	Bisoprolol	1.25	Bisoprolol 1.25mg tablets
 BITA2333NEMIS	BB	Bisoprolol	2.5	Bisoprolol 2.5mg tablets
-BITA2334NEMIS	BB	Bisoprolol	3.75	Bisoprolol Fumarate Tablets 3.75 mg
-BITA2335NEMIS	BB	Bisoprolol	7.5	Bisoprolol Fumarate Tablets 7.5 mg
-CAM/6442NEMIS	ALPHA	Doxazosin	4	Cardura Xl M/R Tablets 4 mg
-CAM/6443NEMIS	ALPHA	Doxazosin	8	Cardura Xl M/R Tablets 8 mg
-CATA19406NEMIS	ARB	Candesartan	32	Candesartan Cilexetil Tablets 32 mg
-CATA31824EMIS	ARB	Candesartan	16	Candesartan Cilexetil Tablets 16 mg
-CATA31825EMIS	ARB	Candesartan	2	Candesartan Cilexetil Tablets 2 mg
-CATA31826EMIS	ARB	Candesartan	4	Candesartan Cilexetil Tablets 4 mg
-CATA31827EMIS	ARB	Candesartan	8	Candesartan Cilexetil Tablets 8 mg
-CATA4675	ACEI	Captopril	12.5	Captopril Tablets 12.5 mg
-CATA483	ACEI	Captopril	25	Captopril Tablets 25 mg
-CATA484	ACEI	Captopril	50	Captopril Tablets 50 mg
-CATA8901EGTON	ALPHA	Doxazosin	1	Cardura Tablets 1 mg
-CATA8902EGTON	ALPHA	Doxazosin	2	Cardura Tablets 2 mg
-CATA8903EGTON	ALPHA	Doxazosin	4	Cardura Tablets 4 mg
-CETA23877EMIS	BB	Celiprolol	400	Celiprolol Hydrochloride Tablets 400 mg
-CETA9534EMIS	BB	Celiprolol	200	Celiprolol Hydrochloride Tablets 200 mg
-COTA9149BRIDL	DIUR_POT	Amiloride	5	Co-Amilofruse 5/40 Tablets
-COTA9149BRIDL	DIUR_LOOP	Furosemide	40	Co-Amilofruse 5/40 Tablets
-COTA9298EMIS	DIUR_POT	Amiloride	10	Co-Amilofruse 10/80 Tablets
-COTA9298EMIS	DIUR_LOOP	Furosemide	80	Co-Amilofruse 10/80 Tablets
-COTA9301EMIS	DIUR_POT	Amiloride	2.5	Co-Amilofruse 2.5/20 Tablets
-COTA9301EMIS	DIUR_LOOP	Furosemide	20	Co-Amilofruse 2.5/20 Tablets
-DIM/22263EMIS	CCB	Diltiazem	120	Diltiazem Hydrochloride M/R Capsules 120 mg
-DIM/22264EMIS	CCB	Diltiazem	180	Diltiazem Hydrochloride M/R Capsules 180 mg
-DIM/22265EMIS	CCB	Diltiazem	300	Diltiazem Hydrochloride M/R capsules 300 mg
-DIM/22266EMIS	CCB	Diltiazem	90	Diltiazem Hydrochloride M/R capsules 90 mg
-DIM/23454EMIS	CCB	Diltiazem	60	Diltiazem Hydrochloride M/R Capsules 60 mg
-DIM/27367EMIS	CCB	Diltiazem	240	Diltiazem Hydrochloride M/R Capsules 240 mg
-DIM/28229EMIS	CCB	Diltiazem	200	Diltiazem Hydrochloride M/R Capsules 200 mg
-DIM/30235EMIS	CCB	Diltiazem	60	Diltiazem Hydrochloride M/R Tablets 60 mg
-DIM/423NEMIS	CCB	Diltiazem	360	Diltiazem Hydrochloride M/R Capsules 360 mg
-DIS/9119EMIS	CCB	Diltiazem	90	Diltiazem Hydrochloride M/R Tablets 90 mg
-DISR10514BRIDL	CCB	Diltiazem	120	Diltiazem Hydrochloride M/R Tablets 120 mg
-DITA913	CCB	Diltiazem	60	Diltiazem Hydrochloride Tablets 60 mg
+BITA2334NEMIS	BB	Bisoprolol	3.75	Bisoprolol Fumarate  Tablets  3.75 mg
+BITA2335NEMIS	BB	Bisoprolol	7.5	Bisoprolol Fumarate  Tablets  7.5 mg
+CAM/6442NEMIS	ALPHA	Doxazosin	4	Cardura Xl  M/R Tablets  4 mg
+CAM/6443NEMIS	ALPHA	Doxazosin	8	Cardura Xl  M/R Tablets  8 mg
+CATA19406NEMIS	ARB	Candesartan	32	Candesartan Cilexetil  Tablets  32 mg
+CATA31824EMIS	ARB	Candesartan	16	Candesartan Cilexetil  Tablets  16 mg
+CATA31825EMIS	ARB	Candesartan	2	Candesartan Cilexetil  Tablets  2 mg
+CATA31826EMIS	ARB	Candesartan	4	Candesartan Cilexetil  Tablets  4 mg
+CATA31827EMIS	ARB	Candesartan	8	Candesartan Cilexetil  Tablets  8 mg
+CATA4675	ACEI	Captopril	12.5	Captopril  Tablets  12.5 mg
+CATA483	ACEI	Captopril	25	Captopril  Tablets  25 mg
+CATA484	ACEI	Captopril	50	Captopril  Tablets  50 mg
+CATA8901EGTON	ALPHA	Doxazosin	1	Cardura  Tablets  1 mg
+CATA8902EGTON	ALPHA	Doxazosin	2	Cardura  Tablets  2 mg
+CATA8903EGTON	ALPHA	Doxazosin	4	Cardura  Tablets  4 mg
+CETA23877EMIS	BB	Celiprolol	400	Celiprolol Hydrochloride  Tablets  400 mg
+CETA9534EMIS	BB	Celiprolol	200	Celiprolol Hydrochloride  Tablets  200 mg
+COTA9149BRIDL	DIUR_POT	Amiloride	5	Co-Amilofruse 5/40  Tablets
+COTA9149BRIDL	DIUR_LOOP	Furosemide	40	Co-Amilofruse 5/40  Tablets
+COTA9298EMIS	DIUR_POT	Amiloride	10	Co-Amilofruse 10/80  Tablets  
+COTA9298EMIS	DIUR_LOOP	Furosemide	80	Co-Amilofruse 10/80  Tablets  
+COTA9301EMIS	DIUR_POT	Amiloride	2.5	Co-Amilofruse 2.5/20  Tablets  
+COTA9301EMIS	DIUR_LOOP	Furosemide	20	Co-Amilofruse 2.5/20  Tablets  
+DIM/22263EMIS	CCB	Diltiazem	120	Diltiazem Hydrochloride  M/R Capsules  120 mg
+DIM/22264EMIS	CCB	Diltiazem	180	Diltiazem Hydrochloride  M/R Capsules  180 mg
+DIM/22265EMIS	CCB	Diltiazem	300	Diltiazem Hydrochloride  M/R capsules  300 mg
+DIM/22266EMIS	CCB	Diltiazem	90	Diltiazem Hydrochloride  M/R capsules  90 mg
+DIM/23454EMIS	CCB	Diltiazem	60	Diltiazem Hydrochloride  M/R Capsules  60 mg
+DIM/27367EMIS	CCB	Diltiazem	240	Diltiazem Hydrochloride  M/R Capsules  240 mg
+DIM/28229EMIS	CCB	Diltiazem	200	Diltiazem Hydrochloride  M/R Capsules  200 mg
+DIM/30235EMIS	CCB	Diltiazem	60	Diltiazem Hydrochloride  M/R Tablets  60 mg
+DIM/423NEMIS	CCB	Diltiazem	360	Diltiazem Hydrochloride  M/R Capsules  360 mg
+DIS/9119EMIS	CCB	Diltiazem	90	Diltiazem Hydrochloride  M/R Tablets  90 mg
+DISR10514BRIDL	CCB	Diltiazem	120	Diltiazem Hydrochloride  M/R Tablets  120 mg
+DITA913	CCB	Diltiazem	60	Diltiazem Hydrochloride  Tablets  60 mg
 EMTA10350BRIDL	BB	Bisoprolol	5	Emcor LS 5mg tablets (Merck Serono Ltd)
 EMTA10711BRIDL	BB	Bisoprolol	10	Emcor 10mg tablets (Merck Serono Ltd)
 EMTA8949BRIDL	BB	Bisoprolol	10	Bisoprolol 10mg tablets
-ENTA1060	ACEI	Enalapril	10	Enalapril Maleate Tablets 10 mg
-ENTA1062	ACEI	Enalapril	20	Enalapril Maleate Tablets 20 mg
-ENTA1063	ACEI	Enalapril	5	Enalapril Maleate Tablets 5 mg
-EPTA19048NEMIS	DIUR_POT	Eplerenone	25	Eplerenone Tablets 25 mg
-EPTA19050NEMIS	DIUR_POT	Eplerenone	50	Eplerenone Tablets 50 mg
-EPTA3293NEMIS	ARB	Eprosartan	300	Eprosartan Tablets 300 mg
-EPTA3295NEMIS	ARB	Eprosartan	400	Eprosartan Tablets 400 mg
-EPTA3296NEMIS	ARB	Eprosartan	600	Eprosartan Tablets 600 mg
-FEM/29632EMIS	CCB	Felodipine	2.5	Felodipine M/R Tablets 2.5 mg
-FES/9144EMIS	CCB	Felodipine	10	Felodipine M/R tablets 10 mg
-FES/9145EMIS	CCB	Felodipine	5	Felodipine M/R Tablets 5 mg
-FLM/20543NEMIS	ALPHA	Tamsulosin	0.4	Flomaxtra Xl M/R tablets 400 micrograms
-FLM/28657EMIS	ALPHA	Tamsulosin	0.4	Flomax Mr M/R Capsules 400 micrograms
-FOTA9320EMIS	ACEI	Fosinopril	10	Fosinopril Sodium Tablets 10 mg
-FOTA9321EMIS	ACEI	Fosinopril	20	Fosinopril Sodium Tablets 20 mg
-FUTA17675NEMIS	DIUR_LOOP	Furosemide	20	Furosemide Tablets 20 mg
-FUTA17676NEMIS	DIUR_LOOP	Furosemide	40	Furosemide Tablets 40 mg
-FUTA17677NEMIS	DIUR_LOOP	Furosemide	500	Furosemide Tablets 500 mg
-FUTA18552NEMIS	DIUR_LOOP	Furosemide	40	Furosemide And M/r Potassium Tablets 40 mg + 8 mmol
-FUTA18552NEMIS	SUPP	Potassium	8	Furosemide And M/r Potassium Tablets 40 mg + 8 mmol
-FUTA18562NEMIS	DIUR_LOOP	Furosemide	20	Furosemide And M/r Potassium Tablets 20 mg + 10 mmol
-FUTA18562NEMIS	SUPP	Potassium	10	Furosemide And M/r Potassium Tablets 20 mg + 10 mmol
-IRTA18540NEMIS	ARB	Irbesartan	150	Irbesartan And Hydrochlorothiazide Tablets 150 mg + 12.5 mg
-IRTA18540NEMIS	DIUR_THI	Hydrochlorothiazide	12.5	Irbesartan And Hydrochlorothiazide Tablets 150 mg + 12.5 mg
-IRTA18541NEMIS	ARB	Irbesartan	300	Irbesartan And Hydrochlorothiazide Tablets 300 mg + 12.5 mg
-IRTA18541NEMIS	DIUR_THI	Hydrochlorothiazide	12.5	Irbesartan And Hydrochlorothiazide Tablets 300 mg + 12.5 mg
-IRTA23521NEMIS	ARB	Irbesartan	300	Irbesartan And Hydrochlorothiazide Tablets 300 mg + 25 mg
-IRTA23521NEMIS	DIUR_THI	Hydrochlorothiazide	25	Irbesartan And Hydrochlorothiazide Tablets 300 mg + 25 mg
-IRTA31576EMIS	ARB	Irbesartan	150	Irbesartan Tablets 150 mg
-IRTA31577EMIS	ARB	Irbesartan	300	Irbesartan Tablets 300 mg
-IRTA31578EMIS	ARB	Irbesartan	75	Irbesartan Tablets 75 mg
+ENTA1060	ACEI	Enalapril	10	Enalapril Maleate  Tablets  10 mg
+ENTA1062	ACEI	Enalapril	20	Enalapril Maleate  Tablets  20 mg
+ENTA1063	ACEI	Enalapril	5	Enalapril Maleate  Tablets  5 mg
+EPTA19048NEMIS	DIUR_POT	Eplerenone	25	Eplerenone  Tablets  25 mg
+EPTA19050NEMIS	DIUR_POT	Eplerenone	50	Eplerenone  Tablets  50 mg
+EPTA3293NEMIS	ARB	Eprosartan	300	Eprosartan  Tablets  300 mg
+EPTA3295NEMIS	ARB	Eprosartan	400	Eprosartan  Tablets  400 mg
+EPTA3296NEMIS	ARB	Eprosartan	600	Eprosartan  Tablets  600 mg
+FEM/29632EMIS	CCB	Felodipine	2.5	Felodipine  M/R Tablets  2.5 mg
+FES/9144EMIS	CCB	Felodipine	10	Felodipine  M/R tablets  10 mg
+FES/9145EMIS	CCB	Felodipine	5	Felodipine  M/R Tablets  5 mg
+FLM/20543NEMIS	ALPHA	Tamsulosin	0.4	Flomaxtra Xl  M/R tablets  400 micrograms
+FLM/28657EMIS	ALPHA	Tamsulosin	0.4	Flomax Mr  M/R Capsules  400 micrograms
+FOTA9320EMIS	ACEI	Fosinopril	10	Fosinopril Sodium  Tablets  10 mg
+FOTA9321EMIS	ACEI	Fosinopril	20	Fosinopril Sodium  Tablets  20 mg
+FUTA17675NEMIS	DIUR_LOOP	Furosemide	20	Furosemide  Tablets  20 mg
+FUTA17676NEMIS	DIUR_LOOP	Furosemide	40	Furosemide  Tablets  40 mg
+FUTA17677NEMIS	DIUR_LOOP	Furosemide	500	Furosemide  Tablets  500 mg
+FUTA18552NEMIS	DIUR_LOOP	Furosemide	40	Furosemide And M/r Potassium  Tablets  40 mg + 8 mmol
+FUTA18552NEMIS	SUPP	Potassium	8	Furosemide And M/r Potassium  Tablets  40 mg + 8 mmol
+FUTA18562NEMIS	DIUR_LOOP	Furosemide	20	Furosemide And M/r Potassium  Tablets  20 mg + 10 mmol
+FUTA18562NEMIS	SUPP	Potassium	10	Furosemide And M/r Potassium  Tablets  20 mg + 10 mmol
+IRTA18540NEMIS	ARB	Irbesartan	150	Irbesartan And Hydrochlorothiazide  Tablets  150 mg + 12.5 mg
+IRTA18540NEMIS	DIUR_THI	Hydrochlorothiazide	12.5	Irbesartan And Hydrochlorothiazide  Tablets  150 mg + 12.5 mg
+IRTA18541NEMIS	ARB	Irbesartan	300	Irbesartan And Hydrochlorothiazide  Tablets  300 mg + 12.5 mg
+IRTA18541NEMIS	DIUR_THI	Hydrochlorothiazide	12.5	Irbesartan And Hydrochlorothiazide  Tablets  300 mg + 12.5 mg
+IRTA23521NEMIS	ARB	Irbesartan	300	Irbesartan And Hydrochlorothiazide  Tablets  300 mg + 25 mg
+IRTA23521NEMIS	DIUR_THI	Hydrochlorothiazide	25	Irbesartan And Hydrochlorothiazide  Tablets  300 mg + 25 mg
+IRTA31576EMIS	ARB	Irbesartan	150	Irbesartan  Tablets  150 mg
+IRTA31577EMIS	ARB	Irbesartan	300	Irbesartan  Tablets  300 mg
+IRTA31578EMIS	ARB	Irbesartan	75	Irbesartan  Tablets  75 mg
 LATA23421EMIS	CCB	Lacidipine	2	Lacidipine 2mg tablets
-LATA23422EMIS	CCB	Lacidipine	4	Lacidipine Tablets 4 mg
-LETA22327NEMIS	CCB	Lercanidipine	20	Lercanidipine Hydrochloride Tablets 20 mg
-LETA32002EMIS	CCB	Lercanidipine	10	Lercanidipine Hydrochloride Tablets 10 mg
-LITA18535NEMIS	ACEI	Lisinopril	10	Lisinopril And Hydrochlorothiazide Tablets 10 mg + 12.5 mg
-LITA18535NEMIS	DIUR_THI	Hydrochlorothiazide	12.5	Lisinopril And Hydrochlorothiazide Tablets 10 mg + 12.5 mg
-LITA18536NEMIS	ACEI	Lisinopril	20	Lisinopril And Hydrochlorothiazide Tablets 20 mg + 12.5 mg
-LITA18536NEMIS	DIUR_THI	Hydrochlorothiazide	12.5	Lisinopril And Hydrochlorothiazide Tablets 20 mg + 12.5 mg
-LITA8608EGTON	ACEI	Lisinopril	10	Lisinopril Tablets 10 mg
-LITA8609EGTON	ACEI	Lisinopril	2.5	Lisinopril Tablets 2.5 mg
-LITA8610EGTON	ACEI	Lisinopril	20	Lisinopril Tablets 20 mg
-LITA8611EGTON	ACEI	Lisinopril	5	Lisinopril Tablets 5 mg
-LOOR37464NEMIS	ARB	Losartan	2.5	Losartan Potassium Oral Suspension Sugar Free 2.5 mg/ml
-LOTA12633NEMIS	ARB	Losartan	100	Losartan Potassium Tablets 100 mg
-LOTA18550NEMIS	ARB	Losartan	50	Losartan And Hydrochlorothiazide Tablets 50 mg + 12.5 mg
-LOTA18550NEMIS	DIUR_THI	Hydrochlorothiazide	12.5	Losartan And Hydrochlorothiazide Tablets 50 mg + 12.5 mg
-LOTA21150NEMIS	ARB	Losartan	100	Losartan And Hydrochlorothiazide Tablets 100 mg + 25 mg
-LOTA21150NEMIS	DIUR_THI	Hydrochlorothiazide	25	Losartan And Hydrochlorothiazide Tablets 100 mg + 25 mg
-LOTA26214EMIS	ARB	Losartan	25	Losartan Potassium Tablets 25 mg
-LOTA26215EMIS	ARB	Losartan	50	Losartan Potassium Tablets 50 mg
-LOTA28962NEMIS	ARB	Losartan	100	Losartan And Hydrochlorothiazide Tablets 100 mg + 12.5 mg
-LOTA28962NEMIS	DIUR_THI	Hydrochlorothiazide	12.5	Losartan And Hydrochlorothiazide Tablets 100 mg + 12.5 mg
+LATA23422EMIS	CCB	Lacidipine	4	Lacidipine  Tablets  4 mg
+LETA22327NEMIS	CCB	Lercanidipine	20	Lercanidipine Hydrochloride  Tablets  20 mg
+LETA32002EMIS	CCB	Lercanidipine	10	Lercanidipine Hydrochloride  Tablets  10 mg
+LITA18535NEMIS	ACEI	Lisinopril	10	Lisinopril And Hydrochlorothiazide  Tablets  10 mg + 12.5 mg
+LITA18535NEMIS	DIUR_THI	Hydrochlorothiazide	12.5	Lisinopril And Hydrochlorothiazide  Tablets  10 mg + 12.5 mg
+LITA18536NEMIS	ACEI	Lisinopril	20	Lisinopril And Hydrochlorothiazide  Tablets  20 mg + 12.5 mg
+LITA18536NEMIS	DIUR_THI	Hydrochlorothiazide	12.5	Lisinopril And Hydrochlorothiazide  Tablets  20 mg + 12.5 mg
+LITA8608EGTON	ACEI	Lisinopril	10	Lisinopril  Tablets  10 mg
+LITA8609EGTON	ACEI	Lisinopril	2.5	Lisinopril  Tablets  2.5 mg
+LITA8610EGTON	ACEI	Lisinopril	20	Lisinopril  Tablets  20 mg
+LITA8611EGTON	ACEI	Lisinopril	5	Lisinopril  Tablets  5 mg
+LOOR37464NEMIS	ARB	Losartan	2.5	Losartan Potassium  Oral Suspension Sugar Free  2.5 mg/ml
+LOTA12633NEMIS	ARB	Losartan	100	Losartan Potassium  Tablets  100 mg
+LOTA18550NEMIS	ARB	Losartan	50	Losartan And Hydrochlorothiazide  Tablets  50 mg + 12.5 mg
+LOTA18550NEMIS	DIUR_THI	Hydrochlorothiazide	12.5	Losartan And Hydrochlorothiazide  Tablets  50 mg + 12.5 mg
+LOTA21150NEMIS	ARB	Losartan	100	Losartan And Hydrochlorothiazide  Tablets  100 mg + 25 mg
+LOTA21150NEMIS	DIUR_THI	Hydrochlorothiazide	25	Losartan And Hydrochlorothiazide  Tablets  100 mg + 25 mg
+LOTA26214EMIS	ARB	Losartan	25	Losartan Potassium  Tablets  25 mg
+LOTA26215EMIS	ARB	Losartan	50	Losartan Potassium  Tablets  50 mg
+LOTA28962NEMIS	ARB	Losartan	100	Losartan And Hydrochlorothiazide  Tablets  100 mg + 12.5 mg
+LOTA28962NEMIS	DIUR_THI	Hydrochlorothiazide	12.5	Losartan And Hydrochlorothiazide  Tablets  100 mg + 12.5 mg
 LOTA35193NEMIS	ARB	Losartan	12.5	Losartan 12.5mg tablets
-META1806	BB	Metoprolol	100	Metoprolol Tartrate Tablets 100 mg
-META1807	BB	Metoprolol	50	Metoprolol Tartrate Tablets 50 mg
-NETA42086NEMIS	BB	Nebivolol	2.5	Nebivolol Tablets 2.5 mg
-NETA50003EMIS	BB	Nebivolol	5	Nebivolol Hydrochloride Tablets 5 mg
-NICA10469BRIDL	CCB	Nifedipine	30	Nicardipine Hydrochloride Capsules 30 mg
+META1806	BB	Metoprolol	100	Metoprolol Tartrate  Tablets  100 mg
+META1807	BB	Metoprolol	50	Metoprolol Tartrate  Tablets  50 mg
+NETA42086NEMIS	BB	Nebivolol	2.5	Nebivolol  Tablets  2.5 mg
+NETA50003EMIS	BB	Nebivolol	5	Nebivolol Hydrochloride  Tablets  5 mg
+NICA10469BRIDL	CCB	Nifedipine	30	Nicardipine Hydrochloride  Capsules  30 mg
 NICA1986	CCB	Nifedipine	10	Nifedipine 10mg capsules
 NICA1987	CCB	Nifedipine	5	Nifedipine 5mg capsules
-NICA5200	CCB	Nifedipine	20	Nicardipine Hydrochloride Capsules 20 mg
-NIM/19537EMIS	CCB	Nifedipine	20	Nifedipine M/R Tablets 20 mg
-NIM/19539EMIS	CCB	Nifedipine	20	Nifensar Xl M/R Tablets 20 mg
-NIM/19777EMIS	CCB	Nifedipine	10	Nifedipine M/R Capsules 10 mg
-NIM/19826EMIS	CCB	Nifedipine	30	Nifedipine M/R Tablets 30 mg
-NIM/19827EMIS	CCB	Nifedipine	60	Nifedipine M/R Tablets 60 mg
+NICA5200	CCB	Nifedipine	20	Nicardipine Hydrochloride  Capsules  20 mg
+NIM/19537EMIS	CCB	Nifedipine	20	Nifedipine  M/R Tablets  20 mg
+NIM/19539EMIS	CCB	Nifedipine	20	Nifensar Xl  M/R Tablets  20 mg
+NIM/19777EMIS	CCB	Nifedipine	10	Nifedipine  M/R Capsules  10 mg
+NIM/19826EMIS	CCB	Nifedipine	30	Nifedipine  M/R Tablets  30 mg
+NIM/19827EMIS	CCB	Nifedipine	60	Nifedipine  M/R Tablets  60 mg
 NIM/21926EMIS	CCB	Nicardipine	30	Nicardipine 30mg modified-release capsules
-NIM/21927EMIS	CCB	Nifedipine	45	Nicardipine Hydrochloride M/R capsules 45 mg
-NIM/28058EMIS	CCB	Nifedipine	10	Nifedipine M/R Tablets 10 mg
-NIM/29918EMIS	CCB	Nifedipine	10	Nisoldipine M/R Tablets 10 mg
-NIM/29919EMIS	CCB	Nisoldipine	20	Nisoldipine M/R Tablets 20 mg
-NISR9016EMIS	CCB	Nifedipine	20	Nifedipine M/R Capsules 20 mg
-NITA1988	CCB	Nifedipine	20	Nifedipine Tablets 20 mg
-NITA9043BRIDL	CCB	Nifedipine	10	Nifedipine Tablets 10 mg
-OLOR27110NEMIS	ARB	Olmesartan	10	Olmesartan Oral Suspension 10 mg/5 ml
-OLTA15758NEMIS	ARB	Olmesartan	10	Olmesartan Medoxomil Tablets 10 mg
-OLTA15760NEMIS	ARB	Olmesartan	20	Olmesartan Medoxomil Tablets 20 mg
-OLTA15761NEMIS	ARB	Olmesartan	40	Olmesartan Medoxomil Tablets 40 mg
+NIM/21927EMIS	CCB	Nifedipine	45	Nicardipine Hydrochloride  M/R capsules  45 mg
+NIM/28058EMIS	CCB	Nifedipine	10	Nifedipine  M/R Tablets  10 mg
+NIM/29918EMIS	CCB	Nifedipine	10	Nisoldipine  M/R Tablets  10 mg
+NIM/29919EMIS	CCB	Nisoldipine	20	Nisoldipine  M/R Tablets  20 mg
+NISR9016EMIS	CCB	Nifedipine	20	Nifedipine  M/R Capsules  20 mg
+NITA1988	CCB	Nifedipine	20	Nifedipine  Tablets  20 mg
+NITA9043BRIDL	CCB	Nifedipine	10	Nifedipine  Tablets  10 mg
+OLOR27110NEMIS	ARB	Olmesartan	10	Olmesartan  Oral Suspension  10 mg/5 ml
+OLTA15758NEMIS	ARB	Olmesartan	10	Olmesartan Medoxomil  Tablets  10 mg
+OLTA15760NEMIS	ARB	Olmesartan	20	Olmesartan Medoxomil  Tablets  20 mg
+OLTA15761NEMIS	ARB	Olmesartan	40	Olmesartan Medoxomil  Tablets  40 mg
 OLTA22330NEMIS	ARB	Olmesartan	20	Olmesartan medoxomil 20mg / Hydrochlorothiazide 12.5mg tablets
 OLTA22330NEMIS	DIUR_THI	Hydrochlorothiazide	12.5	Olmesartan medoxomil 20mg / Hydrochlorothiazide 12.5mg tablets
-OLTA22331NEMIS	ARB	Olmesartan	20	Olmesartan Medoxomil And Hydrochlorothiazide Tablets 20 mg + 25 mg
-OLTA22331NEMIS	DIUR_THI	Hydrochlorothiazide	25	Olmesartan Medoxomil And Hydrochlorothiazide Tablets 20 mg + 25 mg
-OLTA35715NEMIS	ARB	Olmesartan	20	Olmesartan Medoxomil And Amlodipine Tablets 20 mg + 5 mg
-OLTA35715NEMIS	CCB	Amlodipine	5	Olmesartan Medoxomil And Amlodipine Tablets 20 mg + 5 mg
-PETA14419NEMIS	ACEI	Perindopril	8	Perindopril Erbumine Tablets 8 mg
-PETA18548NEMIS	ACEI	Perindopril	4	Perindopril And Indapamide Tablets 4 mg + 1.25 mg
-PETA18548NEMIS	DIUR_THI	Indapamide	1.25	Perindopril And Indapamide Tablets 4 mg + 1.25 mg
+OLTA22331NEMIS	ARB	Olmesartan	20	Olmesartan Medoxomil And Hydrochlorothiazide  Tablets  20 mg + 25 mg
+OLTA22331NEMIS	DIUR_THI	Hydrochlorothiazide	25	Olmesartan Medoxomil And Hydrochlorothiazide  Tablets  20 mg + 25 mg
+OLTA35715NEMIS	ARB	Olmesartan	20	Olmesartan Medoxomil And Amlodipine  Tablets  20 mg + 5 mg
+OLTA35715NEMIS	CCB	Amlodipine	5	Olmesartan Medoxomil And Amlodipine  Tablets  20 mg + 5 mg
+PETA14419NEMIS	ACEI	Perindopril	8	Perindopril Erbumine  Tablets  8 mg
+PETA18548NEMIS	ACEI	Perindopril	4	Perindopril And Indapamide  Tablets  4 mg + 1.25 mg
+PETA18548NEMIS	DIUR_THI	Indapamide	1.25	Perindopril And Indapamide  Tablets  4 mg + 1.25 mg
 PETA29336NEMIS	ACEI	Perindopril	2.5	Perindopril arginine 2.5mg tablets
 PETA29338NEMIS	ACEI	Perindopril	5	Perindopril arginine 5mg tablets
-PETA29345NEMIS	ACEI	Perindopril	5	Perindopril Arginine And Indapamide Tablets 5 mg + 1.25 mg
-PETA29345NEMIS	DIUR_THI	Indapamide	1.25	Perindopril Arginine And Indapamide Tablets 5 mg + 1.25 mg
-PETA9809HILLI	ACEI	Perindopril	2	Perindopril Erbumine Tablets 2 mg
-PETA9810HILLI	ACEI	Perindopril	4	Perindopril Erbumine Tablets 4 mg
-PRM/20660EMIS	BB	Propranolol	160	Propranolol Hydrochloride M/R capsules 160 mg
-PRTA10180BRIDL	BB	Propranolol	80	Propranolol Hydrochloride M/R Capsules 80 mg
-PRTA2393	BB	Propranolol	10	Propranolol Hydrochloride Tablets 10 mg
-PRTA2394	BB	Propranolol	160	Propranolol Hydrochloride Tablets 160 mg
-PRTA2395	BB	Propranolol	40	Propranolol Hydrochloride Tablets 40 mg
-PRTA2396	BB	Propranolol	80	Propranolol Hydrochloride Tablets 80 mg
+PETA29345NEMIS	ACEI	Perindopril	5	Perindopril Arginine And Indapamide  Tablets  5 mg + 1.25 mg
+PETA29345NEMIS	DIUR_THI	Indapamide	1.25	Perindopril Arginine And Indapamide  Tablets  5 mg + 1.25 mg
+PETA9809HILLI	ACEI	Perindopril	2	Perindopril Erbumine  Tablets  2 mg
+PETA9810HILLI	ACEI	Perindopril	4	Perindopril Erbumine  Tablets  4 mg
+PRM/20660EMIS	BB	Propranolol	160	Propranolol Hydrochloride  M/R capsules  160 mg
+PRTA10180BRIDL	BB	Propranolol	80	Propranolol Hydrochloride  M/R Capsules  80 mg
+PRTA2393	BB	Propranolol	10	Propranolol Hydrochloride  Tablets  10 mg
+PRTA2394	BB	Propranolol	160	Propranolol Hydrochloride  Tablets  160 mg
+PRTA2395	BB	Propranolol	40	Propranolol Hydrochloride  Tablets  40 mg
+PRTA2396	BB	Propranolol	80	Propranolol Hydrochloride  Tablets  80 mg
 RACA57NEMIS	ACEI	Ramipril	10	Ramipril 10mg capsules
-RACA8950EMIS	ACEI	Ramipril	1.25	Ramipril Capsules 1.25 mg
-RACA8951EMIS	ACEI	Ramipril	2.5	Ramipril Capsules 2.5 mg
-RACA8952EMIS	ACEI	Ramipril	5	Ramipril Capsules 5 mg
-TETA1042NEMIS	ARB	Telmisartan	40	Telmisartan Tablets 40 mg
-TETA1044NEMIS	ARB	Telmisartan	80	Telmisartan Tablets 80 mg
-TETA18566NEMIS	ARB	Telmisartan	40	Telmisartan And Hydrochlorothiazide Tablets 40 mg + 12.5 mg
-TETA18566NEMIS	DIUR_THI	Hydrochlorothiazide	12.5	Telmisartan And Hydrochlorothiazide Tablets 40 mg + 12.5 mg
-TETA18567NEMIS	ARB	Telmisartan	80	Telmisartan And Hydrochlorothiazide Tablets 80 mg + 12.5 mg
-TETA18567NEMIS	DIUR_THI	Hydrochlorothiazide	12.5	Telmisartan And Hydrochlorothiazide Tablets 80 mg + 12.5 mg
-TETA30443NEMIS	ARB	Telmisartan	80	Telmisartan And Hydrochlorothiazide Tablets 80 mg + 25 mg
-TETA30443NEMIS	DIUR_THI	Hydrochlorothiazide	25	Telmisartan And Hydrochlorothiazide Tablets 80 mg + 25 mg
-TETA6416NEMIS	ARB	Telmisartan	20	Telmisartan Tablets 20 mg
-VACA29705EMIS	ARB	Valsartan	160	Valsartan Capsules 160 mg
-VACA29706EMIS	ARB	Valsartan	40	Valsartan Capsules 40 mg
-VACA29707EMIS	ARB	Valsartan	80	Valsartan Capsules 80 mg
-VATA18545NEMIS	ARB	Valsartan	160	Valsartan And Hydrochlorothiazide Tablets 160 mg + 12.5 mg
-VATA18545NEMIS	DIUR_THI	Hydrochlorothiazide	12.5	Valsartan And Hydrochlorothiazide Tablets 160 mg + 12.5 mg
-VATA18546NEMIS	ARB	Valsartan	160	Valsartan And Hydrochlorothiazide Tablets 160 mg + 25 mg
-VATA18546NEMIS	DIUR_THI	Hydrochlorothiazide	25	Valsartan And Hydrochlorothiazide Tablets 160 mg + 25 mg
-VATA18921NEMIS	ARB	Valsartan	80	Valsartan And Hydrochlorothiazide Tablets 80 mg + 12.5 mg
-VATA18921NEMIS	DIUR_THI	Hydrochlorothiazide	12.5	Valsartan And Hydrochlorothiazide Tablets 80 mg + 12.5 mg
-VATA19082NEMIS	ARB	Valsartan	40	Valsartan Tablets 40 mg
-VATA28964NEMIS	ARB	Valsartan	320	Valsartan Tablets 320 mg
-VATA52642NEMIS	ARB	Valsartan	160	Valsartan Tablets 160 mg
+RACA8950EMIS	ACEI	Ramipril	1.25	Ramipril  Capsules  1.25 mg
+RACA8951EMIS	ACEI	Ramipril	2.5	Ramipril  Capsules  2.5 mg
+RACA8952EMIS	ACEI	Ramipril	5	Ramipril  Capsules  5 mg
+TETA1042NEMIS	ARB	Telmisartan	40	Telmisartan  Tablets  40 mg
+TETA1044NEMIS	ARB	Telmisartan	80	Telmisartan  Tablets  80 mg
+TETA18566NEMIS	ARB	Telmisartan	40	Telmisartan And Hydrochlorothiazide  Tablets  40 mg + 12.5 mg
+TETA18566NEMIS	DIUR_THI	Hydrochlorothiazide	12.5	Telmisartan And Hydrochlorothiazide  Tablets  40 mg + 12.5 mg
+TETA18567NEMIS	ARB	Telmisartan	80	Telmisartan And Hydrochlorothiazide  Tablets  80 mg + 12.5 mg
+TETA18567NEMIS	DIUR_THI	Hydrochlorothiazide	12.5	Telmisartan And Hydrochlorothiazide  Tablets  80 mg + 12.5 mg
+TETA30443NEMIS	ARB	Telmisartan	80	Telmisartan And Hydrochlorothiazide  Tablets  80 mg + 25 mg
+TETA30443NEMIS	DIUR_THI	Hydrochlorothiazide	25	Telmisartan And Hydrochlorothiazide  Tablets  80 mg + 25 mg
+TETA6416NEMIS	ARB	Telmisartan	20	Telmisartan  Tablets  20 mg
+VACA29705EMIS	ARB	Valsartan	160	Valsartan  Capsules  160 mg
+VACA29706EMIS	ARB	Valsartan	40	Valsartan  Capsules  40 mg
+VACA29707EMIS	ARB	Valsartan	80	Valsartan  Capsules  80 mg
+VATA18545NEMIS	ARB	Valsartan	160	Valsartan And Hydrochlorothiazide  Tablets  160 mg + 12.5 mg
+VATA18545NEMIS	DIUR_THI	Hydrochlorothiazide	12.5	Valsartan And Hydrochlorothiazide  Tablets  160 mg + 12.5 mg
+VATA18546NEMIS	ARB	Valsartan	160	Valsartan And Hydrochlorothiazide  Tablets  160 mg + 25 mg
+VATA18546NEMIS	DIUR_THI	Hydrochlorothiazide	25	Valsartan And Hydrochlorothiazide  Tablets  160 mg + 25 mg
+VATA18921NEMIS	ARB	Valsartan	80	Valsartan And Hydrochlorothiazide  Tablets  80 mg + 12.5 mg
+VATA18921NEMIS	DIUR_THI	Hydrochlorothiazide	12.5	Valsartan And Hydrochlorothiazide  Tablets  80 mg + 12.5 mg
+VATA19082NEMIS	ARB	Valsartan	40	Valsartan  Tablets  40 mg
+VATA28964NEMIS	ARB	Valsartan	320	Valsartan  Tablets  320 mg
+VATA52642NEMIS	ARB	Valsartan	160	Valsartan  Tablets  160 mg
+META5119	DIUR_THI	Mefruside	25	Mefruside Tablets 25 mg
+NITA9086EMIS	CCB	Nimodipine	30	Nimodipine 30mg tablets
+ACCA10950BRIDL	NSAID	NSAID	60	Acemetacin  Capsules  60 mg
+ACTA28341EMIS	NSAID	NSAID	100	Aceclofenac  Tablets  100 mg
+ADTA16108NEMIS	NSAID	NSAID	200	Advil  Tablets  200 mg
+AICA55	NSAID	NSAID	50	Alrheumat  Capsules  50 mg
+ANCA16110NEMIS	NSAID	NSAID	200	Anadin Ultra  Capsules  200 mg
+APEF9146HILLI	NSAID	NSAID	1	Apsifen F  Effervescent tablet
+APTA194	NSAID	NSAID	200	Apsifen  Tablets  200 mg
+APTA195	NSAID	NSAID	400	Apsifen  Tablets  400 mg
+ARCA211	NSAID	NSAID	25	Artracin  Capsules  25 mg
+ARE/11592NEMIS	NSAID	NSAID	250	Arthrosin  E/c tablets  250 mg
+ARE/11593NEMIS	NSAID	NSAID	500	Arthrosin  E/c tablets  500 mg
+ARM/26311EMIS	NSAID	NSAID	75	Artracin Sr  M/R capsules  75 
+ARTA12804NEMIS	NSAID	NSAID	60	Arcoxia  Tablets  60 mg
+ARTA12806NEMIS	NSAID	NSAID	90	Arcoxia  Tablets  90 mg
+ARTA12807NEMIS	NSAID	NSAID	120	Arcoxia  Tablets  120 mg
+ARTA22354EMIS	NSAID	NSAID	50	Arthrotec 50  Tablets  
+ARTA28967NEMIS	NSAID	NSAID	30	Arcoxia  Tablets  30 mg
+ARTA29148EMIS	NSAID	NSAID	75	Arthrotec 75  Tablets  
+ARTA4234NEMIS	NSAID	NSAID	250	Arthroxen  Tablets  250 mg
+ARTA4235NEMIS	NSAID	NSAID	500	Arthroxen  Tablets  500 mg
+ARTA9211BRIDL	NSAID	NSAID	200	Arthrofen  Tablets  200 mg
+ARTA9213BRIDL	NSAID	NSAID	400	Arthrofen  Tablets  400 mg
+ARTA9215BRIDL	NSAID	NSAID	600	Arthrofen  Tablets  600 mg
+ARTA9217BRIDL	NSAID	NSAID	250	Arthrosin  Tablets  250 mg
+ARTA9219BRIDL	NSAID	NSAID	500	Arthrosin  Tablets  500 mg
+AXM/39415NEMIS	NSAID	NSAID	100	Axorid  M/R capsules  100 mg +
+AXM39414NEMIS	NSAID	NSAID	200	Axorid  M/R capsules  200 mg +
+AZCA4616	NSAID	NSAID	300	Azapropazone  Capsules  300 mg
+AZTA4617	NSAID	NSAID	600	Azapropazone  Tablets  600 mg
+BEM/13816NEMIS	NSAID	NSAID	75	Berlind 75 Retard  M/R capsule
+BEOR17556NEMIS	NSAID	NSAID	1	Benorilate  Oral Suspension Su
+BESA305	NSAID	NSAID	2000	Benoral  Sachets  2 g/ sachet
+BESA309	NSAID	NSAID	2000	Benorylate  Sachets  2 g
+BESU306	NSAID	NSAID	2000	Benoral  Suspension  2 g/5 ml
+BESU310	NSAID	NSAID	2000	Benorylate  Suspension  2 g/5 
+BETA15395NEMIS	NSAID	NSAID	10	Bextra  Tablet  10 mg
+BETA15396NEMIS	NSAID	NSAID	20	Bextra  Tablet  20 mg
+BETA15397NEMIS	NSAID	NSAID	40	Bextra  Tablet  40 mg
+BETA17557NEMIS	NSAID	NSAID	750	Benorilate  Tablets  750 mg
+BETA308	NSAID	NSAID	750	Benoral  Tablets  750 mg
+BETA313	NSAID	NSAID	750	Benorylate  Tablets  750 mg
+BRGR19659EMIS	NSAID	NSAID	600	Brufen  Granules  600 mg/sache
+BRM/18880EMIS	NSAID	NSAID	80	Brufen Retard  M/R tablets  80
+BRSY426	NSAID	NSAID	100	Brufen  Syrup  100 mg/5 ml
+BRTA34387EMIS	NSAID	NSAID	20	Brexidol  Tablets  20 mg
+BRTA427	NSAID	NSAID	200	Brufen  Tablets  200 mg
+BRTA428	NSAID	NSAID	400	Brufen  Tablets  400 mg
+BRTA429	NSAID	NSAID	600	Brufen  Tablets  600 mg
+BUTA445	NSAID	NSAID	100	Butacote  Tablets  100 mg
+BUTA446	NSAID	NSAID	200	Butacote  Tablets  200 mg
+BUTA447	NSAID	NSAID	100	Butazolidin  Tablets  100 mg
+BUTA448	NSAID	NSAID	200	Butazolidin  Tablets  200 mg
+CASU14764NEMIS	NSAID	NSAID	1	Calprofen  Sugar free suspensi
+CECA4198NEMIS	NSAID	NSAID	100	Celecoxib  Capsules  100 mg
+CECA4200NEMIS	NSAID	NSAID	200	Celecoxib  Capsules  200 mg
+CECA4202NEMIS	NSAID	NSAID	100	Celebrex  Capsules  100 mg
+CECA4203NEMIS	NSAID	NSAID	200	Celebrex  Capsules  200 mg
+CECA43610NEMIS	NSAID	NSAID	400	Celecoxib  Capsules  400 mg
+CLTA639	NSAID	NSAID	100	Clinoril  Tablets  100 mg
+CLTA640	NSAID	NSAID	200	Clinoril  Tablets  200 mg
+COCA24278EMIS	NSAID	NSAID	250	Contraflam  Capsules  250 mg
+COM/19840EMIS	NSAID	NSAID	1	Codafen Continus  M/R tablets 
+COTA27588EMIS	NSAID	NSAID	500	Contraflam  Tablets  500 mg
+COTA34395EMIS	NSAID	NSAID	1	Condrotec  Tablets  
+CUTA17490NEMIS	NSAID	NSAID	1	Cuprofen Plus  Tablets  
+CUTA29067NEMIS	NSAID	NSAID	200	Cuprofen  Tablets  200 mg
+DEM/12580NEMIS	NSAID	NSAID	1	Defanac Retard  M/R tablets  1
+DEM/6708NEMIS	NSAID	NSAID	75	Defanac Sr  M/R tablets  75 mg
+DEM/6709NEMIS	NSAID	NSAID	100	Defanac Sr  M/R tablets  100 m
+DETA13566NEMIS	NSAID	NSAID	25	Defanac  Tablets  25 mg
+DETA13567NEMIS	NSAID	NSAID	50	Defanac  Tablets  50 mg
+DETA20911NEMIS	NSAID	NSAID	300	Dexibuprofen  Tablets  300 mg
+DETA20913NEMIS	NSAID	NSAID	400	Dexibuprofen  Tablets  400 mg
+DETA50007EMIS	NSAID	NSAID	1	Dexketoprofen Trometamol  Tabl
+DIDI9410HILLI	NSAID	NSAID	1	Diclofenac Sodium  Dispersible
+DIE/1994NEMIS	NSAID	NSAID	1	Diclofenac Sodium  E/c tablets
+DIE/1995NEMIS	NSAID	NSAID	1	Diclofenac Sodium  E/c tablets
+DIE/26685EMIS	NSAID	NSAID	1	Diclofenac Sodium  E/C M/R ca
+DIE/4229NEMIS	NSAID	NSAID	50	Diclovol  E/c tablets  50 mg
+DIM/1763NEMIS	NSAID	NSAID	75	Diclovol Sr  M/R tablets  75 m
+DIM/1764NEMIS	NSAID	NSAID	1	Diclovol Retard  M/R tablets  
+DIM/19795EMIS	NSAID	NSAID	1	Diclofenac Sodium  M/R tablets
+DIM/22313EMIS	NSAID	NSAID	1	Diclomax Retard  M/R capsules 
+DIM/24452EMIS	NSAID	NSAID	1	Diclofenac Sodium  M/R capsule
+DIM/26681EMIS	NSAID	NSAID	75	Diclomax Sr  M/R capsules  75 
+DIM/26683EMIS	NSAID	NSAID	1	Diclofenac Sodium  M/R capsule
+DIM/26776EMIS	NSAID	NSAID	100	Dicloflex  M/R tablets  100 mg
+DIM/35443EMIS	NSAID	NSAID	75	Dicloflex Sr  M/R tablets  75 
+DIM/4217NEMIS	NSAID	NSAID	1	Digenac Xl 100  M/R tablets  1
+DITA10235BRIDL	NSAID	NSAID	10	Diclofenac Retard  Tablets  10
+DITA1024NEMIS	NSAID	NSAID	1	Diclofenac Potassium  Tablets 
+DITA1026NEMIS	NSAID	NSAID	1	Diclofenac Potassium  Tablets 
+DITA10751BRIDL	NSAID	NSAID	25	Diclozip-25  Tablets  25 mg
+DITA10753BRIDL	NSAID	NSAID	50	Diclozip-50  Tablets  50 mg
+DITA26777EMIS	NSAID	NSAID	25	Dicloflex  Tablets  25 mg
+DITA26778EMIS	NSAID	NSAID	50	Dicloflex  Tablets  50 mg
+DITA4228NEMIS	NSAID	NSAID	25	Diclovol  E/c tablets  25 mg
+DITA884	NSAID	NSAID	1	Diclofenac Sodium  M/R tablets
+DITA885	NSAID	NSAID	25	Diclofenac Sodium  Tablets  25
+DITA886	NSAID	NSAID	50	Diclofenac Sodium  Tablets  50
+DITA896	NSAID	NSAID	250	Diflunisal  Tablets  250 mg
+DITA897	NSAID	NSAID	500	Diflunisal  Tablets  500 mg
+DITA978NEMIS	NSAID	NSAID	1	Diclofenac And Misoprostol  Ta
+DITA979NEMIS	NSAID	NSAID	1	Diclofenac And Misoprostol  Ta
+DOTA962	NSAID	NSAID	250	Dolobid  Tablets  250 mg
+DOTA963	NSAID	NSAID	500	Dolobid  Tablets  500 mg
+DYCA9233BRIDL	NSAID	NSAID	250	Dysman-250  Capsules  250 mg
+DYCA9235BRIDL	NSAID	NSAID	500	Dysman-500  Tablets  500 mg
+EBCA6714NEMIS	NSAID	NSAID	200	Ebretin  Capsules  200 mg
+EBCA6715NEMIS	NSAID	NSAID	300	Ebretin  Capsules  300 mg
+EBTA1019	NSAID	NSAID	400	Ebufac  Tablets  400 mg
+ECCA15788NEMIS	NSAID	NSAID	300	Eccoxolac  Capsules  300 mg
+ECM/17498NEMIS	NSAID	NSAID	75	Econac Sr  M/R tablets  75 mg
+ECM/17500NEMIS	NSAID	NSAID	100	Econac Xl  M/R tablets  100 mg
+EMCA10948BRIDL	NSAID	NSAID	60	Emflex  Capsules  60 mg
+ETCA10348BRIDL	NSAID	NSAID	300	Etodolac  Capsules  300 mg
+ETCA4907	NSAID	NSAID	200	Etodolac  Capsules  200 mg
+ETM/23692NEMIS	NSAID	NSAID	600	Etopan Xl  M/R tablets  600 mg
+ETM/24010EMIS	NSAID	NSAID	600	Etodolac  M/R tablets  600 mg
+ETTA12809NEMIS	NSAID	NSAID	60	Etoricoxib  Tablets  60 mg
+ETTA12810NEMIS	NSAID	NSAID	90	Etoricoxib  Tablets  90 mg
+ETTA12811NEMIS	NSAID	NSAID	120	Etoricoxib  Tablets  120 mg
+ETTA28966NEMIS	NSAID	NSAID	30	Etoricoxib  Tablets  30 mg
+ETTA4908	NSAID	NSAID	200	Etodolac  Tablets  200 mg
+FECA1148	NSAID	NSAID	10	Feldene  Capsules  10 mg
+FECA1149	NSAID	NSAID	20	Feldene  Capsules  20 mg
+FECA1154	NSAID	NSAID	300	Fenbid  Capsules  300 mg
+FECA1156	NSAID	NSAID	300	Fenbufen  Capsules  300 mg
+FEDI1150	NSAID	NSAID	1	Feldene  Dispersible tablets  
+FEDI1151	NSAID	NSAID	1	Feldene  Dispersible tablets  
+FEEF10340BRIDL	NSAID	NSAID	1	Fenbufen  Effervescent tablets
+FEM/13657NEMIS	NSAID	NSAID	75	Fenactol Sr  M/R tablets  75 m
+FEM/13659NEMIS	NSAID	NSAID	1	Fenactol Retard  M/R tablets  
+FEM/26313EMIS	NSAID	NSAID	200	Fenoket  M/R capsules  200 mg
+FESU13344NEMIS	NSAID	NSAID	100	Feverfen  Suspension  100 mg/5
+FETA1157	NSAID	NSAID	300	Fenbufen  Tablets  300 mg
+FETA1158	NSAID	NSAID	200	Fenoprofen  Tablets  200 mg
+FETA1159	NSAID	NSAID	300	Fenoprofen  Tablets  300 mg
+FETA1160	NSAID	NSAID	600	Fenoprofen  Tablets  600 mg
+FETA1161	NSAID	NSAID	300	Fenopron  Tablets  300 mg
+FETA1162	NSAID	NSAID	600	Fenopron  Tablets  600 mg
+FETA13653NEMIS	NSAID	NSAID	25	Fenactol  Tablets  25 mg
+FETA13655NEMIS	NSAID	NSAID	1	Fenactol  Gastro-resistant Tab
+FETA22463EMIS	NSAID	NSAID	1	Feldene Melt  Orodispersible t
+FETA4911	NSAID	NSAID	450	Fenbufen  Tablets  450 mg
+FLCA10333BRIDL	NSAID	NSAID	200	Flurbiprofen Sr  Capsules  200
+FLCA18825EMIS	NSAID	NSAID	300	Fenbuzip 300  Capsules  300 mg
+FLCA24289EMIS	NSAID	NSAID	10	Flamatrol  Capsules  10 mg
+FLCA24290EMIS	NSAID	NSAID	20	Flamatrol  Capsules  20 mg
+FLLO1529NEMIS	NSAID	NSAID	75	Flurbiprofen  Lozenges  8.75 m
+FLM/21338NEMIS	NSAID	NSAID	75	Flamatak  M/R tablets  75 mg
+FLM/21393NEMIS	NSAID	NSAID	100	Flamatak  M/R tablets  100 mg
+FLM/26557EMIS	NSAID	NSAID	100	Flamrase Sr  M/R tablets  100 
+FLM/33810EMIS	NSAID	NSAID	100	Flexotard Mr  M/R tablets  100
+FLM/35149EMIS	NSAID	NSAID	75	Flamrase Sr  M/R tablets  75 m
+FLTA1216	NSAID	NSAID	100	Flurbiprofen  Tablets  100 mg
+FLTA1217	NSAID	NSAID	50	Flurbiprofen  Tablets  50 mg
+FLTA18826EMIS	NSAID	NSAID	300	Fenbuzip 300  Tablets  300 mg
+FLTA18828EMIS	NSAID	NSAID	450	Fenbuzip 450  Tablets  450 mg
+FLTA24255EMIS	NSAID	NSAID	25	Flamrase  Tablets  25 mg
+FLTA24256EMIS	NSAID	NSAID	50	Flamrase  Tablets  50 mg
+FLTA8363EGTON	NSAID	NSAID	1	Flexin Continus  M/R tablets  
+FLTA9564EMIS	NSAID	NSAID	1	Flexin-Ls Continus  M/R tablet
+FLTA9566EMIS	NSAID	NSAID	1	Flexin-25 Continus  M/R tablet
+FRCA8799BRIDL	NSAID	NSAID	200	Froben Sr  Capsules  200 mg
+FRTA1245	NSAID	NSAID	100	Froben  Tablets  100 mg
+FRTA1246	NSAID	NSAID	50	Froben  Tablets  50 mg
+GAOR6426NEMIS	NSAID	NSAID	10	Galprofen  Oral suspension  10
+HETA16101NEMIS	NSAID	NSAID	200	Hedex Ibuprofen  Tablets  200 
+IBCA1427	NSAID	NSAID	300	Ibuprofen  Capsules  300 mg
+IBCA29306NEMIS	NSAID	NSAID	200	Ibuprofen  Capsules  200 mg
+IBCR10558BRIDL	NSAID	NSAID	1	Ibuprofen  Cream  5 %
+IBDI14330NEMIS	NSAID	NSAID	1	Ibuprofen  Dissolving Tablets 
+IBFC10455BRIDL	NSAID	NSAID	800	Ibuprofen  Fc tablets  800 mg
+IBGR19661EMIS	NSAID	NSAID	600	Ibuprofen  Granules  600 mg/sa
+IBM/18882EMIS	NSAID	NSAID	800	Ibuprofen  M/R tablets  800 mg
+IBMO35123EMIS	NSAID	NSAID	1	Ibuprofen  Mousse  5 %
+IBOR24735NEMIS	NSAID	NSAID	1	Ibuprofen  Oral Suspension Sug
+IBPU25784EMIS	NSAID	NSAID	1	Ibuprofen  Pump spray  5 %
+IBSU13346NEMIS	NSAID	NSAID	100	Ibuprofen  Suspension  100 mg/
+IBSU34992EMIS	NSAID	NSAID	1	Ibuprofen  Sugar-free suspensi
+IBSU37580MGEMIS	NSAID	NSAID	1	Ibuprofen  Sugar-free suspensi
+IBSU37581MGEMIS	NSAID	NSAID	1	Ibuprofen  Sugar-free suspensi
+IBSU37582MGEMIS	NSAID	NSAID	1	Ibuprofen  Sugar-free suspensi
+IBSU37583MGEMIS	NSAID	NSAID	1	Ibuprofen  Sugar-free suspensi
+IBSU37584MGEMIS	NSAID	NSAID	1	Ibuprofen  Sugar-free suspensi
+IBSU37585MGEMIS	NSAID	NSAID	1	Ibuprofen  Sugar-free suspensi
+IBSU37586MGEMIS	NSAID	NSAID	1	Ibuprofen  Sugar-free suspensi
+IBSY1428	NSAID	NSAID	100	Ibuprofen  Syrup  100 mg/5 ml
+IBTA1429	NSAID	NSAID	200	Ibuprofen  Tablets  200 mg
+IBTA1430	NSAID	NSAID	400	Ibuprofen  Tablets  400 mg
+IBTA1431	NSAID	NSAID	600	Ibuprofen  Tablets  600 mg
+IBTA19439NEMIS	NSAID	NSAID	1	Ibuprofen M/r And Codeine  Tab
+IBTA25101NEMIS	NSAID	NSAID	1	Ibuprofen And Pseudoephedrine 
+IBTA31837NEMIS	NSAID	NSAID	200	Ibuprofen Lysine  Tablets  200
+IBTA35490MGEMIS	NSAID	NSAID	200	Ibuprofen  Tablets  200 mg (Te
+IBTA35491MGEMIS	NSAID	NSAID	200	Ibuprofen  Tablets  200 mg (Ke
+IBTA35492MGEMIS	NSAID	NSAID	200	Ibuprofen  Tablets  200 mg (Va
+IBTA35493MGEMIS	NSAID	NSAID	200	Ibuprofen  Tablets  200 mg (OB
+IBTA35494MGEMIS	NSAID	NSAID	200	Ibuprofen  Tablets  200 mg (Th
+IBTA35495MGEMIS	NSAID	NSAID	200	Ibuprofen  Tablets  200 mg (Un
+IBTA35496MGEMIS	NSAID	NSAID	200	Ibuprofen  Tablets  200 mg (A.
+IBTA35497MGEMIS	NSAID	NSAID	200	Ibuprofen  Tablets  200 mg (Ra
+IBTA35498MGEMIS	NSAID	NSAID	200	Ibuprofen  Tablets  200 mg (Iv
+IBTA35499MGEMIS	NSAID	NSAID	200	Ibuprofen  Tablets  200 mg (As
+IBTA35500MGEMIS	NSAID	NSAID	200	Ibuprofen  Tablets  200 mg (Wi
+IBTA35501MGEMIS	NSAID	NSAID	200	Ibuprofen  Tablets  200 mg (Su
+IBTA35502MGEMIS	NSAID	NSAID	200	Ibuprofen  Tablets  200 mg (Ll
+IBTA35503MGEMIS	NSAID	NSAID	200	Ibuprofen  Tablets  200 mg (Wo
+IBTA35504MGEMIS	NSAID	NSAID	400	Ibuprofen  Tablets  400 mg (Te
+IBTA35505MGEMIS	NSAID	NSAID	400	Ibuprofen  Tablets  400 mg (Th
+IBTA35506MGEMIS	NSAID	NSAID	400	Ibuprofen  Tablets  400 mg (Va
+IBTA35507MGEMIS	NSAID	NSAID	400	Ibuprofen  Tablets  400 mg (St
+IBTA35508MGEMIS	NSAID	NSAID	400	Ibuprofen  Tablets  400 mg (Ke
+IBTA35509MGEMIS	NSAID	NSAID	400	Ibuprofen  Tablets  400 mg (Un
+IBTA35510MGEMIS	NSAID	NSAID	400	Ibuprofen  Tablets  400 mg (As
+IBTA35511MGEMIS	NSAID	NSAID	400	Ibuprofen  Tablets  400 mg (Ra
+IBTA35512MGEMIS	NSAID	NSAID	400	Ibuprofen  Tablets  400 mg (OB
+IBTA35513MGEMIS	NSAID	NSAID	400	Ibuprofen  Tablets  400 mg (Sa
+IBTA35514MGEMIS	NSAID	NSAID	400	Ibuprofen  Tablets  400 mg (Iv
+IBTA35515MGEMIS	NSAID	NSAID	400	Ibuprofen  Tablets  400 mg (A.
+IBTA35516MGEMIS	NSAID	NSAID	400	Ibuprofen  Tablets  400 mg (Su
+IBTA35517MGEMIS	NSAID	NSAID	400	Ibuprofen  Tablets  400 mg (Ll
+IBTA35518MGEMIS	NSAID	NSAID	400	Ibuprofen  Tablets  400 mg (Wo
+IBTA35519MGEMIS	NSAID	NSAID	400	Ibuprofen  Tablets  400 mg (Ga
+IBTA40030NEMIS	NSAID	NSAID	684	Ibuprofen Lysine  Tablets  684
+IBTAEGTON6109	NSAID	NSAID	200	Ibular  Tablets  200 mg
+IBTAEGTON6111	NSAID	NSAID	200	Ibumetin  Tablets  200 mg
+IBTAEGTON6121	NSAID	NSAID	400	Ibular  Tablets  400 mg
+IBTAEGTON6124	NSAID	NSAID	400	Ibumetin  Tablets  400 mg
+IBTAEGTON6125	NSAID	NSAID	600	Ibumetin  Tablets  600 mg
+IMCA1438	NSAID	NSAID	25	Imbrilon  Capsules  25 mg
+IMCA1439	NSAID	NSAID	50	Imbrilon  Capsules  50 mg
+INCA10535BRIDL	NSAID	NSAID	25	Indomax-25  Capsules  25 mg
+INCA1458	NSAID	NSAID	25	Indocid  Capsules  25 mg
+INCA1459	NSAID	NSAID	50	Indocid  Capsules  50 mg
+INCA1462	NSAID	NSAID	75	Indocid-R  M/R capsules  75 mg
+INCA1463	NSAID	NSAID	25	Indoflex  Capsules  25 mg
+INCA1464	NSAID	NSAID	75	Indolar Sr  M/R capsules  75 m
+INCA1465	NSAID	NSAID	25	Indomod  M/R capsules  25 mg
+INCA1466	NSAID	NSAID	75	Indomod  M/R capsules  75 mg
+INCA17688NEMIS	NSAID	NSAID	25	Indometacin  Capsules  25 mg
+INCA17689NEMIS	NSAID	NSAID	50	Indometacin  Capsules  50 mg
+INCA5024	NSAID	NSAID	25	Indomethacin  Capsules  25 mg
+INCA6932	NSAID	NSAID	50	Indomethacin  Capsules  50 mg
+INM/17691NEMIS	NSAID	NSAID	25	Indometacin  M/R tablets  25 m
+INM/17692NEMIS	NSAID	NSAID	50	Indometacin  M/R tablets  50 m
+INM/17693NEMIS	NSAID	NSAID	75	Indometacin  M/R tablets  75 m
+INM/17694NEMIS	NSAID	NSAID	25	Indometacin  M/R capsules  25 
+INM/17695NEMIS	NSAID	NSAID	75	Indometacin  M/R capsules  75 
+INS/9570EMIS	NSAID	NSAID	25	Indomethacin  M/R tablets  25 
+INS/9571EMIS	NSAID	NSAID	50	Indomethacin  M/R tablets  50 
+INS/9572EMIS	NSAID	NSAID	75	Indomethacin  M/R tablets  75 
+INSL10307BRIDL	NSAID	NSAID	25	Indomethacin  M/R capsules  25
+INSL9953BRIDL	NSAID	NSAID	75	Indomethacin  M/R capsules  75
+INSR10537BRIDL	NSAID	NSAID	75	Indomax-75-Sr  M/R capsules  7
+INSU1461	NSAID	NSAID	25	Indocid  Suspension  25 mg/5 m
+INSU5027	NSAID	NSAID	25	Indomethacin  Suspension  25 m
+JOM/4512NEMIS	NSAID	NSAID	200	Jomethid Xl  M/R capsules  200
+JUSU9285BRIDL	NSAID	NSAID	100	Junifen  Suspension  100 mg/5 
+KECA1569	NSAID	NSAID	100	Ketoprofen  Capsules  100 mg
+KECA1570	NSAID	NSAID	200	Ketoprofen  Capsules  200 mg
+KECA1571	NSAID	NSAID	50	Ketoprofen  Capsules  50 mg
+KECA8761BRIDL	NSAID	NSAID	100	Ketoprofen  M/R capsules  100 
+KECA8763BRIDL	NSAID	NSAID	200	Ketoprofen  M/R capsules  200 
+KEM/1548NEMIS	NSAID	NSAID	100	Ketil Cr  M/R capsules  100 mg
+KEM/1549NEMIS	NSAID	NSAID	200	Ketil Cr  M/R capsules  200 mg
+KEM/24099EMIS	NSAID	NSAID	150	Ketoprofen  M/R capsules  150 
+KEM/24273EMIS	NSAID	NSAID	100	Ketovail  M/R capsules  100 mg
+KEM/24274EMIS	NSAID	NSAID	200	Ketovail  M/R capsules  200 mg
+KEM/26315EMIS	NSAID	NSAID	200	Ketocid  M/R capsules  200 mg
+KEM/26658EMIS	NSAID	NSAID	200	Ketozip Xl  M/R capsules  200 
+KEM/39417NEMIS	NSAID	NSAID	1	Ketoprofen And Omeprazole  M/R
+KEM/39418NEMIS	NSAID	NSAID	1	Ketoprofen And Omeprazole  M/R
+KETA21933EMIS	NSAID	NSAID	1	Ketorolac Trometamol  Tablets 
+KETA50005EMIS	NSAID	NSAID	25	Keral  Tablets  25 mg
+LACA1607	NSAID	NSAID	1	Larapam (Piroxicam)  Capsules 
+LACA1608	NSAID	NSAID	1	Larapam (Piroxicam)  Capsules 
+LAM/4222NEMIS	NSAID	NSAID	200	Larafen Cr  M/R capsules  200 
+LATA1605	NSAID	NSAID	250	Laraflex  Tablets  250 mg
+LATA1606	NSAID	NSAID	500	Laraflex  Tablets  500 mg
+LECA1637	NSAID	NSAID	300	Lederfen  Capsules  300 mg
+LEEF9723BRIDL	NSAID	NSAID	1	Lederfen  Effervescent tablets
+LETA10497BRIDL	NSAID	NSAID	450	Lederfen  Tablets  450 mg
+LETA1638	NSAID	NSAID	300	Lederfen  Tablets  300 mg
+LETA1639	NSAID	NSAID	450	Lederfen F  Tablets  450 mg
+LITA19741EMIS	NSAID	NSAID	600	Lidifen-F  Tablets  600 mg
+LITA34263EMIS	NSAID	NSAID	200	Librofem  Tablets  200 mg
+LITA9957BRIDL	NSAID	NSAID	200	Lidifen  Tablets  200 mg
+LITA9959BRIDL	NSAID	NSAID	400	Lidifen  Tablets  400 mg
+LOCA1682	NSAID	NSAID	200	Lodine  Capsules  200 mg
+LOCA9511BRIDL	NSAID	NSAID	300	Lodine  Capsules  300 mg
+LOM/24008EMIS	NSAID	NSAID	600	Lodine Sr  M/R tablets  600 mg
+LOM/29323EMIS	NSAID	NSAID	1	Lofensaid Retard  M/R tablets 
+LOM/29324EMIS	NSAID	NSAID	1	Lofensaid Retard  M/R tablets 
+LOTA10616BRIDL	NSAID	NSAID	200	Lodine  Tablets  200 mg
+LOTA11601NEMIS	NSAID	NSAID	4	Lornoxicam  Tablets  4 mg
+LOTA11603NEMIS	NSAID	NSAID	8	Lornoxicam  Tablets  8 mg
+LOTA27240EMIS	NSAID	NSAID	25	Lofensaid  Tablets  25 mg
+LOTA27241EMIS	NSAID	NSAID	50	Lofensaid  Tablets  50 mg
+LUTA18907NEMIS	NSAID	NSAID	100	Lumiracoxib  Tablets  100 mg
+LUTA18910NEMIS	NSAID	NSAID	400	Lumiracoxib  Tablets  400 mg
+MAM/26319EMIS	NSAID	NSAID	75	Maximet Sr  M/R capsules  75 m
+MECA1751	NSAID	NSAID	250	Mefenamic Acid  Capsules  250 
+MECA26322EMIS	NSAID	NSAID	250	Meflam  Capsules  250 mg
+MEDI7045	NSAID	NSAID	1	Mefenamic Acid  Dispersible ta
+MEPA1752	NSAID	NSAID	1	Mefenamic Acid  Paediatric sus
+MESU11938NEMIS	NSAID	NSAID	50	Mefenamic Acid  Suspension  50
+META1753	NSAID	NSAID	500	Mefenamic Acid  Tablets  500 m
+META26323EMIS	NSAID	NSAID	500	Meflam  Tablets  500 mg
+META28880EMIS	NSAID	NSAID	15	Meloxicam  Tablets  15 mg
+META28881EMIS	NSAID	NSAID	7.5	Meloxicam  Tablets  7.5 mg
+MOCAEGTON6138	NSAID	NSAID	25	Mobilan  Capsules  25 mg
+MOCAEGTON6139	NSAID	NSAID	50	Mobilan  Capsules  50 mg
+MOEF23713EMIS	NSAID	NSAID	1	Mobiflex  Effervescent tablets
+MOGR22483EMIS	NSAID	NSAID	20	Mobiflex  Granules  20 mg/sach
+MOM/25331EMIS	NSAID	NSAID	7	Motifene  E/C M/R capsules  7
+MOTA28874EMIS	NSAID	NSAID	15	Mobic  Tablets  15 mg
+MOTA28875EMIS	NSAID	NSAID	7.5	Mobic  Tablets  7.5 mg
+MOTA8330EGTON	NSAID	NSAID	20	Mobiflex  Tablets  20 mg
+MOTAEGTON6116	NSAID	NSAID	200	Motrin  Tablets  200 mg
+MOTAEGTON6117	NSAID	NSAID	400	Motrin  Tablets  400 mg
+MOTAEGTON6118	NSAID	NSAID	600	Motrin  Tablets  600 mg
+MOTAEGTON6119	NSAID	NSAID	800	Motrin  Tablets  800 mg
+NADI14482NEMIS	NSAID	NSAID	1	Nabumetone  Dispersible tablet
+NAE/9202EMIS	NSAID	NSAID	250	Naproxen  E/c tablets  250 mg
+NAE/9203EMIS	NSAID	NSAID	500	Naproxen  E/c tablets  500 mg
+NAE/9385EMIS	NSAID	NSAID	250	Naprosyn  E/c tablets  250 mg
+NAE/9386EMIS	NSAID	NSAID	375	Naprosyn  E/c tablets  375 mg
+NAE/9387EMIS	NSAID	NSAID	500	Naprosyn  E/c tablets  500 mg
+NAE/9389EMIS	NSAID	NSAID	375	Naproxen  E/c tablets  375 mg
+NAGR1933	NSAID	NSAID	500	Naprosyn  Granules  500 mg
+NAGR5187	NSAID	NSAID	500	Naproxen  Granules  500 mg
+NAM/21940EMIS	NSAID	NSAID	375	Naproxen  M/R tablets  375 mg
+NAM/21941EMIS	NSAID	NSAID	500	Naproxen  M/R tablets  500 mg
+NAM/23440EMIS	NSAID	NSAID	500	Naprosyn Sr  M/R tablets  500 
+NAM/47266NEMIS	NSAID	NSAID	1	Naproxen And Esomeprazole  M/R
+NASU1935	NSAID	NSAID	125	Naprosyn  Suspension  125 mg/5
+NASU5188	NSAID	NSAID	125	Naproxen  Oral suspension  125
+NASU9734HILLI	NSAID	NSAID	1	Nabumetone  Suspension  Sugar 
+NATA18046EMIS	NSAID	NSAID	1	Napratec OP  Tablets  
+NATA1936	NSAID	NSAID	250	Naprosyn  Tablets  250 mg
+NATA1937	NSAID	NSAID	500	Naprosyn  Tablets  500 mg
+NATA1938	NSAID	NSAID	250	Naproxen  Tablets  250 mg
+NATA1939	NSAID	NSAID	500	Naproxen  Tablets  500 mg
+NATA19446NEMIS	NSAID	NSAID	1	Naproxen And Misoprostol  Tabl
+NATA5182	NSAID	NSAID	500	Nabumetone  Tablets  500 mg
+NATA5189	NSAID	NSAID	275	Naproxen Sodium  Tablets  275 
+NATA9272EMIS	NSAID	NSAID	375	Naprosyn  Tablets  375 mg
+NATA9274EMIS	NSAID	NSAID	375	Naproxen  Tablets  375 mg
+NUCA16141NEMIS	NSAID	NSAID	200	Nurofen  Caplets  200 mg
+NUDI14332NEMIS	NSAID	NSAID	1	Nurofen Meltlets  Dissolving T
+NULI16149NEMIS	NSAID	NSAID	200	Nurofen  Liquid Capsules  200 
+NUM/19692NEMIS	NSAID	NSAID	1	Nurofen Back Pain Sr  M/R caps
+NUS/11319NEMIS	NSAID	NSAID	1	Nurofen Long Lasting  S/r caps
+NUSU34990EMIS	NSAID	NSAID	1	Nurofen For Children  Sugar-fr
+NUTA11316NEMIS	NSAID	NSAID	1	Nurofen Advance  Tablets  
+NUTA25108NEMIS	NSAID	NSAID	1	Nurofen Cold & Flu  Tablets  
+NUTA5832NEMIS	NSAID	NSAID	1	Nurofen Plus  Tablets  
+NYE/9198EMIS	NSAID	NSAID	250	Nycopren  E/c tablets  250 mg
+NYE/9199EMIS	NSAID	NSAID	500	Nycopren  E/c tablets  500 mg
+ONCA43612NEMIS	NSAID	NSAID	400	Onsenal  Capsules  400 mg
+OPCA26353EMIS	NSAID	NSAID	250	Opustan  Capsules  250 mg
+OPTA26354EMIS	NSAID	NSAID	500	Opustan  Tablets  500 mg
+ORCA2112	NSAID	NSAID	100	Orudis  Capsules  100 mg
+ORCA2113	NSAID	NSAID	50	Orudis  Capsules  50 mg
+ORCA2115	NSAID	NSAID	100	Oruvail  M/R capsules  100 mg
+ORCA2116	NSAID	NSAID	200	Oruvail  S/r capsules  200 mg
+ORM/24097EMIS	NSAID	NSAID	150	Oruvail  M/R capsules  150 mg
+ORM/24102EMIS	NSAID	NSAID	200	Oruvail  M/R capsules  200 mg
+ORSU13785NEMIS	NSAID	NSAID	1	Orbifen  Sugar-free oral suspe
+PAM/4515NEMIS	NSAID	NSAID	75	Pardelprin  M/R capsules  75 m
+PATA51116NEMIS	NSAID	NSAID	1	Paracetamol And Ibuprofen  Tab
+PATAEGTON6129	NSAID	NSAID	200	Paxofen  Tablets  200 mg
+PATAEGTON6130	NSAID	NSAID	400	Paxofen  Tablets  400 mg
+PATAEGTON6131	NSAID	NSAID	600	Paxofen  Tablets  600 mg
+PHTA5277	NSAID	NSAID	100	Phenylbutazone  Tablets  100 m
+PHTA6826	NSAID	NSAID	200	Phenylbutazone  Tablets  200 m
+PICA10786BRIDL	NSAID	NSAID	10	Pirozip 10  Capsules  10 mg
+PICA10788BRIDL	NSAID	NSAID	20	Pirozip 20  Capsules  20 mg
+PICA2279	NSAID	NSAID	10	Piroxicam  Capsules  10 mg
+PICA2280	NSAID	NSAID	20	Piroxicam  Capsules  20 mg
+PICA26328EMIS	NSAID	NSAID	10	Piroflam  Capsules  10 mg
+PICA26329EMIS	NSAID	NSAID	20	Piroflam  Capsules  20 mg
+PICA36548MGEMIS	NSAID	NSAID	20	Piroxicam  Capsules  20 mg (Iv
+PICA36549MGEMIS	NSAID	NSAID	20	Piroxicam  Capsules  20 mg (Ge
+PICA36550MGEMIS	NSAID	NSAID	20	Piroxicam  Capsules  20 mg (Ke
+PICA36551MGEMIS	NSAID	NSAID	20	Piroxicam  Capsules  20 mg (Un
+PICA36552MGEMIS	NSAID	NSAID	20	Piroxicam  Capsules  20 mg (Al
+PICA36553MGEMIS	NSAID	NSAID	20	Piroxicam  Capsules  20 mg (Th
+PICA36554MGEMIS	NSAID	NSAID	20	Piroxicam  Capsules  20 mg (A.
+PICA36555MGEMIS	NSAID	NSAID	20	Piroxicam  Capsules  20 mg (Sa
+PIDI2281	NSAID	NSAID	1	Piroxicam  Dispersible tablets
+PIDI2282	NSAID	NSAID	1	Piroxicam  Dispersible tablets
+PIDI36560MGEMIS	NSAID	NSAID	1	Piroxicam  Dispersible tablets
+PIDI36561MGEMIS	NSAID	NSAID	1	Piroxicam  Dispersible tablets
+PIDI36562MGEMIS	NSAID	NSAID	1	Piroxicam  Dispersible tablets
+PIDI36563MGEMIS	NSAID	NSAID	1	Piroxicam  Dispersible tablets
+PIIN22461EMIS	NSAID	NSAID	20	Piroxicam  Injection  20 mg/ml
+PIME22465EMIS	NSAID	NSAID	1	Piroxicam  Orodispersible tabl
+PISU2283	NSAID	NSAID	20	Piroxicam  Suppositories  20 m
+PITA34389EMIS	NSAID	NSAID	1	Piroxicam-Beta-Cyclodextrin  T
+POCA2306	NSAID	NSAID	250	Ponstan  Capsules  250 mg
+PODIEGTON6710	NSAID	NSAID	1	Ponstan Dispersible  Dispersib
+POPA2307	NSAID	NSAID	1	Ponstan  Paediatric suspension
+POTA2309	NSAID	NSAID	500	Ponstan  Tablets forte  500 mg
+PRM/21936EMIS	NSAID	NSAID	1	Pranoxen Continus  M/R tablets
+PRM/21937EMIS	NSAID	NSAID	1	Pranoxen Continus  M/R tablets
+PRTA18912NEMIS	NSAID	NSAID	100	Prexige  Tablets  100 mg
+PRTA18914NEMIS	NSAID	NSAID	400	Prexige  Tablets  400 mg
+PRTA22246EMIS	NSAID	NSAID	250	Prosaid  Tablets  250 mg
+PRTA22247EMIS	NSAID	NSAID	500	Prosaid  Tablets  500 mg
+PRTA2364	NSAID	NSAID	200	Progesic  Tablets  200 mg
+PRTA28339EMIS	NSAID	NSAID	100	Preservex  Tablets  100 mg
+RATA2430	NSAID	NSAID	200	Ramodar  Tablets  200 mg
+REDI14483NEMIS	NSAID	NSAID	1	Relifex  Dispersible tablets  
+RESU9873HILLI	NSAID	NSAID	500	Relifex  Suspension  500 mg/5 
+RETA2443	NSAID	NSAID	500	Relifex  Tablets  500 mg
+RHCA2448	NSAID	NSAID	300	Rheumox  Capsules  300 mg
+RHCAEGTON6141	NSAID	NSAID	75	Rheumacin La  M/R capsules  75
+RHM/19274NEMIS	NSAID	NSAID	75	Rhumalgan Sr  M/R capsules  75
+RHM/19276NEMIS	NSAID	NSAID	10	Rhumalgan Xl  M/R capsules  10
+RHM/34588EMIS	NSAID	NSAID	100	Rhumalgan Cr  M/R tablets  100
+RHM/34589EMIS	NSAID	NSAID	75	Rhumalgan Cr  M/R tablets  75 
+RHM/6447NEMIS	NSAID	NSAID	1	Rheumatac Retard  M/R tablets 
+RHM/8969DLSEM	NSAID	NSAID	100	Rhumalgan  M/R tablets  100 mg
+RHM/8971DLSEM	NSAID	NSAID	75	Rhumalgan  M/R tablets  75 mg
+RHTA2449	NSAID	NSAID	600	Rheumox  Tablets  600 mg
+RHTAEGTON6134	NSAID	NSAID	25	Rhumalgan  Tablets  25 mg
+RHTAEGTON6135	NSAID	NSAID	50	Rhumalgan  Tablets  50 mg
+ROOR469NEMIS	NSAID	NSAID	1	Rofecoxib  Oral suspension  Su
+ROOR470NEMIS	NSAID	NSAID	1	Rofecoxib  Oral suspension  Su
+ROTA11575NEMIS	NSAID	NSAID	50	Rofecoxib  Tablets  50 mg
+ROTA466NEMIS	NSAID	NSAID	12.5	Rofecoxib  Tablets  12.5 mg
+ROTA468NEMIS	NSAID	NSAID	25	Rofecoxib  Tablets  25 mg
+SETA20915NEMIS	NSAID	NSAID	300	Seractil  Tablets  300 mg
+SETA20916NEMIS	NSAID	NSAID	400	Seractil  Tablets  400 mg
+SLCAEGTON6143	NSAID	NSAID	75	Slo-Indo  M/R capsules  75 mg
+SLM/30972EMIS	NSAID	NSAID	100	Slofenac Sr  M/R tablets  100 
+SLM/30974EMIS	NSAID	NSAID	75	Slofenac Sr  M/R tablets  75 m
+SOTA16103NEMIS	NSAID	NSAID	1	Solpaflex  Tablets  
+STLO14771NEMIS	NSAID	NSAID	8.75	Streflam  Lozenges  8.75 mg
+STLO1530NEMIS	NSAID	NSAID	8.75	Strefen  Lozenges  8.75 mg
+SUCA8866BRIDL	NSAID	NSAID	300	Surgam Sa  Capsules  300 mg
+SUSA2744	NSAID	NSAID	300	Surgam  Sachets  300 mg
+SUTA2724	NSAID	NSAID	100	Sulindac  Tablets  100 mg
+SUTA2725	NSAID	NSAID	200	Sulindac  Tablets  200 mg
+SUTA2745	NSAID	NSAID	300	Surgam  Tablets  300 mg
+SUTA9172BRIDL	NSAID	NSAID	200	Surgam  Tablets  200 mg
+SYTA4369	NSAID	NSAID	275	Synflex  Tablets  275 mg
+TEEF23715EMIS	NSAID	NSAID	1	Tenoxicam  Effervescent tablet
+TEGR22485EMIS	NSAID	NSAID	20	Tenoxicam  Granules  20 mg/sac
+TETA20599EMIS	NSAID	NSAID	20	Tenoxicam  Tablets  20 mg
+TICA13576NEMIS	NSAID	NSAID	100	Tiloket Cr  M/R capsules  100 
+TICA13577NEMIS	NSAID	NSAID	200	Tiloket Cr  M/R capsules  200 
+TICA18210NEMIS	NSAID	NSAID	50	Tiloket  Capsules  50 mg
+TIE/32937EMIS	NSAID	NSAID	250	Timpron 250 Ec  E/c tablets  2
+TIE/32939EMIS	NSAID	NSAID	500	Timpron 500 Ec  E/c tablets  5
+TIS/9948HILLI	NSAID	NSAID	1	Tiaprofenic Acid  S/r capsules
+TISA5449	NSAID	NSAID	300	Tiaprofenic Acid  Sachets  300
+TITA24281EMIS	NSAID	NSAID	250	Timpron  Tablets  250 mg
+TITA24282EMIS	NSAID	NSAID	500	Timpron  Tablets  500 mg
+TITA2855	NSAID	NSAID	300	Tiaprofenic Acid  Tablets  300
+TITA9554EMIS	NSAID	NSAID	200	Tiaprofenic Acid  Tablets  200
+TOCA2877	NSAID	NSAID	400	Tolectin  Capsules  400 mg
+TOCA5460	NSAID	NSAID	400	Tolmetin  Capsules  400 mg
+TOCA9544BRIDL	NSAID	NSAID	200	Tolectin  Capsules  200 mg
+TOCA9961HILLI	NSAID	NSAID	200	Tolmetin  Capsules  200 mg
+TOTA21931EMIS	NSAID	NSAID	10	Toradol  Tablets  10 mg
+VAE/9987HILLI	NSAID	NSAID	25	Valenac  Tablets  25 mg
+VAE/9988HILLI	NSAID	NSAID	50	Valenac  Tablets  50 mg
+VAM/12791NEMIS	NSAID	NSAID	75	Valdic 75 Retard  M/R tablets 
+VAM/12793NEMIS	NSAID	NSAID	100	Valdic 100 Retard  M/R tablets
+VAM/47025NEMIS	NSAID	NSAID	200	Valket Retard  M/R capsules  2
+VATA15390NEMIS	NSAID	NSAID	10	Valdecoxib  Tablet  10 mg
+VATA15392NEMIS	NSAID	NSAID	20	Valdecoxib  Tablet  20 mg
+VATA15393NEMIS	NSAID	NSAID	40	Valdecoxib  Tablet  40 mg
+VATA9991HILLI	NSAID	NSAID	250	Valrox  Tablets  250 mg
+VATA9992HILLI	NSAID	NSAID	500	Valrox  Tablets  500 mg
+VIM/47268NEMIS	NSAID	NSAID	500	Vimovo  M/R tablets  500 mg + 
+VIOR472NEMIS	NSAID	NSAID	12.5	Vioxx  Oral suspension  12.5mg
+VIOR473NEMIS	NSAID	NSAID	25	Vioxx  Oral suspension  25mg/5
+VITA11577NEMIS	NSAID	NSAID	25	Vioxxacute  Tablets  25 mg
+VITA11578NEMIS	NSAID	NSAID	50	Vioxxacute  Tablets  50 mg
+VITA474NEMIS	NSAID	NSAID	12.5	Vioxx  Tablets  12.5 mg
+VITA475NEMIS	NSAID	NSAID	25	Vioxx  Tablets  25 mg
+VODI9425BRIDL	NSAID	NSAID	1	Voltarol  Dispersible tablets 
+VOM/13540NEMIS	NSAID	NSAID	75	Volsaid Retard 75  M/R tablets
+VOM/13542NEMIS	NSAID	NSAID	100	Volsaid Retard 100  M/R tablet
+VOM/28767EMIS	NSAID	NSAID	75	Volsaid Sr 75  M/R tablets  75
+VOM/28769EMIS	NSAID	NSAID	100	Volsaid Sr 100  M/R tablets  1
+VOS/18019EMIS	NSAID	NSAID	75	Voltarol Sr  M/R tablets  75 m
+VOTA1027NEMIS	NSAID	NSAID	25	Voltarol Rapid  Tablets  25 mg
+VOTA1028NEMIS	NSAID	NSAID	50	Voltarol Rapid  Tablets  50 mg
+VOTA3064	NSAID	NSAID	25	Voltarol  Tablets  25 mg
+VOTA3065	NSAID	NSAID	50	Voltarol  Tablets  50 mg
+VOTA3066	NSAID	NSAID	1	Voltarol Retard  M/R tablets  
+VOTA31790NEMIS	NSAID	NSAID	12.5	Voltarol Pain-Eze  Tablets  12
+VOTA8338EGTON	NSAID	NSAID	1	Voltaren Retard  M/R tablets  
+VOTA9037BRIDL	NSAID	NSAID	25	Volraman  Tablets  25 mg
+VOTA9039BRIDL	NSAID	NSAID	50	Volraman  Tablets  50 mg
+XETA11606NEMIS	NSAID	NSAID	4	Xefo  Tablets  4 mg
+XETA11607NEMIS	NSAID	NSAID	8	Xefo  Tablets  8 mg
+IBM/25575NEMIS	NSAID	NSAID	300	Ibuprofen 300mg modified-release capsules
+INCA5025	NSAID	NSAID	75	Indometacin  Capsules  75 mg
+NUOR33292NEMIS	NSAID	NSAID	100	Nurofen For Children  Oral Suspension (Strawberry)  100 mg/5 ml
+NUOR33298NEMIS	NSAID	NSAID	100	Nurofen For Children  Oral Suspension (Orange)  100 mg/5 ml
+SUCA2743	NSAID	NSAID	300	Surgam  Capsules  300 mg
+DISU25795EMIS	NSAID	NSAID	25	Diclofenac 25mg suppositories
+DISU25796EMIS	NSAID	NSAID	50	Diclofenac 50mg suppositories
+DISU883	NSAID	NSAID	100	Diclofenac 100mg suppositories
+INSU1460	NSAID	NSAID	100	Indocid 100mg suppositories (Aspen Pharma Trading Ltd)
+INSU17690NEMIS	NSAID	NSAID	100	Indometacin 100mg suppositories
+INSU5026	NSAID	NSAID	100	Indomethacin  Suppositories  100 mg
+VOSU25792EMIS	NSAID	NSAID	50	Voltarol 50mg suppositories (Novartis Pharmaceuticals UK Ltd)
+VOSU3063	NSAID	NSAID	100	Voltarol 100mg suppositories (Novartis Pharmaceuticals UK Ltd)
