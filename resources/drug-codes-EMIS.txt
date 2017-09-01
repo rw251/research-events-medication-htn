@@ -716,3 +716,11 @@ INSU17690NEMIS	NSAID	NSAID	100	Indometacin 100mg suppositories
 INSU5026	NSAID	NSAID	100	Indomethacin  Suppositories  100 mg
 VOSU25792EMIS	NSAID	NSAID	50	Voltarol 50mg suppositories (Novartis Pharmaceuticals UK Ltd)
 VOSU3063	NSAID	NSAID	100	Voltarol 100mg suppositories (Novartis Pharmaceuticals UK Ltd)
+DITA905	DIGOXIN	DIGOXIN	0.125	Digoxin 125microgram tablets
+DITA906	DIGOXIN	DIGOXIN	0.25	Digoxin 250microgram tablets
+DITA908	DIGOXIN	DIGOXIN	0.0625	Digoxin 62.5microgram tablets
+DIEL10376BRIDL	DIGOXIN	DIGOXIN	0.05	Digoxin 50micrograms/ml oral solution
+LATA1595	DIGOXIN	DIGOXIN	0.125	Lanoxin Tablets 125 micrograms
+LATA1596	DIGOXIN	DIGOXIN	0.25	Lanoxin 250microgram tablets (Aspen Pharma Trading Ltd)
+LATA1597	DIGOXIN	DIGOXIN	0.0625	Lanoxin PG 62.5microgram tablets (Aspen Pharma Trading Ltd)
+
