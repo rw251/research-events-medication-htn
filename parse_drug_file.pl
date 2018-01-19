@@ -437,6 +437,12 @@ while (<$fh> ) {
 	if($debug){
 		print "$pid\t$type\t$mg\t$#patientTypeCache\n";
 	}
+	if($dt == $dtLast) {
+		# get rid of last one and add mgs to it
+		pop @patientTypeCache;
+		$event{"mg"} += $mg;
+	} 
+	
 	push(@patientTypeCache, \%event);
 
 	($pidLast, $dtLast, $tabsLast, $perDayLast, $mgLast, $familyLast, $typeLast) =($pid, $dt, $tabs, $perDay, $mg, $family, $type);
