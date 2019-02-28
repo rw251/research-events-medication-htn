@@ -1,12 +1,12 @@
 /* jshint node: true */
 "use strict";
 
-var parse = require('csv-parse'),
+var parse = require('csv').parse,
   path = require('path'),
   fs = require('fs'),
   constants = require('./const.js'),
   es = require("event-stream"),
-  transform = require('stream-transform'),
+  transform = require('csv').transform,
   dictionary = require('./code-lookup.js'),
   instructions = require('./instruction-lookup.js');
 

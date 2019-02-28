@@ -1,12 +1,12 @@
 /* jshint node: true */
 "use strict";
 
-var parse = require('csv-parse'),
+var parse = require('csv').parse,
   path = require('path'),
   fs = require('fs'),
   //stream = require('stream'),
   es = require("event-stream"),
-  transform = require('stream-transform');
+  transform = require('csv').transform;
 
 var dictionary = {};
 
