@@ -23,11 +23,9 @@
   "dependencies": {
     "cash-sort": "0.2.x",
     "commander": "2.9.x",
-    "csv": "0.4.x",
-    "csv-parse": "1.x.x",
+    "csv": "^5.1.1",
     "event-stream": "3.x.x",
-    "inquirer": "0.12.x",
-    "stream-transform": "0.1.x"
+    "inquirer": "0.12.x"
   },
   "devDependencies": {
     "chai": "3.x.x",

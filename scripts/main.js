@@ -43,7 +43,7 @@ module.exports = {
         });
 
         var transformer = transform(function(data, callback) {
-          setImmediate(function() {
+          setTimeout(function() {
             var rtn = [null]; //, data[0] + '\t' + find(data[0]) + "\n"];
             var row = [
               data[cols[constants.PATIENT_ID]],
@@ -74,16 +74,16 @@ module.exports = {
             }
 
             callback.apply(this, rtn);
-          });
+          }, 500);
         }, {
           parallel: 20
         });
 
-        transformer.on('readable', function(row) {
-          while ((row = transformer.read()) !== null) {
-            return row;
-          }
-        });
+        // transformer.on('readable', function(row) {
+        //   while ((row = transformer.read()) !== null) {
+        //     return row;
+        //   }
+        // });
 
         transformer.on('error', function(err) {
           console.log(err.message);
