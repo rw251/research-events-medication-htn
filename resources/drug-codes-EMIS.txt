@@ -723,4 +723,14 @@ DIEL10376BRIDL	DIGOXIN	DIGOXIN	0.05	Digoxin 50micrograms/ml oral solution
 LATA1595	DIGOXIN	DIGOXIN	0.125	Lanoxin Tablets 125 micrograms
 LATA1596	DIGOXIN	DIGOXIN	0.25	Lanoxin 250microgram tablets (Aspen Pharma Trading Ltd)
 LATA1597	DIGOXIN	DIGOXIN	0.0625	Lanoxin PG 62.5microgram tablets (Aspen Pharma Trading Ltd)
-
+APTA78094NEMIS	DOAC	Apixaban	5	Apixaban 5mg tablets
+APTA51806NEMIS	DOAC	Apixaban	2.5	Apixaban 2.5mg tablets
+DACA51688NEMIS	DOAC	Dabigatran	150	Dabigatran etexilate 150mg capsules
+DACA29863NEMIS	DOAC	Dabigatran	110	Dabigatran etexilate 110mg capsules
+DACA29861NEMIS	DOAC	Dabigatran	75	Dabigatran etexilate 75mg capsules
+EDTA103668NEMIS	DOAC	Edoxaban	30	Edoxaban 30mg tablets
+EDTA103669NEMIS	DOAC	Edoxaban	60	Edoxaban 60mg tablets
+RITA95192NEMIS	DOAC	Rivaroxaban	2.5	Rivaroxaban 2.5mg tablets
+RITA31771NEMIS	DOAC	Rivaroxaban	10	Rivaroxaban 10mg tablets
+RITA52591NEMIS	DOAC	Rivaroxaban	15	Rivaroxaban 15mg tablets
+RITA52592NEMIS	DOAC	Rivaroxaban	20	Rivaroxaban 20mg tablets

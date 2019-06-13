@@ -1407,3 +1407,24 @@ b118.	DIGOXIN	DIGOXIN	0.0625	LANOXIN-PG 62.5micrograms tablets
 b117.	DIGOXIN	DIGOXIN	0.5	LANOXIN 500micrograms/2mL injection
 b116.	DIGOXIN	DIGOXIN	0.25	LANOXIN 250micrograms tablets
 b115.	DIGOXIN	DIGOXIN	0.125	LANOXIN 125micrograms tablets
+bs74.	DOAC	Apixaban	5	Apixaban 5mg tablets
+bs72.	DOAC	Apixaban	2.5	Apixaban 2.5mg tablets
+bs73.	DOAC	Apixaban	5	ELIQUIS 5mg tablets
+bs71.	DOAC	Apixaban	2.5	ELIQUIS 2.5mg tablets
+bs4x.	DOAC	Dabigatran	150	Dabigatran etexilate 150mg capsules
+bs4y.	DOAC	Dabigatran	110	Dabigatran etexilate 110mg capsules
+bs4z.	DOAC	Dabigatran	75	Dabigatran etexilate 75mg capsules
+bs43.	DOAC	Dabigatran	150	Pradaxa 150mg capsules (Boehringer Ingelheim Ltd)
+bs42.	DOAC	Dabigatran	110	Pradaxa 110mg capsules (Boehringer Ingelheim Ltd)
+bs41.	DOAC	Dabigatran	75	Pradaxa 75mg capsules
+bs84.	DOAC	Edoxaban	15	EDOXABAN 15mg tablets
+bs85.	DOAC	Edoxaban	30	EDOXABAN 30mg tablets
+bs86.	DOAC	Edoxaban	60	EDOXABAN 60mg tablets
+bs6w.	DOAC	Rivaroxaban	2.5	Rivaroxaban 2.5mg tablets
+bs6z.	DOAC	Rivaroxaban	10	Rivaroxaban 10mg tablets
+bs6y.	DOAC	Rivaroxaban	15	Rivaroxaban 15mg tablets
+bs6x.	DOAC	Rivaroxaban	20	Rivaroxaban 20mg tablets
+bs64.	DOAC	Rivaroxaban	2.5	XARELTO 2.5mg tablets
+bs61.	DOAC	Rivaroxaban	10	XARELTO 10mg tablets
+bs62.	DOAC	Rivaroxaban	15	XARELTO 15mg tablets
+bs63.	DOAC	Rivaroxaban	20	XARELTO 20mg tablets
