@@ -74,7 +74,7 @@ module.exports = {
             }
 
             callback.apply(this, rtn);
-          }, 500);
+          }, 0);
         }, {
           parallel: 20
         });
