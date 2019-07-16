@@ -1428,3 +1428,34 @@ bs64.	DOAC	Rivaroxaban	2.5	XARELTO 2.5mg tablets
 bs61.	DOAC	Rivaroxaban	10	XARELTO 10mg tablets
 bs62.	DOAC	Rivaroxaban	15	XARELTO 15mg tablets
 bs63.	DOAC	Rivaroxaban	20	XARELTO 20mg tablets
+j59w.	DMARD	Leflunomide	15	Leflunomide 15mg tablets
+j59x.	DMARD	Leflunomide	10	Leflunomide 10mg tablets
+j59y.	DMARD	Leflunomide	20	Leflunomide 20mg tablets
+j59z.	DMARD	Leflunomide	100	Leflunomide 100mg tablets
+j591.	DMARD	Leflunomide	10	Arava 10mg tablet
+j592.	DMARD	Leflunomide	20	Arava 20mg tablet
+j593.	DMARD	Leflunomide	100	Arava 100mg tablet
+h331.	DMARD	Mercaptopurine	50	Puri-Nethol 50mg tablet
+h33z.	DMARD	Mercaptopurine	50	Mercaptopurine 50mg tablet
+h84x.	DMARD	Mycophenolate	180	Mycophenolic acid 180mg gastro-resistant tablet
+h84y.	DMARD	Mycophenolate	360	Mycophenolic acid 360mg gastro-resistant tablet
+h848.	DMARD	Mycophenolate	180	Myfortic 180mg gastro-resistant tablet
+h849.	DMARD	Mycophenolate	360	Myfortic 360mg gastro-resistant tablet
+h841.	DMARD	Mycophenolate	250	Mycophenolate mofetil 250mg capsule
+h842.	DMARD	Mycophenolate	250	CellCept 250mg capsule
+h843.	DMARD	Mycophenolate	500	Mycophenolate mofetil 500mg tablet
+h844.	DMARD	Mycophenolate	500	CellCept 500mg tablet
+h84a.	DMARD	Mycophenolate	250	ARZIP 250mg capsules
+h84b.	DMARD	Mycophenolate	500	ARZIP 500mg tablets
+aa66.	DMARD	Sulfasalazine	500	Sulfasalazine 500mg e/c tablet
+aa6v.	DMARD	Sulfasalazine	500	Sulfasalazine 500mg tablet
+aa61.	DMARD	Sulfasalazine	500	Salazopyrin 500mg tablet
+aa67.	DMARD	Sulfasalazine	500	Ucine 500mg tablet
+j55z.	DMARD	Sulfasalazine	500	Sulfasalazine 500mg e/c tablet
+j551.	DMARD	Sulfasalazine	500	Salazopyrin EN 500mg e/c tablet
+j552.	DMARD	Sulfasalazine	500	Sulazine EC 500mg e/c tablet
+h341.	DMARD	Methotrexate	2.5	Methotrexate 2.5mg tablets
+h342.	DMARD	Methotrexate	10	METHOTREXATE tabs 10mg
+h34d.	DMARD	Methotrexate	10	Emtexate 10mg tablet
+h34p.	DMARD	Methotrexate	2.5	Maxtrex 2.5mg tablet
+h34q.	DMARD	Methotrexate	10	Maxtrex 10mg tablet

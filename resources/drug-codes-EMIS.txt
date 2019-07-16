@@ -734,3 +734,29 @@ RITA95192NEMIS	DOAC	Rivaroxaban	2.5	Rivaroxaban 2.5mg tablets
 RITA31771NEMIS	DOAC	Rivaroxaban	10	Rivaroxaban 10mg tablets
 RITA52591NEMIS	DOAC	Rivaroxaban	15	Rivaroxaban 15mg tablets
 RITA52592NEMIS	DOAC	Rivaroxaban	20	Rivaroxaban 20mg tablets
+ARTA1671NEMIS	DMARD	Leflunomide	20	Arava Tablets  20 mg
+LETA1666NEMIS	DMARD	Leflunomide	10	Leflunomide 10mg tablets
+LETA1668NEMIS	DMARD	Leflunomide	20	Leflunomide 20mg tablets
+LETA1669NEMIS	DMARD	Leflunomide	100	Leflunomide 100mg tablets
+MECA20146NEMIS	DMARD	Mercaptopurine	10	Mercaptopurine 10mg capsules
+META107088NEMIS	DMARD	Mercaptopurine	75	Mercaptopurine 75mg tablets
+META5126	DMARD	Mercaptopurine	50	Mercaptopurine 50mg tablets
+PUTA4239	DMARD	Mercaptopurine	50	Puri-Nethol 50mg tablets (Aspen Pharma Trading Ltd)
+MYTA31625EMIS	DMARD	Mycophenolate	500	Mycophenolate mofetil 500mg tablets
+MYTA31625EMIS	DMARD	Mycophenolate	500	Mycophenolate Mofetil Tablets 500 mg
+MYCA28266EMIS	DMARD	Mycophenolate	250	Mycophenolate mofetil 250mg capsules
+CECA28264EMIS	DMARD	Mycophenolate	250	CellCept 250mg capsules (Roche Products Ltd)
+CETA31623EMIS	DMARD	Mycophenolate	500	CellCept 500mg tablets (Roche Products Ltd)
+MYGA18756NEMIS	DMARD	Mycophenolate	180	Myfortic 180mg gastro-resistant tablets (Novartis Pharmaceuticals UK Ltd)
+YGA18757NEMIS	DMARD	Mycophenolate	360	Myfortic 360mg gastro-resistant tablets (Novartis Pharmaceuticals UK Ltd)
+SUTA17836NEMIS	DMARD	Sulfasalazine	500	Sulfasalazine 500mg tablets
+SUE/17828NEMIS	DMARD	Sulfasalazine	500	Sulfasalazine 500mg gastro-resistant tablets
+SUE/896NEMIS	DMARD	Sulfasalazine	500	Sulphasalazine E/C Tablets 500 mg
+SAEN2477	DMARD	Sulfasalazine	500	Salazopyrin EN-Tabs 500mg (Pfizer Ltd)
+SATA2478	DMARD	Sulfasalazine	500	Salazopyrin 500mg tablets (Pfizer Ltd)
+SUEN2731	DMARD	Sulfasalazine	500	Sulphasalazine En-Tablets 500 mg
+SUTA2732	DMARD	Sulfasalazine	500	Sulphasalazine Tablets 500 mg
+SUGA78926NEMIS	DMARD	Sulfasalazine	500	Sulazine EC 500mg tablets (Genesis Pharmaceuticals Ltd)
+MATA3883	DMARD	Methotrexate	2.5	Maxtrex 2.5mg tablets (Pfizer Ltd)
+META3900	DMARD	Methotrexate	2.5	Methotrexate 2.5mg tablets
+META5136	DMARD	Methotrexate	10	Methotrexate 10mg tablets
