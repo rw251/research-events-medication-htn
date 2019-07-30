@@ -1459,3 +1459,15 @@ h342.	DMARD	Methotrexate	10	METHOTREXATE tabs 10mg
 h34d.	DMARD	Methotrexate	10	Emtexate 10mg tablet
 h34p.	DMARD	Methotrexate	2.5	Maxtrex 2.5mg tablet
 h34q.	DMARD	Methotrexate	10	Maxtrex 10mg tablet
+bs11.	Anticoag	Warfarin	1	Marevan 1mg tablet
+bs12.	Anticoag	Warfarin	3	Marevan 3mg tablet
+bs13.	Anticoag	Warfarin	5	Marevan 5mg tablet
+bs14.	Anticoag	Warfarin	1	Warfarin WBP 1mg tablet
+bs15.	Anticoag	Warfarin	3	Warfarin WBP 3mg tablet
+bs16.	Anticoag	Warfarin	5	Warfarin WBP 5mg tablet
+bs17.	Anticoag	Warfarin	1	Warfarin sodium 1mg tablet
+bs18.	Anticoag	Warfarin	3	Warfarin sodium 3mg tablet
+bs19.	Anticoag	Warfarin	5	Warfarin sodium 5mg tablet
+bs1A.	Anticoag	Warfarin	0.5	Warfarin sodium 0.5mg tablet
+bs1B.	Anticoag	Warfarin	0.5	Marevan 0.5mg tablet
+bs1C.	Anticoag	Warfarin	1	Warfarin 1mg/ml oral suspension sugar free
