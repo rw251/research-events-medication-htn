@@ -1471,3 +1471,12 @@ bs19.	Anticoag	Warfarin	5	Warfarin sodium 5mg tablet
 bs1A.	Anticoag	Warfarin	0.5	Warfarin sodium 0.5mg tablet
 bs1B.	Anticoag	Warfarin	0.5	Marevan 0.5mg tablet
 bs1C.	Anticoag	Warfarin	1	Warfarin 1mg/ml oral suspension sugar free
+bb1..	AMIODARONE	AMIODARONE	100	AMIODARONE HYDROCHLORIDE
+bb11.	AMIODARONE	AMIODARONE	100	CORDARONE X 100mg tablets
+bb12.	AMIODARONE	AMIODARONE	200	CORDARONE X 200mg tablets
+bb14.	AMIODARONE	AMIODARONE	100	AMIDOX 100mg tablets
+bb15.	AMIODARONE	AMIODARONE	200	AMIDOX 200mg tablets
+bb16.	AMIODARONE	AMIODARONE	100	AMYBEN 100mg tablets
+bb17.	AMIODARONE	AMIODARONE	200	AMYBEN 200mg tablets
+bb1x.	AMIODARONE	AMIODARONE	100	AMIODARONE HCL 100mg tablets
+bb1y.	AMIODARONE	AMIODARONE	200	AMIODARONE HCL 200mg tablets
