@@ -760,6 +760,13 @@ SUGA78926NEMIS	DMARD	Sulfasalazine	500	Sulazine EC 500mg tablets (Genesis Pharma
 MATA3883	DMARD	Methotrexate	2.5	Maxtrex 2.5mg tablets (Pfizer Ltd)
 META3900	DMARD	Methotrexate	2.5	Methotrexate 2.5mg tablets
 META5136	DMARD	Methotrexate	10	Methotrexate 10mg tablets
+WATA3068	Anticoag	Warfarin	1	Warfarin 1mg tablets
+WATA3069	Anticoag	Warfarin	3	Warfarin 3mg tablets
+WATA3070	Anticoag	Warfarin	5	Warfarin 5mg tablets
+WATA637NEMIS	Anticoag	Warfarin	0.5	Warfarin 500microgram tablets
+WATA8904BRIDL	Anticoag	Warfarin	1	Warfarin Wbp  Tablets  1 mg
+WATA8906BRIDL	Anticoag	Warfarin	3	WARFARIN WBP TABLETS 3 MG
+WAOR47613NEMIS	Anticoag	Warfarin	1	Warfarin 1mg/ml oral suspension sugar free
 AMTA112	AMIODARONE	AMIODARONE	100	Amiodarone  Tablets  100 mg
 AMTA113	AMIODARONE	AMIODARONE	200	Amiodarone  Tablets  200 mg
 AMTA14688NEMIS	AMIODARONE	AMIODARONE	100	tAmyben  Tablets  100 mg

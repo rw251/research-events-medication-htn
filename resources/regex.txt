@@ -4,7 +4,7 @@ TABS_PER_DAY	REGEX
 6	^(TAKE)? *(SIX|6) *((TAB(LE(T)?)?|CAP(SULE)?)(S|\(S\))?)? *(\(3G\))? (DAILY|(A|PER|EACH|EVERY) *DAY|AS DIRECTED|OD)
 6	^(TAKE)? *?(THREE|3) *((TAB(LE(T)?)?|CAP(SULE)?)(S|\(S\))?)? *((IN *(THE|A)?)? *(MO[RN]{2}ING|MANE) *(,|AND)? *(THREE|3) *((TAB(LET)?|CAP(SULE)?)(S|\(S\))?)? *(IN *(THE|A))? *(EVENING|AT NIGHT|NOCTE)|(BD|B\.D\.)|(TWICE) *(DAILY|(A|PER) *DAY))
 6	^(TAKE)? *(TWO|2) *((TAB(LE(T)?)?|CAP(SULE)?)(S|\(S\))?)? *(THREE TIMES *(DAILY|(A|PER) *DAY))
-5	^(TAKE)? *(ONE|1)? *((TA?B(LE?(T)?)?|CAP(SULE)?)(S|\(S\))?)? *(FIVE|5) *TIMES *(DAILY|A *DAY)
+5	^(TAKE)? *(ONE|1)? *((TA?B(LE?(T)?)?|CAP(SULE)?)(S|\(S\))?)? *(FIVE|5) *(TIMES)? *(DAILY|A *DAY)
 5	^(TAKE)? *\(?(TWO|2) *((TAB(LE(T)?)?|CAP(SULE)?)(S|\(S\))?)? *(IN *(THE|A))? *(MORNING|MANE) *(,|AND)? *(THREE|3) *((TAB(LET)?|CAP(SULE)?)(S|\(S\))?)? *(IN *(THE|A))? *(EVENING|AT NIGHT|NOCTE)
 4	^(?:TA?K?E? ?)?(?:(?:(?:2|TWO)[ ,\.\-]{0,2}(?:TAB(LET)?|CAP(SULE)?)?(?:\(S\)|S)?[ ,\.]?(?:TO BE (TAKEN|USED) )?(TWICE)[ ,]{0,2}|(?:4|FOUR)[ ,\.\-]{0,2}(?:TAB(LET)?|CAP(SULE)?)?(?:\(S\)|S)?[ ,\.]?(?:TO BE (TAKEN|USED) )?(?:ONCE |O )?[ ,]{0,2})(DAILY|(?:EACH |EVERY |\/|[ \.]A[ \.])DAY|(?:EACH|EVERY|IN (?:THE|A)?)?[ ,\.]?MORNING(?:$| FOR| TO| \(IP)|(AT |EVERY )?NIGHT|NOCTE|[OE]M$|d$|AS DIR(?:ECTED)?|AT ?[0-9]{0,2} ?OCLOCK$|AT BREAKFAST$|MANE)|(?:2|TWO) ?B[ \.]?D)
 4	^(TAKE)? *(ONE|1)? *((TAB(LE(T)?)?|CAP(SULE)?)(S|\(S\))?)? * *(TO *BE *TAKEN)? *(FOUR|4) *((TAB(LE(T)?)?|CAP(SULE)?)(S|\(S\))?)? *((TIMES * A *DAY)|(IN *(THE *)?MORNING))
