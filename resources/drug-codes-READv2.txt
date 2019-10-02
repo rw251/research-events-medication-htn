@@ -1480,3 +1480,16 @@ bb16.	AMIODARONE	AMIODARONE	100	AMYBEN 100mg tablets
 bb17.	AMIODARONE	AMIODARONE	200	AMYBEN 200mg tablets
 bb1x.	AMIODARONE	AMIODARONE	100	AMIODARONE HCL 100mg tablets
 bb1y.	AMIODARONE	AMIODARONE	200	AMIODARONE HCL 200mg tablets
+h711.	DMARD	Azathioprine	Azamune 50mg tablet
+h712.	DMARD	Azathioprine	Imuran 25mg tablet
+h713.	DMARD	Azathioprine	Imuran 50mg tablet
+h714.	DMARD	Azathioprine	Imuran 50mg injection
+h715.	DMARD	Azathioprine	Immunoprin 50mg tablet
+h716.	DMARD	Azathioprine	Berkaprine 50mg tablet
+h717.	DMARD	Azathioprine	Oprisine 50mg tablet
+h718.	DMARD	Azathioprine	Azathioprine 10mg tablet
+h719.	DMARD	Azathioprine	Imuran 10mg tablet
+h71A.	DMARD	Azathioprine	AZAPRESS 50mg tablets
+h71x.	DMARD	Azathioprine	Azathioprine 50mg tablet
+h71y.	DMARD	Azathioprine	Azathioprine 25mg tablet
+h71z.	DMARD	Azathioprine	Azathioprine 50mg injection

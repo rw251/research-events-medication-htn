@@ -776,3 +776,9 @@ AMTA32935EMIS	AMIODARONE	AMIODARONE	200	Amidox  Tablets  200 mg
 COTA728	AMIODARONE	AMIODARONE	100	Cordarone X  Tablets  100 mg
 COTA729	AMIODARONE	AMIODARONE	200	Cordarone X  Tablets  200 mg
 AMOR23377NEMIS	AMIODARONE	AMIODARONE	100	Amiodarone  Oral Solution  100 mg/5 ml
+AZTA10446BRIDL	DMARD	Azathioprine	Azathioprine 25mg tablets
+AZSU18407NEMIS	DMARD	Azathioprine	Azathioprine  Suspension  50 mg/5 ml
+AZCA18881NEMIS	DMARD	Azathioprine	Azathioprine 10mg capsules
+AZOR45627NEMIS	DMARD	Azathioprine	Azathioprine 50mg/5ml oral solution
+IMTA1447	DMARD	Azathioprine	Imuran 50mg tablets (Aspen Pharma Trading Ltd)
+IMTA3757	DMARD	Azathioprine	Imuran 25mg tablets (Aspen Pharma Trading Ltd)
