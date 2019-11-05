@@ -11,6 +11,7 @@ my $format = '%Y-%m-%d';
 my $rxLengthProportion = 0.75;
 my $adherenceProportion = 10000;
 my $terminationProportion = 5;
+my $terminationLimitInDays = 60;
 my $extractDate = localtime;
 my $limit = 100000000;
 
@@ -48,6 +49,12 @@ my %types=();
 my @patientEvents=();
 my @patientTypeCache=();
 my $debug = 0;
+
+#######################
+# Min/max subroutines #
+#######################
+sub max ($$) { $_[$_[0] < $_[1]] }
+sub min ($$) { $_[$_[0] > $_[1]] }
 
 ###############################
 # Adds an event to the list   #
@@ -124,9 +131,13 @@ sub newType{
 
 	#Add type as well
 	%types=();
+	
+	# Make test for expiry lower of 2 months and termProp * tabs per day
+	my $numDaysToExpiry = max($terminationProportion*$tabs/$perDay, $terminationLimitInDays);
+
 	my $dtExpires = $dt + (ONE_DAY*$tabs/$perDay);
 	my $dtExpLong = $dt + ($rxLengthProportion*ONE_DAY*$tabs/$perDay);
-	my $dtExpChck = $dt + ($terminationProportion*ONE_DAY*$tabs/$perDay);
+	my $dtExpChck = $dt + ($numDaysToExpiry*ONE_DAY);
 
 	if($debug){
 		print $dtExpLong->strftime($format) . "\t" . $dtExpires->strftime($format) . "\t" . $dtExpChck->strftime($format) . "\n";
@@ -234,9 +245,13 @@ sub evaluate{
 			newType($family, $type, $dt, $perDay, $mg, $tabs, $pid);
 		}
 		isDrugStopped($pid, $type, $family, $dt);
+
+		# Make test for expiry lower of 2 months and termProp * tabs per day
+		my $numDaysToExpiry = max($terminationProportion*$tabs/$perDay, $terminationLimitInDays);
+
 		my $dtExpires = $dt + (ONE_DAY*$tabs/$perDay);
 		my $dtExpLong = $dt + ($rxLengthProportion*ONE_DAY*$tabs/$perDay);
-		my $dtExpChck = $dt + ($terminationProportion*ONE_DAY*$tabs/$perDay);
+		my $dtExpChck = $dt + ($numDaysToExpiry*ONE_DAY);
 		my $dose = $mg*$perDay;
 		if(!$types{"exp"}) {
 			#Must have been a big gap
@@ -348,9 +363,12 @@ sub evaluate{
 						print Dumper(%mgs) . "\n";
 					}
 
+						# Make test for expiry lower of 2 months and termProp * tabs per day
+					$numDaysToExpiry = max($terminationProportion*$tabs/$perDay, $terminationLimitInDays);
+
 					$dtExpires = $dt + (ONE_DAY*$tabs/$perDay);
 					$dtExpLong = $dt + ($rxLengthProportion*ONE_DAY*$tabs/$perDay);
-					$dtExpChck = $dt + ($terminationProportion*ONE_DAY*$tabs/$perDay);
+					$dtExpChck = $dt + ($numDaysToExpiry*ONE_DAY);
 				}
 			} else {
 				#no change - insert no events
