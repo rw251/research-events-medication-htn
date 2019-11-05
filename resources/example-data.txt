@@ -15,3 +15,7 @@ patid	date	number of tablets prescribed	code	description	instruction
 5	2009-04-15	60	bkHz.	Olmesartan medoxomil 20mg / Amlodipine 5mg tablets	2 a day
 6	2009-04-15	15	gc52.	HYTRIN BPH tabs 2mg	take half a tablet daily
 7	2009-05-15	30	b311.	FRUSEMIDE tabs 20mg	one daily
+10	2019-03-11	100	bi11.	ACEPRIL TAB 12.5	As directed
+11	2019-10-11	10	bi11.	ACEPRIL TAB 12.5	As directed
+12	2019-10-11	4	bi11.	ACEPRIL TAB 12.5	As directed
+13	2019-10-11	1	bi11.	ACEPRIL TAB 12.5	As directed

@@ -101,7 +101,8 @@ sub isDrugStopped {
 	my ($pid, $type, $family, $testDate) = @_;
 
 	if($debug) {
-		print "isDrugStopped\t$pid\t$type\t$family\t$testDate\n";
+		print "SUB [isDrugStopped] called with:\n";
+		print "$pid\t$type\t$family\t$testDate\n\n";
 	}
 
 	if($types{"expChk"} < $testDate) {
@@ -120,7 +121,8 @@ sub isDrugStopped {
 sub newType{
 	my ($family, $type, $dt, $perDay, $mg, $tabs, $pid) = @_;
 	if($debug) {
-		print "newType\t$family\t$type\t$dt\t$perDay\t$mg\t$tabs\t$pid\n";
+		print "SUB [newType] called with:\n";
+		print "$family\t$type\t$dt\t$perDay\t$mg\t$tabs\t$pid\n\n";
 	}
 	if($perDay eq ""){
 		$perDay = 1;
@@ -133,7 +135,7 @@ sub newType{
 	%types=();
 	
 	# Make test for expiry lower of 2 months and termProp * tabs per day
-	my $numDaysToExpiry = max($terminationProportion*$tabs/$perDay, $terminationLimitInDays);
+	my $numDaysToExpiry = min($terminationProportion*$tabs/$perDay, $terminationLimitInDays);
 
 	my $dtExpires = $dt + (ONE_DAY*$tabs/$perDay);
 	my $dtExpLong = $dt + ($rxLengthProportion*ONE_DAY*$tabs/$perDay);
@@ -186,6 +188,10 @@ sub populateVariablesFromHash{
 # start and dose change events#
 ###############################
 sub evaluate{
+	if($debug){
+		print "SUB [evaluate] called with:\n";
+		print "$pid, $dt, $tabs, $perDay, $mg, $family, $type\n\n";
+	}
 	#cache existing values
 	my $pidTmp = $pid;
 	my $dtTmp = $dt;
@@ -247,7 +253,7 @@ sub evaluate{
 		isDrugStopped($pid, $type, $family, $dt);
 
 		# Make test for expiry lower of 2 months and termProp * tabs per day
-		my $numDaysToExpiry = max($terminationProportion*$tabs/$perDay, $terminationLimitInDays);
+		my $numDaysToExpiry = min($terminationProportion*$tabs/$perDay, $terminationLimitInDays);
 
 		my $dtExpires = $dt + (ONE_DAY*$tabs/$perDay);
 		my $dtExpLong = $dt + ($rxLengthProportion*ONE_DAY*$tabs/$perDay);
@@ -364,7 +370,7 @@ sub evaluate{
 					}
 
 						# Make test for expiry lower of 2 months and termProp * tabs per day
-					$numDaysToExpiry = max($terminationProportion*$tabs/$perDay, $terminationLimitInDays);
+					$numDaysToExpiry = min($terminationProportion*$tabs/$perDay, $terminationLimitInDays);
 
 					$dtExpires = $dt + (ONE_DAY*$tabs/$perDay);
 					$dtExpLong = $dt + ($rxLengthProportion*ONE_DAY*$tabs/$perDay);
